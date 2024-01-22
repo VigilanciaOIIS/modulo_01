@@ -1,3 +1,7 @@
+---
+title: Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada - Módulo de refuerzo
+---
+
 # Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada 
 ## Sumilla 
 ### Objetivo 
