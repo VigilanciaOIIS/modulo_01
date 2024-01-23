@@ -11,9 +11,9 @@
 <div>
   <h3>¿Cuál de las siguientes opciones es correcta en el tratamiento de la hepatitis A?</h3>
   <p>Elige la respuesta correcta</p>
-   <div id='block-11' style='padding: 10px;'>
-    <label for='option-11' style=' padding: 5px; font-size: 2.5rem;'>
-      <input type='radio' name='option' value='6/24' id='option-11' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+   <div id='block-11'>
+    <label for='option-11'>
+      <input type='radio' name='option' value='6/24' id='option-11'/>
       A. Se debe hospitalizar todos los casos</label>
     <span id='result-11'></span>
   </div>
