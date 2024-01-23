@@ -20,16 +20,18 @@ El módulo consta de seis unidades. Cada unidad está compuesta por temas, y cad
 | **4. Enfermedades inmunoprevenibles** | Esquema de vacunación vigente. Sarampión. Enfermedades eruptivas infantiles. Tos ferina. Meningitis. |
 | **5. Enfermedades zoonóticas y otras** | Leptospirosis. Peste. Rabia. Síndrome de Guillain Barré.  |
 | **6. Urgencias y emergencias en desastres** | Primeros auxilios y estabilización de pacientes. Traumatismos y caídas. Quemaduras. Golpe de calor. Emergencias obstétricas. Accidentes cerebrovasculares. Accidentes por animales ponzoñosos. |
+
 ## Indice 
-[Unidad 1: Desastres](u1.md)
 
-[Unidad 2: Enfermedades metaxénicas](u2.md)
+[Unidad 1: Desastres](_content/u1.md)
 
-[Unidad 3: Principales infecciones en el fenómeno El Niño](u3.md)
+[Unidad 2: Enfermedades metaxénicas](_content/u2.md)
 
-[Unidad 4: Enfermedades inmunoprevenibles](u4.md)
+[Unidad 3: Principales infecciones en el fenómeno El Niño](_content/u3.md)
 
-[Unidad 5: Enfermedades zoonóticas y otras](u5.md)
+[Unidad 4: Enfermedades inmunoprevenibles](_content/u4.md)
 
-[Unidad 6: Urgencias y emergencias en desastres](u6.md)
+[Unidad 5: Enfermedades zoonóticas y otras](_content/u5.md)
+
+[Unidad 6: Urgencias y emergencias en desastres](_content/u6.md)
 
