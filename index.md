@@ -1,7 +1,8 @@
----
-title: Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada - Módulo de autoaprendizaje
----
-
+<html>
+<head>
+<title>Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada - Módulo de autoaprendizaje</title>
+</head>
+<body>
 
 <!DOCTYPE html>
 <html>
