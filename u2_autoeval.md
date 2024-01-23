@@ -52,13 +52,17 @@
       document.getElementById('result-11').style.color = 'red'
       document.getElementById('result-11').innerHTML = 'Intenta otra vez'
       document.getElementById('block-12').style.border = none;
-      document.getElementById('result-12').style.color = 'initial'
+      document.getElementById('result-12').style.color = none;
+      document.getElementById('result-12').innerHTML = none;
       document.getElementById('block-13').style.border = none;
-      document.getElementById('result-13').style.color = 'initial'
+      document.getElementById('result-13').style.color = none;
+      document.getElementById('result-13').innerHTML = none;
       document.getElementById('block-14').style.border = none;
-      document.getElementById('result-14').style.color = 'initial'
+      document.getElementById('result-14').style.color = none;
+      document.getElementById('result-14').innerHTML = none;
       document.getElementById('block-15').style.border = none;
-      document.getElementById('result-15').style.color = 'initial'
+      document.getElementById('result-15').style.color = none;
+      document.getElementById('result-15').innerHTML = none;
       showCorrectAsnwer1()
     }
     if (document.getElementById('option-12').checked) {
