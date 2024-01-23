@@ -63,7 +63,6 @@
       document.getElementById('block-15').style.border = none;
       document.getElementById('result-15').style.color = none;
       document.getElementById('result-15').innerHTML = none;
-      showCorrectAsnwer1()
     }
     if (document.getElementById('option-12').checked) {
       document.getElementById('block-12').style.border = '3px solid limegreen'
@@ -77,7 +76,6 @@
       document.getElementById('result-14').style.color = 'initial'
       document.getElementById('block-15').style.border = none;
       document.getElementById('result-15').style.color = 'initial'
-      showCorrectAnswer1()
     }
     if (document.getElementById('option-13').checked) {
       document.getElementById('block-13').style.border = '3px solid red'
@@ -91,7 +89,6 @@
       document.getElementById('result-14').style.color = 'initial'
       document.getElementById('block-15').style.border = none;
       document.getElementById('result-15').style.color = 'initial'
-      showCorrectAnswer1()
     }
     if (document.getElementById('option-14').checked) {
       document.getElementById('block-14').style.border = '3px solid red'
@@ -105,7 +102,6 @@
       document.getElementById('result-13').style.color = 'initial'
       document.getElementById('block-15').style.border = none;
       document.getElementById('result-15').style.color = 'initial'
-      showCorrectAnswer1()
     }
     if (document.getElementById('option-15').checked) {
       document.getElementById('block-15').style.border = '3px solid red'
@@ -119,7 +115,6 @@
       document.getElementById('result-13').style.color = 'initial'
       document.getElementById('block-14').style.border = none;
       document.getElementById('result-14').style.color = 'initial'
-      showCorrectAnswer1()
     }
   }
 </script>
