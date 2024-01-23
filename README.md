@@ -1,0 +1,1 @@
+Este módulo de aprendizaje contribuye a difundir en el personal de salud conocimientos y estrategias para el manejo efectivo de problemas de salud relacionados al fenómeno El Niño Global en la población asegurada. 
