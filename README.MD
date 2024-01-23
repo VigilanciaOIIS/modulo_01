@@ -14,12 +14,12 @@ El módulo consta de seis unidades. Cada unidad está compuesta por temas, y cad
 
 | Unidades | Temas |
 | ---- | ---- |
-| **1. Desastres** | Conceptos básicos. Fenómeno El Niño y principales desastres relacionados. Salud mental en desastres. |
-| **2. Enfermedades metaxénicas** | Enfoque diagnóstico del síndrome febril. Dengue. Chikungunya. Fiebre amarilla. Zika. Bartonelosis. Leishmaniasis. Malaria. Principios de control vectorial para la prevención de arbovirosis y otras enfermedades metaxénicas. |
-| **3. Principales infecciones en el fenómeno El Niño** | Infecciones respiratorias: IRAs. Influenza. COVID-19. Neumonía adquirida en la comunidad. Tuberculosis. Asma.<br>Infecciones gastrointestinales: EDAs. Cólera. Shigelosis. Salmonelosis. Parasitosis. |
-| **4. Enfermedades inmunoprevenibles** | Esquema de vacunación vigente. Sarampión. Enfermedades eruptivas infantiles. Tos ferina. Meningitis. |
-| **5. Enfermedades zoonóticas y otras** | Leptospirosis. Peste. Rabia. Síndrome de Guillain Barré.  |
-| **6. Urgencias y emergencias en desastres** | Primeros auxilios y estabilización de pacientes. Traumatismos y caídas. Quemaduras. Golpe de calor. Emergencias obstétricas. Accidentes cerebrovasculares. Accidentes por animales ponzoñosos. |
+| 1. Desastres | Conceptos básicos. Fenómeno El Niño y principales desastres relacionados. Salud mental en desastres. |
+| 2. Enfermedades metaxénicas | Enfoque diagnóstico del síndrome febril. Dengue. Chikungunya. Fiebre amarilla. Zika. Bartonelosis. Leishmaniasis. Malaria. Principios de control vectorial para la prevención de arbovirosis y otras enfermedades metaxénicas. |
+| 3. Principales infecciones en el fenómeno El Niño | Infecciones respiratorias: IRAs. Influenza. COVID-19. Neumonía adquirida en la comunidad. Tuberculosis. Asma.<br>Infecciones gastrointestinales: EDAs. Cólera. Shigelosis. Salmonelosis. Parasitosis. |
+| 4. Enfermedades inmunoprevenibles | Esquema de vacunación vigente. Sarampión. Enfermedades eruptivas infantiles. Tos ferina. Meningitis. |
+| 5. Enfermedades zoonóticas y otras | Leptospirosis. Peste. Rabia. Síndrome de Guillain Barré.  |
+| 6. Urgencias y emergencias en desastres | Primeros auxilios y estabilización de pacientes. Traumatismos y caídas. Quemaduras. Golpe de calor. Emergencias obstétricas. Accidentes cerebrovasculares. Accidentes por animales ponzoñosos. |
 
 ## Indice 
 
