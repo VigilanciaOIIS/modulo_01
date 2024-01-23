@@ -9,9 +9,9 @@
 <p><a href="index.html">Índice</a> | <a href="u2.html">Unidad 2</a>
 
 <div>
-  <h3>¿Cuál de las siguientes opciones es correcta en el tratamiento de la hepatitis A?</h3>
-  <p>Elige la respuesta correcta</p>
-   <div id='block-11'>
+<h3>¿Cuál de las siguientes opciones es correcta en el tratamiento de la hepatitis A?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-11'>
     <label for='option-11'>
       <input type='radio' name='option' value='6/24' id='option-11'/>
       A. Se debe hospitalizar todos los casos</label>
