@@ -23,15 +23,15 @@ El módulo consta de seis unidades. Cada unidad está compuesta por temas, y cad
 
 ## Indice 
 
-[Unidad 1: Desastres](_content/u1.md)
+[Unidad 1: Desastres](https://github.com/melissabenito/oiis_modulo/_content/u1.md)
 
-[Unidad 2: Enfermedades metaxénicas](_content/u2.md)
+[Unidad 2: Enfermedades metaxénicas](https://github.com/melissabenito/oiis_modulo/_content/u2.md)
 
-[Unidad 3: Principales infecciones en el fenómeno El Niño](_content/u3.md)
+[Unidad 3: Principales infecciones en el fenómeno El Niño](https://github.com/melissabenito/oiis_modulo/_content/u3.md)
 
-[Unidad 4: Enfermedades inmunoprevenibles](_content/u4.md)
+[Unidad 4: Enfermedades inmunoprevenibles](https://github.com/melissabenito/oiis_modulo/_content/u4.md)
 
-[Unidad 5: Enfermedades zoonóticas y otras](_content/u5.md)
+[Unidad 5: Enfermedades zoonóticas y otras](https://github.com/melissabenito/oiis_modulo/_content/u5.md)
 
-[Unidad 6: Urgencias y emergencias en desastres](_content/u6.md)
+[Unidad 6: Urgencias y emergencias en desastres](https://github.com/melissabenito/oiis_modulo/_content/u6.md)
 
