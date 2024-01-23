@@ -78,7 +78,6 @@
       showCorrectAnswer1()
     }
   }
-  }
 </script>
 
 
