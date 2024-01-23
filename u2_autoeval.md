@@ -51,11 +51,11 @@
       document.getElementById('block-11').style.border = '3px solid red'
       document.getElementById('result-11').style.color = 'red'
       document.getElementById('result-11').innerHTML = 'Intenta otra vez'
-      document.getElementById('block-12').style.border = "reset"
+      document.getElementById('block-12').style.border = none;
       document.getElementById('result-12').style.color = "reset"
-      document.getElementById('block-13').style.border = "reset"
+      document.getElementById('block-13').style.border = none;
       document.getElementById('result-13').style.color = "reset"
-      document.getElementById('block-14').style.border = "reset"
+      document.getElementById('block-14').style.border = none;
       document.getElementById('result-14').style.color = "reset"
       document.getElementById('block-14').style.border = "reset"
       document.getElementById('result-15').style.color = "reset"
