@@ -3,11 +3,6 @@
 <title>Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada - Módulo de autoaprendizaje</title>
 </head>
 <body>
-
-<!DOCTYPE html>
-<html>
-<body>
-
 <h1>Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada</h1>
 <h2>Sumilla</h2>
 <h3>Objetivo</h3>
