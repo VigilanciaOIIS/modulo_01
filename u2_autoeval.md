@@ -41,7 +41,6 @@
       E. La hidratación no es uno de los principales aspectos del tratamiento de la hepatitis A</label>
     <span id='result-15'></span>
   </div>
-  <hr />
   <button type='button' onclick='displayAnswer1()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <a id='showanswer1'></a>
