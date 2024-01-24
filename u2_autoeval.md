@@ -135,7 +135,132 @@
   }
 </script>
 
-
+<div>
+<h3>¿Desde qué día son positivas las pruebas de anticuerpo (IgG e IgM) de dengue?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-21'>
+    <label for='option-21'>
+      <input type='radio' name='option' value='A' id='option-21'/>
+      A. Inmediatamente</label>
+    <span id='result-21'></span>
+  </div>
+   <div id='block-22'>
+    <label for='option-22'>
+      <input type='radio' name='option' value='B' id='option-22'/>
+      B. 24 horas después de la infección</label>
+    <span id='result-22'></span>
+  </div>
+   <div id='block-23'>
+    <label for='option-23'>
+      <input type='radio' name='option' value='C' id='option-23'/>
+      C. 48 horas después de la infección</label>
+    <span id='result-23'></span>
+  </div>
+  <div id='block-24'>
+    <label for='option-24'>
+      <input type='radio' name='option' value='D' id='option-24'/>
+      D. 4 días después de la infección</label>
+    <span id='result-24'></span>
+  </div>
+  <div id='block-25'>
+    <label for='option-25'>
+      <input type='radio' name='option' value='E' id='option-25'/>
+      E. Una semana después de la infección</label>
+    <span id='result-25'></span>
+  </div>
+  <button type='button' onclick='displayAnswer2()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<a id='showanswer2'></a>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer2() {
+    if (document.getElementById('option-21').checked) {
+      document.getElementById('block-21').style.border = '3px solid red'
+      document.getElementById('result-21').style.color = 'red'
+      document.getElementById('result-21').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-22').style.border = 'initial';
+      document.getElementById('result-22').style.color = 'initial';
+      document.getElementById('result-22').innerHTML = '';
+      document.getElementById('block-23').style.border = 'initial';
+      document.getElementById('result-23').style.color = 'initial';
+      document.getElementById('result-23').innerHTML = '';
+      document.getElementById('block-24').style.border = 'initial';
+      document.getElementById('result-24').style.color = 'initial';
+      document.getElementById('result-24').innerHTML = '';
+      document.getElementById('block-25').style.border = 'initial';
+      document.getElementById('result-25').style.color = 'initial';
+      document.getElementById('result-25').innerHTML = '';
+    }
+    if (document.getElementById('option-22').checked) {
+      document.getElementById('block-22').style.border = '3px solid red'
+      document.getElementById('result-22').style.color = 'red'
+      document.getElementById('result-22').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-21').style.border = 'initial';
+      document.getElementById('result-21').style.color = 'initial';
+      document.getElementById('result-21').innerHTML = '';
+      document.getElementById('block-23').style.border = 'initial';
+      document.getElementById('result-23').style.color = 'initial';
+      document.getElementById('result-23').innerHTML = '';
+      document.getElementById('block-24').style.border = 'initial';
+      document.getElementById('result-24').style.color = 'initial';
+      document.getElementById('result-24').innerHTML = '';
+      document.getElementById('block-25').style.border = 'initial';
+      document.getElementById('result-25').style.color = 'initial';
+      document.getElementById('result-25').innerHTML = '';
+    }
+    if (document.getElementById('option-23').checked) {
+      document.getElementById('block-23').style.border = '3px solid red'
+      document.getElementById('result-23').style.color = 'red'
+      document.getElementById('result-23').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-21').style.border = 'initial';
+      document.getElementById('result-21').style.color = 'initial';
+      document.getElementById('result-21').innerHTML = '';
+      document.getElementById('block-22').style.border = 'initial';
+      document.getElementById('result-22').style.color = 'initial';
+      document.getElementById('result-22').innerHTML = '';
+      document.getElementById('block-24').style.border = 'initial';
+      document.getElementById('result-24').style.color = 'initial';
+      document.getElementById('result-24').innerHTML = '';
+      document.getElementById('block-25').style.border = 'initial';
+      document.getElementById('result-25').style.color = 'initial';
+      document.getElementById('result-25').innerHTML = '';
+    }
+    if (document.getElementById('option-24').checked) {
+      document.getElementById('block-24').style.border = '3px solid limegreen'
+      document.getElementById('result-24').style.color = 'limegreen'
+      document.getElementById('result-24').innerHTML = '¡Correcto! Las pruebas de anticuerpo para detección de dengue son positivas desde 4 días después de la infección.'
+      document.getElementById('block-21').style.border = 'initial';
+      document.getElementById('result-21').style.color = 'initial';
+      document.getElementById('result-21').innerHTML = '';
+      document.getElementById('block-22').style.border = 'initial';
+      document.getElementById('result-22').style.color = 'initial';
+      document.getElementById('result-22').innerHTML = '';
+      document.getElementById('block-23').style.border = 'initial';
+      document.getElementById('result-23').style.color = 'initial';
+      document.getElementById('result-23').innerHTML = '';
+      document.getElementById('block-25').style.border = 'initial';
+      document.getElementById('result-25').style.color = 'initial';
+      document.getElementById('result-25').innerHTML = '';
+    }
+    if (document.getElementById('option-25').checked) {
+      document.getElementById('block-25').style.border = '3px solid red'
+      document.getElementById('result-25').style.color = 'red'
+      document.getElementById('result-25').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-21').style.border = 'initial';
+      document.getElementById('result-21').style.color = 'initial';
+      document.getElementById('result-21').innerHTML = '';
+      document.getElementById('block-22').style.border = 'initial';
+      document.getElementById('result-22').style.color = 'initial';
+      document.getElementById('result-22').innerHTML = '';
+      document.getElementById('block-23').style.border = 'initial';
+      document.getElementById('result-23').style.color = 'initial';
+      document.getElementById('result-23').innerHTML = '';
+      document.getElementById('block-24').style.border = 'initial';
+      document.getElementById('result-24').style.color = 'initial';
+      document.getElementById('result-24').innerHTML = '';
+    }
+  }
+</script>
 
 
 
