@@ -44,7 +44,6 @@
   <br>
   <button type='button' onclick='displayAnswer1()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
-<a id='showanswer1'></a>
 <script>
   //    The function evaluates the answer and displays result
   function displayAnswer1() {
