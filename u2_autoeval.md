@@ -396,7 +396,135 @@
   }
 </script>
 
+<hr>
 
+<div>
+<h3>¿Cuánto dura la fiebre en dengue?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-41'>
+    <label for='option-41'>
+      <input type='radio' name='option' value='A' id='option-41'/>
+      A. 24 horas</label>
+    <span id='result-41'></span>
+  </div>
+   <div id='block-42'>
+    <label for='option-42'>
+      <input type='radio' name='option' value='B' id='option-42'/>
+      B. Un mes</label>
+    <span id='result-42'></span>
+  </div>
+   <div id='block-43'>
+    <label for='option-43'>
+      <input type='radio' name='option' value='C' id='option-43'/>
+      C. 14 días o menos</label>
+    <span id='result-43'></span>
+  </div>
+  <div id='block-44'>
+    <label for='option-44'>
+      <input type='radio' name='option' value='D' id='option-44'/>
+      D. 7 días o menos</label>
+    <span id='result-44'></span>
+  </div>
+  <div id='block-45'>
+    <label for='option-45'>
+      <input type='radio' name='option' value='E' id='option-45'/>
+      E. No hay fiebre en dengue</label>
+    <span id='result-45'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer4()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<a id='showanswer4'></a>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-42').style.border = 'initial';
+      document.getElementById('result-42').style.color = 'initial';
+      document.getElementById('result-42').innerHTML = '';
+      document.getElementById('block-43').style.border = 'initial';
+      document.getElementById('result-43').style.color = 'initial';
+      document.getElementById('result-43').innerHTML = '';
+      document.getElementById('block-44').style.border = 'initial';
+      document.getElementById('result-44').style.color = 'initial';
+      document.getElementById('result-44').innerHTML = '';
+      document.getElementById('block-45').style.border = 'initial';
+      document.getElementById('result-45').style.color = 'initial';
+      document.getElementById('result-45').innerHTML = '';
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red'
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-41').style.border = 'initial';
+      document.getElementById('result-41').style.color = 'initial';
+      document.getElementById('result-41').innerHTML = '';
+      document.getElementById('block-43').style.border = 'initial';
+      document.getElementById('result-43').style.color = 'initial';
+      document.getElementById('result-43').innerHTML = '';
+      document.getElementById('block-44').style.border = 'initial';
+      document.getElementById('result-44').style.color = 'initial';
+      document.getElementById('result-44').innerHTML = '';
+      document.getElementById('block-45').style.border = 'initial';
+      document.getElementById('result-45').style.color = 'initial';
+      document.getElementById('result-45').innerHTML = '';
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-41').style.border = 'initial';
+      document.getElementById('result-41').style.color = 'initial';
+      document.getElementById('result-41').innerHTML = '';
+      document.getElementById('block-42').style.border = 'initial';
+      document.getElementById('result-42').style.color = 'initial';
+      document.getElementById('result-42').innerHTML = '';
+      document.getElementById('block-44').style.border = 'initial';
+      document.getElementById('result-44').style.color = 'initial';
+      document.getElementById('result-44').innerHTML = '';
+      document.getElementById('block-45').style.border = 'initial';
+      document.getElementById('result-45').style.color = 'initial';
+      document.getElementById('result-45').innerHTML = '';
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = '¡Correcto! El cuadro típico de dengue es fiebre menor a siete días, generalmente acompañado de dolor retrocular. Si el paciente tiene fiebre por más de 7 días, se debe descartar otras causas.'
+      document.getElementById('block-41').style.border = 'initial';
+      document.getElementById('result-41').style.color = 'initial';
+      document.getElementById('result-41').innerHTML = '';
+      document.getElementById('block-42').style.border = 'initial';
+      document.getElementById('result-42').style.color = 'initial';
+      document.getElementById('result-42').innerHTML = '';
+      document.getElementById('block-43').style.border = 'initial';
+      document.getElementById('result-43').style.color = 'initial';
+      document.getElementById('result-43').innerHTML = '';
+      document.getElementById('block-45').style.border = 'initial';
+      document.getElementById('result-45').style.color = 'initial';
+      document.getElementById('result-45').innerHTML = '';
+    }
+    if (document.getElementById('option-45').checked) {
+      document.getElementById('block-45').style.border = '3px solid red'
+      document.getElementById('result-45').style.color = 'red'
+      document.getElementById('result-45').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-41').style.border = 'initial';
+      document.getElementById('result-41').style.color = 'initial';
+      document.getElementById('result-41').innerHTML = '';
+      document.getElementById('block-42').style.border = 'initial';
+      document.getElementById('result-42').style.color = 'initial';
+      document.getElementById('result-42').innerHTML = '';
+      document.getElementById('block-43').style.border = 'initial';
+      document.getElementById('result-43').style.color = 'initial';
+      document.getElementById('result-43').innerHTML = '';
+      document.getElementById('block-44').style.border = 'initial';
+      document.getElementById('result-44').style.color = 'initial';
+      document.getElementById('result-44').innerHTML = '';
+    }
+  }
+</script>
 
 
 
