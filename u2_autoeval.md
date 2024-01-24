@@ -525,6 +525,140 @@
   }
 </script>
 
+<hr>
+
+<div>
+<h3>¿Cuándo se puede tomar PCR para confirmar dengue, chikungunya, zika o fiebre amarilla?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-51'>
+    <label for='option-51'>
+      <input type='radio' name='option' value='A' id='option-51'/>
+      A. No hay prueba PCR para estas enfermedades</label>
+    <span id='result-51'></span>
+  </div>
+   <div id='block-52'>
+    <label for='option-52'>
+      <input type='radio' name='option' value='B' id='option-52'/>
+      B. 1 a 14 días desde la infección</label>
+    <span id='result-52'></span>
+  </div>
+   <div id='block-53'>
+    <label for='option-53'>
+      <input type='radio' name='option' value='C' id='option-53'/>
+      C. Hasta un mes desde la infección</label>
+    <span id='result-53'></span>
+  </div>
+  <div id='block-54'>
+    <label for='option-54'>
+      <input type='radio' name='option' value='D' id='option-54'/>
+      D. 1 a 5 días desde la infección</label>
+    <span id='result-54'></span>
+  </div>
+  <div id='block-55'>
+    <label for='option-55'>
+      <input type='radio' name='option' value='E' id='option-55'/>
+      E. Son positivas de por vida</label>
+    <span id='result-55'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer5()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<a id='showanswer5'></a>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid red'
+      document.getElementById('result-51').style.color = 'red'
+      document.getElementById('result-51').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-52').style.border = 'initial';
+      document.getElementById('result-52').style.color = 'initial';
+      document.getElementById('result-52').innerHTML = '';
+      document.getElementById('block-53').style.border = 'initial';
+      document.getElementById('result-53').style.color = 'initial';
+      document.getElementById('result-53').innerHTML = '';
+      document.getElementById('block-54').style.border = 'initial';
+      document.getElementById('result-54').style.color = 'initial';
+      document.getElementById('result-54').innerHTML = '';
+      document.getElementById('block-55').style.border = 'initial';
+      document.getElementById('result-55').style.color = 'initial';
+      document.getElementById('result-55').innerHTML = '';
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid red'
+      document.getElementById('result-52').style.color = 'red'
+      document.getElementById('result-52').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-51').style.border = 'initial';
+      document.getElementById('result-51').style.color = 'initial';
+      document.getElementById('result-51').innerHTML = '';
+      document.getElementById('block-53').style.border = 'initial';
+      document.getElementById('result-53').style.color = 'initial';
+      document.getElementById('result-53').innerHTML = '';
+      document.getElementById('block-54').style.border = 'initial';
+      document.getElementById('result-54').style.color = 'initial';
+      document.getElementById('result-54').innerHTML = '';
+      document.getElementById('block-55').style.border = 'initial';
+      document.getElementById('result-55').style.color = 'initial';
+      document.getElementById('result-55').innerHTML = '';
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid red'
+      document.getElementById('result-53').style.color = 'red'
+      document.getElementById('result-53').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-51').style.border = 'initial';
+      document.getElementById('result-51').style.color = 'initial';
+      document.getElementById('result-51').innerHTML = '';
+      document.getElementById('block-52').style.border = 'initial';
+      document.getElementById('result-52').style.color = 'initial';
+      document.getElementById('result-52').innerHTML = '';
+      document.getElementById('block-54').style.border = 'initial';
+      document.getElementById('result-54').style.color = 'initial';
+      document.getElementById('result-54').innerHTML = '';
+      document.getElementById('block-55').style.border = 'initial';
+      document.getElementById('result-55').style.color = 'initial';
+      document.getElementById('result-55').innerHTML = '';
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid limegreen'
+      document.getElementById('result-54').style.color = 'limegreen'
+      document.getElementById('result-54').innerHTML = '¡Correcto! Se puede tomar PCR para confirmar dengue, chikungunya, zika o fiebre amarilla hasta 5 días después de la infección. Después de 5 días, la viremia disminuye y ya no se puede detectar por PCR. Por eso, desde los 5 días se usa pruebas para detectar anticuerpos.'
+      document.getElementById('block-51').style.border = 'initial';
+      document.getElementById('result-51').style.color = 'initial';
+      document.getElementById('result-51').innerHTML = '';
+      document.getElementById('block-52').style.border = 'initial';
+      document.getElementById('result-52').style.color = 'initial';
+      document.getElementById('result-52').innerHTML = '';
+      document.getElementById('block-53').style.border = 'initial';
+      document.getElementById('result-53').style.color = 'initial';
+      document.getElementById('result-53').innerHTML = '';
+      document.getElementById('block-55').style.border = 'initial';
+      document.getElementById('result-55').style.color = 'initial';
+      document.getElementById('result-55').innerHTML = '';
+    }
+    if (document.getElementById('option-55').checked) {
+      document.getElementById('block-55').style.border = '3px solid red'
+      document.getElementById('result-55').style.color = 'red'
+      document.getElementById('result-55').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-51').style.border = 'initial';
+      document.getElementById('result-51').style.color = 'initial';
+      document.getElementById('result-51').innerHTML = '';
+      document.getElementById('block-52').style.border = 'initial';
+      document.getElementById('result-52').style.color = 'initial';
+      document.getElementById('result-52').innerHTML = '';
+      document.getElementById('block-53').style.border = 'initial';
+      document.getElementById('result-53').style.color = 'initial';
+      document.getElementById('result-53').innerHTML = '';
+      document.getElementById('block-54').style.border = 'initial';
+      document.getElementById('result-54').style.color = 'initial';
+      document.getElementById('result-54').innerHTML = '';
+    }
+  }
+</script>
+
+
+
+
+
 
 
 
