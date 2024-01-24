@@ -858,7 +858,7 @@
     if (document.getElementById('option-73').checked) {
       document.getElementById('block-73').style.border = '3px solid limegreen'
       document.getElementById('result-73').style.color = 'limegreen'
-      document.getElementById('result-73').innerHTML = '¡Correcto! &#128175; Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención. &#127775;'
+      document.getElementById('result-73').innerHTML = '¡Correcto! &#128175; La definición de paciente febril es: "Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención". &#127775;'
       document.getElementById('block-71').style.border = 'initial';
       document.getElementById('result-71').style.color = 'initial';
       document.getElementById('result-71').innerHTML = '';
@@ -909,6 +909,134 @@
   }
 </script>
 
+<hr>
+
+<div>
+<h3>¿Quiénes tienen mayor riesgo de presentar dengue grave?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-81'>
+    <label for='option-81'>
+      <input type='radio' name='option' value='A' id='option-81'/>
+      A. Adultos de 18 a 64 años</label>
+    <span id='result-81'></span>
+  </div>
+   <div id='block-82'>
+    <label for='option-82'>
+      <input type='radio' name='option' value='B' id='option-82'/>
+      B. Varones y niños</label>
+    <span id='result-82'></span>
+  </div>
+   <div id='block-83'>
+    <label for='option-83'>
+      <input type='radio' name='option' value='C' id='option-83'/>
+      C. Personas que viven a gran altitud y adultos mayores</label>
+    <span id='result-83'></span>
+  </div>
+  <div id='block-84'>
+    <label for='option-84'>
+      <input type='radio' name='option' value='D' id='option-84'/>
+      D. Las gestantes no tienen riesgo de dengue grave</label>
+    <span id='result-84'></span>
+  </div>
+  <div id='block-85'>
+    <label for='option-85'>
+      <input type='radio' name='option' value='E' id='option-85'/>
+      E. Reinfectados, bebés y gestantes</label>
+    <span id='result-85'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer7()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer8() {
+    if (document.getElementById('option-81').checked) {
+      document.getElementById('block-81').style.border = '3px solid red'
+      document.getElementById('result-81').style.color = 'red'
+      document.getElementById('result-81').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-82').style.border = 'initial';
+      document.getElementById('result-82').style.color = 'initial';
+      document.getElementById('result-82').innerHTML = '';
+      document.getElementById('block-83').style.border = 'initial';
+      document.getElementById('result-83').style.color = 'initial';
+      document.getElementById('result-83').innerHTML = '';
+      document.getElementById('block-84').style.border = 'initial';
+      document.getElementById('result-84').style.color = 'initial';
+      document.getElementById('result-84').innerHTML = '';
+      document.getElementById('block-85').style.border = 'initial';
+      document.getElementById('result-85').style.color = 'initial';
+      document.getElementById('result-85').innerHTML = '';
+    }
+    if (document.getElementById('option-82').checked) {
+      document.getElementById('block-82').style.border = '3px solid red'
+      document.getElementById('result-82').style.color = 'red'
+      document.getElementById('result-82').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-81').style.border = 'initial';
+      document.getElementById('result-81').style.color = 'initial';
+      document.getElementById('result-81').innerHTML = '';
+      document.getElementById('block-83').style.border = 'initial';
+      document.getElementById('result-83').style.color = 'initial';
+      document.getElementById('result-83').innerHTML = '';
+      document.getElementById('block-84').style.border = 'initial';
+      document.getElementById('result-84').style.color = 'initial';
+      document.getElementById('result-84').innerHTML = '';
+      document.getElementById('block-85').style.border = 'initial';
+      document.getElementById('result-85').style.color = 'initial';
+      document.getElementById('result-85').innerHTML = '';
+    }
+    if (document.getElementById('option-83').checked) {
+      document.getElementById('block-83').style.border = '3px solid limegreen'
+      document.getElementById('result-83').style.color = 'limegreen'
+      document.getElementById('result-83').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-81').style.border = 'initial';
+      document.getElementById('result-81').style.color = 'initial';
+      document.getElementById('result-81').innerHTML = '';
+      document.getElementById('block-82').style.border = 'initial';
+      document.getElementById('result-82').style.color = 'initial';
+      document.getElementById('result-82').innerHTML = '';
+      document.getElementById('block-84').style.border = 'initial';
+      document.getElementById('result-84').style.color = 'initial';
+      document.getElementById('result-84').innerHTML = '';
+      document.getElementById('block-85').style.border = 'initial';
+      document.getElementById('result-85').style.color = 'initial';
+      document.getElementById('result-85').innerHTML = '';
+    }
+    if (document.getElementById('option-84').checked) {
+      document.getElementById('block-84').style.border = '3px solid red'
+      document.getElementById('result-84').style.color = 'red'
+      document.getElementById('result-84').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-81').style.border = 'initial';
+      document.getElementById('result-81').style.color = 'initial';
+      document.getElementById('result-81').innerHTML = '';
+      document.getElementById('block-82').style.border = 'initial';
+      document.getElementById('result-82').style.color = 'initial';
+      document.getElementById('result-82').innerHTML = '';
+      document.getElementById('block-83').style.border = 'initial';
+      document.getElementById('result-83').style.color = 'initial';
+      document.getElementById('result-83').innerHTML = '';
+      document.getElementById('block-85').style.border = 'initial';
+      document.getElementById('result-85').style.color = 'initial';
+      document.getElementById('result-85').innerHTML = '';
+    }
+    if (document.getElementById('option-85').checked) {
+      document.getElementById('block-85').style.border = '3px solid limegreen'
+      document.getElementById('result-85').style.color = 'limegreen'
+      document.getElementById('result-85').innerHTML = '¡Correcto! &#128175; Las personas con mayor riesgo de presentar dengue grave son los reinfectados, bebés y gestantes. &#127775;'
+      document.getElementById('block-81').style.border = 'initial';
+      document.getElementById('result-81').style.color = 'initial';
+      document.getElementById('result-81').innerHTML = '';
+      document.getElementById('block-82').style.border = 'initial';
+      document.getElementById('result-82').style.color = 'initial';
+      document.getElementById('result-82').innerHTML = '';
+      document.getElementById('block-83').style.border = 'initial';
+      document.getElementById('result-83').style.color = 'initial';
+      document.getElementById('result-83').innerHTML = '';
+      document.getElementById('block-84').style.border = 'initial';
+      document.getElementById('result-84').style.color = 'initial';
+      document.getElementById('result-84').innerHTML = '';
+    }
+  }
+</script>
 
 
 
