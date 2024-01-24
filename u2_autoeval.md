@@ -41,6 +41,7 @@
       E. La hidratación no es uno de los principales aspectos del tratamiento de la hepatitis A</label>
     <span id='result-15'></span>
   </div>
+  <br>
   <button type='button' onclick='displayAnswer1()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <a id='showanswer1'></a>
@@ -170,6 +171,7 @@
       E. Una semana después de la infección</label>
     <span id='result-25'></span>
   </div>
+  <br>
   <button type='button' onclick='displayAnswer2()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <a id='showanswer2'></a>
@@ -299,6 +301,7 @@
       E. Dolor abdominal</label>
     <span id='result-35'></span>
   </div>
+  <br>
   <button type='button' onclick='displayAnswer3()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <a id='showanswer3'></a>
