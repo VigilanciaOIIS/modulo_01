@@ -945,7 +945,7 @@
     <span id='result-85'></span>
   </div>
   <br>
-  <button type='button' onclick='displayAnswer7()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='displayAnswer8()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
@@ -1038,7 +1038,134 @@
   }
 </script>
 
+<hr>
 
+<div>
+<h3>¿A los cuántos días se detecta IgM en dengue?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-91'>
+    <label for='option-91'>
+      <input type='radio' name='option' value='A' id='option-91'/>
+      A. 5 días después de la infección</label>
+    <span id='result-91'></span>
+  </div>
+   <div id='block-92'>
+    <label for='option-92'>
+      <input type='radio' name='option' value='B' id='option-92'/>
+      B. Desde el momento de infección</label>
+    <span id='result-92'></span>
+  </div>
+   <div id='block-93'>
+    <label for='option-93'>
+      <input type='radio' name='option' value='C' id='option-93'/>
+      C. 10 días después de la infección</label>
+    <span id='result-93'></span>
+  </div>
+  <div id='block-94'>
+    <label for='option-94'>
+      <input type='radio' name='option' value='D' id='option-94'/>
+      D. La IgM no se eleva en dengue</label>
+    <span id='result-94'></span>
+  </div>
+  <div id='block-95'>
+    <label for='option-95'>
+      <input type='radio' name='option' value='E' id='option-95'/>
+      E. 2 días después de la infección</label>
+    <span id='result-95'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer9()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer9() {
+    if (document.getElementById('option-91').checked) {
+      document.getElementById('block-91').style.border = '3px solid limegreen'
+      document.getElementById('result-91').style.color = 'limegreen'
+      document.getElementById('result-91').innerHTML = '¡Correcto! &#128175; La IgM alcanza valores detectables 5 días después de la infección. &#127775;'
+      document.getElementById('block-92').style.border = 'initial';
+      document.getElementById('result-92').style.color = 'initial';
+      document.getElementById('result-92').innerHTML = '';
+      document.getElementById('block-93').style.border = 'initial';
+      document.getElementById('result-93').style.color = 'initial';
+      document.getElementById('result-93').innerHTML = '';
+      document.getElementById('block-94').style.border = 'initial';
+      document.getElementById('result-94').style.color = 'initial';
+      document.getElementById('result-94').innerHTML = '';
+      document.getElementById('block-95').style.border = 'initial';
+      document.getElementById('result-95').style.color = 'initial';
+      document.getElementById('result-95').innerHTML = '';
+    }
+    if (document.getElementById('option-92').checked) {
+      document.getElementById('block-92').style.border = '3px solid red'
+      document.getElementById('result-92').style.color = 'red'
+      document.getElementById('result-92').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-91').style.border = 'initial';
+      document.getElementById('result-91').style.color = 'initial';
+      document.getElementById('result-91').innerHTML = '';
+      document.getElementById('block-93').style.border = 'initial';
+      document.getElementById('result-93').style.color = 'initial';
+      document.getElementById('result-93').innerHTML = '';
+      document.getElementById('block-94').style.border = 'initial';
+      document.getElementById('result-94').style.color = 'initial';
+      document.getElementById('result-94').innerHTML = '';
+      document.getElementById('block-95').style.border = 'initial';
+      document.getElementById('result-95').style.color = 'initial';
+      document.getElementById('result-95').innerHTML = '';
+    }
+    if (document.getElementById('option-93').checked) {
+      document.getElementById('block-93').style.border = '3px solid limegreen'
+      document.getElementById('result-93').style.color = 'limegreen'
+      document.getElementById('result-93').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-91').style.border = 'initial';
+      document.getElementById('result-91').style.color = 'initial';
+      document.getElementById('result-91').innerHTML = '';
+      document.getElementById('block-92').style.border = 'initial';
+      document.getElementById('result-92').style.color = 'initial';
+      document.getElementById('result-92').innerHTML = '';
+      document.getElementById('block-94').style.border = 'initial';
+      document.getElementById('result-94').style.color = 'initial';
+      document.getElementById('result-94').innerHTML = '';
+      document.getElementById('block-95').style.border = 'initial';
+      document.getElementById('result-95').style.color = 'initial';
+      document.getElementById('result-95').innerHTML = '';
+    }
+    if (document.getElementById('option-94').checked) {
+      document.getElementById('block-94').style.border = '3px solid red'
+      document.getElementById('result-94').style.color = 'red'
+      document.getElementById('result-94').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-91').style.border = 'initial';
+      document.getElementById('result-91').style.color = 'initial';
+      document.getElementById('result-91').innerHTML = '';
+      document.getElementById('block-92').style.border = 'initial';
+      document.getElementById('result-92').style.color = 'initial';
+      document.getElementById('result-92').innerHTML = '';
+      document.getElementById('block-93').style.border = 'initial';
+      document.getElementById('result-93').style.color = 'initial';
+      document.getElementById('result-93').innerHTML = '';
+      document.getElementById('block-95').style.border = 'initial';
+      document.getElementById('result-95').style.color = 'initial';
+      document.getElementById('result-95').innerHTML = '';
+    }
+    if (document.getElementById('option-95').checked) {
+      document.getElementById('block-95').style.border = '3px solid limegreen'
+      document.getElementById('result-95').style.color = 'limegreen'
+      document.getElementById('result-95').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-91').style.border = 'initial';
+      document.getElementById('result-91').style.color = 'initial';
+      document.getElementById('result-91').innerHTML = '';
+      document.getElementById('block-92').style.border = 'initial';
+      document.getElementById('result-92').style.color = 'initial';
+      document.getElementById('result-92').innerHTML = '';
+      document.getElementById('block-93').style.border = 'initial';
+      document.getElementById('result-93').style.color = 'initial';
+      document.getElementById('result-93').innerHTML = '';
+      document.getElementById('block-94').style.border = 'initial';
+      document.getElementById('result-94').style.color = 'initial';
+      document.getElementById('result-94').innerHTML = '';
+    }
+  }
+</script>
 
 
 
