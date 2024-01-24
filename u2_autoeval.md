@@ -780,7 +780,134 @@
   }
 </script>
 
+<hr>
 
+<div>
+<h3>¿Cuál es la definición de paciente febril?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-71'>
+    <label for='option-71'>
+      <input type='radio' name='option' value='A' id='option-71'/>
+      A. Paciente con temperatura corporal de 38°C o más, mayor de 15 años, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
+    <span id='result-71'></span>
+  </div>
+   <div id='block-72'>
+    <label for='option-72'>
+      <input type='radio' name='option' value='B' id='option-72'/>
+      B. Paciente con temperatura corporal de 37°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
+    <span id='result-72'></span>
+  </div>
+   <div id='block-73'>
+    <label for='option-73'>
+      <input type='radio' name='option' value='C' id='option-73'/>
+      C. Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
+    <span id='result-73'></span>
+  </div>
+  <div id='block-74'>
+    <label for='option-74'>
+      <input type='radio' name='option' value='D' id='option-74'/>
+      D. Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con foco de infección confirmado, que acude a un establecimiento de salud por atención</label>
+    <span id='result-74'></span>
+  </div>
+  <div id='block-75'>
+    <label for='option-75'>
+      <input type='radio' name='option' value='E' id='option-75'/>
+      E. Paciente con temperatura corporal de 37°C o más, de cualquier grupo etario, con foco de infección confirmado, que acude a un establecimiento de salud por atención</label>
+    <span id='result-75'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer7()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer7() {
+    if (document.getElementById('option-71').checked) {
+      document.getElementById('block-71').style.border = '3px solid red'
+      document.getElementById('result-71').style.color = 'red'
+      document.getElementById('result-71').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-72').style.border = 'initial';
+      document.getElementById('result-72').style.color = 'initial';
+      document.getElementById('result-72').innerHTML = '';
+      document.getElementById('block-73').style.border = 'initial';
+      document.getElementById('result-73').style.color = 'initial';
+      document.getElementById('result-73').innerHTML = '';
+      document.getElementById('block-74').style.border = 'initial';
+      document.getElementById('result-74').style.color = 'initial';
+      document.getElementById('result-74').innerHTML = '';
+      document.getElementById('block-75').style.border = 'initial';
+      document.getElementById('result-75').style.color = 'initial';
+      document.getElementById('result-75').innerHTML = '';
+    }
+    if (document.getElementById('option-72').checked) {
+      document.getElementById('block-72').style.border = '3px solid red'
+      document.getElementById('result-72').style.color = 'red'
+      document.getElementById('result-72').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-71').style.border = 'initial';
+      document.getElementById('result-71').style.color = 'initial';
+      document.getElementById('result-71').innerHTML = '';
+      document.getElementById('block-73').style.border = 'initial';
+      document.getElementById('result-73').style.color = 'initial';
+      document.getElementById('result-73').innerHTML = '';
+      document.getElementById('block-74').style.border = 'initial';
+      document.getElementById('result-74').style.color = 'initial';
+      document.getElementById('result-74').innerHTML = '';
+      document.getElementById('block-75').style.border = 'initial';
+      document.getElementById('result-75').style.color = 'initial';
+      document.getElementById('result-75').innerHTML = '';
+    }
+    if (document.getElementById('option-73').checked) {
+      document.getElementById('block-73').style.border = '3px solid limegreen'
+      document.getElementById('result-73').style.color = 'limegreen'
+      document.getElementById('result-73').innerHTML = '¡Correcto! &#128175; Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención. &#127775;'
+      document.getElementById('block-71').style.border = 'initial';
+      document.getElementById('result-71').style.color = 'initial';
+      document.getElementById('result-71').innerHTML = '';
+      document.getElementById('block-72').style.border = 'initial';
+      document.getElementById('result-72').style.color = 'initial';
+      document.getElementById('result-72').innerHTML = '';
+      document.getElementById('block-74').style.border = 'initial';
+      document.getElementById('result-74').style.color = 'initial';
+      document.getElementById('result-74').innerHTML = '';
+      document.getElementById('block-75').style.border = 'initial';
+      document.getElementById('result-75').style.color = 'initial';
+      document.getElementById('result-75').innerHTML = '';
+    }
+    if (document.getElementById('option-74').checked) {
+      document.getElementById('block-74').style.border = '3px solid red'
+      document.getElementById('result-74').style.color = 'red'
+      document.getElementById('result-74').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-71').style.border = 'initial';
+      document.getElementById('result-71').style.color = 'initial';
+      document.getElementById('result-71').innerHTML = '';
+      document.getElementById('block-72').style.border = 'initial';
+      document.getElementById('result-72').style.color = 'initial';
+      document.getElementById('result-72').innerHTML = '';
+      document.getElementById('block-73').style.border = 'initial';
+      document.getElementById('result-73').style.color = 'initial';
+      document.getElementById('result-73').innerHTML = '';
+      document.getElementById('block-75').style.border = 'initial';
+      document.getElementById('result-75').style.color = 'initial';
+      document.getElementById('result-75').innerHTML = '';
+    }
+    if (document.getElementById('option-75').checked) {
+      document.getElementById('block-75').style.border = '3px solid red'
+      document.getElementById('result-75').style.color = 'red'
+      document.getElementById('result-75').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-71').style.border = 'initial';
+      document.getElementById('result-71').style.color = 'initial';
+      document.getElementById('result-71').innerHTML = '';
+      document.getElementById('block-72').style.border = 'initial';
+      document.getElementById('result-72').style.color = 'initial';
+      document.getElementById('result-72').innerHTML = '';
+      document.getElementById('block-73').style.border = 'initial';
+      document.getElementById('result-73').style.color = 'initial';
+      document.getElementById('result-73').innerHTML = '';
+      document.getElementById('block-74').style.border = 'initial';
+      document.getElementById('result-74').style.color = 'initial';
+      document.getElementById('result-74').innerHTML = '';
+    }
+  }
+</script>
 
 
 
