@@ -173,7 +173,6 @@
   <br>
   <button type='button' onclick='displayAnswer2()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
-<a id='showanswer2'></a>
 <script>
   //    The function evaluates the answer and displays result
   function displayAnswer2() {
@@ -303,7 +302,6 @@
   <br>
   <button type='button' onclick='displayAnswer3()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
-<a id='showanswer3'></a>
 <script>
   //    The function evaluates the answer and displays result
   function displayAnswer3() {
@@ -433,7 +431,6 @@
   <br>
   <button type='button' onclick='displayAnswer4()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
-<a id='showanswer4'></a>
 <script>
   //    The function evaluates the answer and displays result
   function displayAnswer4() {
@@ -563,7 +560,6 @@
   <br>
   <button type='button' onclick='displayAnswer5()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
-<a id='showanswer5'></a>
 <script>
   //    The function evaluates the answer and displays result
   function displayAnswer5() {
@@ -655,6 +651,134 @@
   }
 </script>
 
+<hr>
+
+<div>
+<h3>Según la normativa, ¿para qué arbovirosis sí podemos tomar una prueba de ELISA?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-61'>
+    <label for='option-61'>
+      <input type='radio' name='option' value='A' id='option-61'/>
+      A. Dengue y zika</label>
+    <span id='result-61'></span>
+  </div>
+   <div id='block-62'>
+    <label for='option-62'>
+      <input type='radio' name='option' value='B' id='option-62'/>
+      B. Zika</label>
+    <span id='result-62'></span>
+  </div>
+   <div id='block-63'>
+    <label for='option-63'>
+      <input type='radio' name='option' value='C' id='option-63'/>
+      C. Fiebre amarilla</label>
+    <span id='result-63'></span>
+  </div>
+  <div id='block-64'>
+    <label for='option-64'>
+      <input type='radio' name='option' value='D' id='option-64'/>
+      D. Dengue y chikungunya</label>
+    <span id='result-64'></span>
+  </div>
+  <div id='block-65'>
+    <label for='option-65'>
+      <input type='radio' name='option' value='E' id='option-65'/>
+      E. Fiebre amarilla y chikungunya</label>
+    <span id='result-65'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer5()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer6() {
+    if (document.getElementById('option-61').checked) {
+      document.getElementById('block-61').style.border = '3px solid red'
+      document.getElementById('result-61').style.color = 'red'
+      document.getElementById('result-61').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-62').style.border = 'initial';
+      document.getElementById('result-62').style.color = 'initial';
+      document.getElementById('result-62').innerHTML = '';
+      document.getElementById('block-63').style.border = 'initial';
+      document.getElementById('result-63').style.color = 'initial';
+      document.getElementById('result-63').innerHTML = '';
+      document.getElementById('block-64').style.border = 'initial';
+      document.getElementById('result-64').style.color = 'initial';
+      document.getElementById('result-64').innerHTML = '';
+      document.getElementById('block-65').style.border = 'initial';
+      document.getElementById('result-65').style.color = 'initial';
+      document.getElementById('result-65').innerHTML = '';
+    }
+    if (document.getElementById('option-62').checked) {
+      document.getElementById('block-62').style.border = '3px solid red'
+      document.getElementById('result-62').style.color = 'red'
+      document.getElementById('result-62').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-61').style.border = 'initial';
+      document.getElementById('result-61').style.color = 'initial';
+      document.getElementById('result-61').innerHTML = '';
+      document.getElementById('block-63').style.border = 'initial';
+      document.getElementById('result-63').style.color = 'initial';
+      document.getElementById('result-63').innerHTML = '';
+      document.getElementById('block-64').style.border = 'initial';
+      document.getElementById('result-64').style.color = 'initial';
+      document.getElementById('result-64').innerHTML = '';
+      document.getElementById('block-65').style.border = 'initial';
+      document.getElementById('result-65').style.color = 'initial';
+      document.getElementById('result-65').innerHTML = '';
+    }
+    if (document.getElementById('option-63').checked) {
+      document.getElementById('block-63').style.border = '3px solid red'
+      document.getElementById('result-63').style.color = 'red'
+      document.getElementById('result-63').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-61').style.border = 'initial';
+      document.getElementById('result-61').style.color = 'initial';
+      document.getElementById('result-61').innerHTML = '';
+      document.getElementById('block-62').style.border = 'initial';
+      document.getElementById('result-62').style.color = 'initial';
+      document.getElementById('result-62').innerHTML = '';
+      document.getElementById('block-64').style.border = 'initial';
+      document.getElementById('result-64').style.color = 'initial';
+      document.getElementById('result-64').innerHTML = '';
+      document.getElementById('block-65').style.border = 'initial';
+      document.getElementById('result-65').style.color = 'initial';
+      document.getElementById('result-65').innerHTML = '';
+    }
+    if (document.getElementById('option-64').checked) {
+      document.getElementById('block-64').style.border = '3px solid limegreen'
+      document.getElementById('result-64').style.color = 'limegreen'
+      document.getElementById('result-64').innerHTML = '¡Correcto! La normativa vigente establece que se puede tomar una prueba de ELISA solamente para dengue y chikungunya.'
+      document.getElementById('block-61').style.border = 'initial';
+      document.getElementById('result-61').style.color = 'initial';
+      document.getElementById('result-61').innerHTML = '';
+      document.getElementById('block-62').style.border = 'initial';
+      document.getElementById('result-62').style.color = 'initial';
+      document.getElementById('result-62').innerHTML = '';
+      document.getElementById('block-63').style.border = 'initial';
+      document.getElementById('result-63').style.color = 'initial';
+      document.getElementById('result-63').innerHTML = '';
+      document.getElementById('block-65').style.border = 'initial';
+      document.getElementById('result-65').style.color = 'initial';
+      document.getElementById('result-65').innerHTML = '';
+    }
+    if (document.getElementById('option-65').checked) {
+      document.getElementById('block-65').style.border = '3px solid red'
+      document.getElementById('result-65').style.color = 'red'
+      document.getElementById('result-65').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-61').style.border = 'initial';
+      document.getElementById('result-61').style.color = 'initial';
+      document.getElementById('result-61').innerHTML = '';
+      document.getElementById('block-62').style.border = 'initial';
+      document.getElementById('result-62').style.color = 'initial';
+      document.getElementById('result-62').innerHTML = '';
+      document.getElementById('block-63').style.border = 'initial';
+      document.getElementById('result-63').style.color = 'initial';
+      document.getElementById('result-63').innerHTML = '';
+      document.getElementById('block-64').style.border = 'initial';
+      document.getElementById('result-64').style.color = 'initial';
+      document.getElementById('result-64').innerHTML = '';
+    }
+  }
+</script>
 
 
 
