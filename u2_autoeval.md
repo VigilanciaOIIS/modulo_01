@@ -1296,6 +1296,144 @@
   }
 </script>
 
+<hr>
+
+<div>
+<h3>¿Cuál es la definición de caso sospechoso de fiebre chikungunya?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-111'>
+    <label for='option-111'>
+      <input type='radio' name='option' value='A' id='option-111'/>
+      A. Toda persona con fiebre menor o igual a 7 días de evolución, que reside o ha visitado áreas de transmisión de la enfermedad o con infestación del vector Aedes aegypti, 14 días antes del inicio de los síntomas, y que presenta al menos 2 de estos síntomas: dolor ocular o retrocular, mialgias, cefalea, artralgia, dolor lumbar, rash / exantema (erupción cutánea), náuseas / vómitos</label>
+    <span id='result-111'></span>
+  </div>
+   <div id='block-112'>
+    <label for='option-112'>
+      <input type='radio' name='option' value='B' id='option-112'/>
+      B. Toda persona con fiebre de inicio brusco que presenta artralgia severa, poliartralgia bilateral o artritis no explicada clínicamente por otra condición médica, con un tiempo de evolución menor o igual a 7 días, que reside o ha visitado áreas con transmisión de la enfermedad o con infestación del vector Aedes aegypti, 14 días antes del inicio de los síntomas y que presente alguna de las siguientes manifestaciones: mialgias, cefalea, rash / exantema (erupción cutánea)</label>
+    <span id='result-112'></span>
+  </div>
+   <div id='block-113'>
+    <label for='option-113'>
+      <input type='radio' name='option' value='C' id='option-113'/>
+      C. Toda persona con rash / exantema (erupción cutánea), con un tiempo de enfermedad menor o igual a 7 días de evolución, que reside o ha visitado áreas con transmisión de enfermedad, 14 días antes del inicio de síntomas y que presenta alguno de estos síntomas: fiebre < 38.5°C, conjuntivitis no purulenta o hiperemia conjuntival, mialgia, cefalea o malestar general, artralgia, edema periarticular</label>
+    <span id='result-113'></span>
+  </div>
+  <div id='block-114'>
+    <label for='option-114'>
+      <input type='radio' name='option' value='D' id='option-114'/>
+      D. Todo caso de fiebre al cual se detectó anticuerpos IgM específicos contra virus chikungunya en una sola muestra durante la fase aguda o convaleciente</label>
+    <span id='result-114'></span>
+  </div>
+  <div id='block-115'>
+    <label for='option-115'>
+      <input type='radio' name='option' value='E' id='option-115'/>
+      E. Persona de cualquier edad que presenta un cuadro de diarrea de aparición brusca que lleva rápidamente a la deshidratación</label>
+    <span id='result-115'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer11()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer11() {
+    if (document.getElementById('option-111').checked) {
+      document.getElementById('block-111').style.border = '3px solid red'
+      document.getElementById('result-111').style.color = 'red'
+      document.getElementById('result-111').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-112').style.border = 'initial';
+      document.getElementById('result-112').style.color = 'initial';
+      document.getElementById('result-112').innerHTML = '';
+      document.getElementById('block-113').style.border = 'initial';
+      document.getElementById('result-113').style.color = 'initial';
+      document.getElementById('result-113').innerHTML = '';
+      document.getElementById('block-114').style.border = 'initial';
+      document.getElementById('result-114').style.color = 'initial';
+      document.getElementById('result-114').innerHTML = '';
+      document.getElementById('block-115').style.border = 'initial';
+      document.getElementById('result-115').style.color = 'initial';
+      document.getElementById('result-115').innerHTML = '';
+    }
+    if (document.getElementById('option-112').checked) {
+      document.getElementById('block-112').style.border = '3px solid limegreen'
+      document.getElementById('result-112').style.color = 'limegreen'
+      document.getElementById('result-112').innerHTML = '¡Correcto! &#128175; La definición de caso sospechoso es: Toda persona con fiebre de inicio brusco que presenta artralgia severa, poliartralgia bilateral o artritis no explicada clínicamente por otra condición médica, con un tiempo de evolución menor o igual a 7 días, que reside o ha visitado áreas con transmisión de la enfermedad o con infestación del vector <i>Aedes aegypti</i>, 14 días antes del inicio de los síntomas y que presente alguna de las siguientes manifestaciones: mialgias, cefalea, rash / exantema (erupción cutánea). &#127775;'
+      document.getElementById('block-111').style.border = 'initial';
+      document.getElementById('result-111').style.color = 'initial';
+      document.getElementById('result-111').innerHTML = '';
+      document.getElementById('block-113').style.border = 'initial';
+      document.getElementById('result-113').style.color = 'initial';
+      document.getElementById('result-113').innerHTML = '';
+      document.getElementById('block-114').style.border = 'initial';
+      document.getElementById('result-114').style.color = 'initial';
+      document.getElementById('result-114').innerHTML = '';
+      document.getElementById('block-115').style.border = 'initial';
+      document.getElementById('result-115').style.color = 'initial';
+      document.getElementById('result-115').innerHTML = '';
+    }
+    if (document.getElementById('option-113').checked) {
+      document.getElementById('block-113').style.border = '3px solid red'
+      document.getElementById('result-113').style.color = 'red'
+      document.getElementById('result-113').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-111').style.border = 'initial';
+      document.getElementById('result-111').style.color = 'initial';
+      document.getElementById('result-111').innerHTML = '';
+      document.getElementById('block-112').style.border = 'initial';
+      document.getElementById('result-112').style.color = 'initial';
+      document.getElementById('result-112').innerHTML = '';
+      document.getElementById('block-114').style.border = 'initial';
+      document.getElementById('result-114').style.color = 'initial';
+      document.getElementById('result-114').innerHTML = '';
+      document.getElementById('block-115').style.border = 'initial';
+      document.getElementById('result-115').style.color = 'initial';
+      document.getElementById('result-115').innerHTML = '';
+    }
+    if (document.getElementById('option-114').checked) {
+      document.getElementById('block-114').style.border = '3px solid red'
+      document.getElementById('result-114').style.color = 'red'
+      document.getElementById('result-114').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-111').style.border = 'initial';
+      document.getElementById('result-111').style.color = 'initial';
+      document.getElementById('result-111').innerHTML = '';
+      document.getElementById('block-112').style.border = 'initial';
+      document.getElementById('result-112').style.color = 'initial';
+      document.getElementById('result-112').innerHTML = '';
+      document.getElementById('block-113').style.border = 'initial';
+      document.getElementById('result-113').style.color = 'initial';
+      document.getElementById('result-113').innerHTML = '';
+      document.getElementById('block-115').style.border = 'initial';
+      document.getElementById('result-115').style.color = 'initial';
+      document.getElementById('result-115').innerHTML = '';
+    }
+    if (document.getElementById('option-115').checked) {
+      document.getElementById('block-115').style.border = '3px solid red'
+      document.getElementById('result-115').style.color = 'red'
+      document.getElementById('result-115').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-111').style.border = 'initial';
+      document.getElementById('result-111').style.color = 'initial';
+      document.getElementById('result-111').innerHTML = '';
+      document.getElementById('block-112').style.border = 'initial';
+      document.getElementById('result-112').style.color = 'initial';
+      document.getElementById('result-112').innerHTML = '';
+      document.getElementById('block-113').style.border = 'initial';
+      document.getElementById('result-113').style.color = 'initial';
+      document.getElementById('result-113').innerHTML = '';
+      document.getElementById('block-14').style.border = 'initial';
+      document.getElementById('result-114').style.color = 'initial';
+      document.getElementById('result-114').innerHTML = '';
+    }
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
 
 <hr>
 
