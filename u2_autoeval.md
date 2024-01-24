@@ -985,8 +985,8 @@
       document.getElementById('result-85').innerHTML = '';
     }
     if (document.getElementById('option-83').checked) {
-      document.getElementById('block-83').style.border = '3px solid limegreen'
-      document.getElementById('result-83').style.color = 'limegreen'
+      document.getElementById('block-83').style.border = '3px solid red'
+      document.getElementById('result-83').style.color = 'red'
       document.getElementById('result-83').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-81').style.border = 'initial';
       document.getElementById('result-81').style.color = 'initial';
@@ -1114,8 +1114,8 @@
       document.getElementById('result-95').innerHTML = '';
     }
     if (document.getElementById('option-93').checked) {
-      document.getElementById('block-93').style.border = '3px solid limegreen'
-      document.getElementById('result-93').style.color = 'limegreen'
+      document.getElementById('block-93').style.border = '3px solid red'
+      document.getElementById('result-93').style.color = 'red'
       document.getElementById('result-93').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-91').style.border = 'initial';
       document.getElementById('result-91').style.color = 'initial';
@@ -1148,8 +1148,8 @@
       document.getElementById('result-95').innerHTML = '';
     }
     if (document.getElementById('option-95').checked) {
-      document.getElementById('block-95').style.border = '3px solid limegreen'
-      document.getElementById('result-95').style.color = 'limegreen'
+      document.getElementById('block-95').style.border = '3px solid red'
+      document.getElementById('result-95').style.color = 'red'
       document.getElementById('result-95').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-91').style.border = 'initial';
       document.getElementById('result-91').style.color = 'initial';
@@ -1167,7 +1167,134 @@
   }
 </script>
 
+<hr>
 
+<div>
+<h3>¿Cada cuánto tiempo se debe evaluar a un paciente ambulatorio con dengue?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-91'>
+    <label for='option-91'>
+      <input type='radio' name='option' value='A' id='option-91'/>
+      A. No se debe reevaluar a un paciente ambulatorio</label>
+    <span id='result-91'></span>
+  </div>
+   <div id='block-92'>
+    <label for='option-92'>
+      <input type='radio' name='option' value='B' id='option-92'/>
+      B. Una vez a la semana</label>
+    <span id='result-92'></span>
+  </div>
+   <div id='block-93'>
+    <label for='option-93'>
+      <input type='radio' name='option' value='C' id='option-93'/>
+      C. Todos los días hasta que cedan la fiebre y demás signos de alarma</label>
+    <span id='result-93'></span>
+  </div>
+  <div id='block-94'>
+    <label for='option-94'>
+      <input type='radio' name='option' value='D' id='option-94'/>
+      D. Una vez al mes</label>
+    <span id='result-94'></span>
+  </div>
+  <div id='block-95'>
+    <label for='option-95'>
+      <input type='radio' name='option' value='E' id='option-95'/>
+      E. Solo si el paciente lo solicita</label>
+    <span id='result-95'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer9()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer9() {
+    if (document.getElementById('option-91').checked) {
+      document.getElementById('block-91').style.border = '3px solid red'
+      document.getElementById('result-91').style.color = 'red'
+      document.getElementById('result-91').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-92').style.border = 'initial';
+      document.getElementById('result-92').style.color = 'initial';
+      document.getElementById('result-92').innerHTML = '';
+      document.getElementById('block-93').style.border = 'initial';
+      document.getElementById('result-93').style.color = 'initial';
+      document.getElementById('result-93').innerHTML = '';
+      document.getElementById('block-94').style.border = 'initial';
+      document.getElementById('result-94').style.color = 'initial';
+      document.getElementById('result-94').innerHTML = '';
+      document.getElementById('block-95').style.border = 'initial';
+      document.getElementById('result-95').style.color = 'initial';
+      document.getElementById('result-95').innerHTML = '';
+    }
+    if (document.getElementById('option-92').checked) {
+      document.getElementById('block-92').style.border = '3px solid red'
+      document.getElementById('result-92').style.color = 'red'
+      document.getElementById('result-92').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-91').style.border = 'initial';
+      document.getElementById('result-91').style.color = 'initial';
+      document.getElementById('result-91').innerHTML = '';
+      document.getElementById('block-93').style.border = 'initial';
+      document.getElementById('result-93').style.color = 'initial';
+      document.getElementById('result-93').innerHTML = '';
+      document.getElementById('block-94').style.border = 'initial';
+      document.getElementById('result-94').style.color = 'initial';
+      document.getElementById('result-94').innerHTML = '';
+      document.getElementById('block-95').style.border = 'initial';
+      document.getElementById('result-95').style.color = 'initial';
+      document.getElementById('result-95').innerHTML = '';
+    }
+    if (document.getElementById('option-93').checked) {
+      document.getElementById('block-93').style.border = '3px solid limegreen'
+      document.getElementById('result-93').style.color = 'limegreen'
+      document.getElementById('result-93').innerHTML = '¡Correcto! &#128175; Un paciente ambulatorio con dengue debe ser reevaluado una vez al día. &#127775;'
+      document.getElementById('block-91').style.border = 'initial';
+      document.getElementById('result-91').style.color = 'initial';
+      document.getElementById('result-91').innerHTML = '';
+      document.getElementById('block-92').style.border = 'initial';
+      document.getElementById('result-92').style.color = 'initial';
+      document.getElementById('result-92').innerHTML = '';
+      document.getElementById('block-94').style.border = 'initial';
+      document.getElementById('result-94').style.color = 'initial';
+      document.getElementById('result-94').innerHTML = '';
+      document.getElementById('block-95').style.border = 'initial';
+      document.getElementById('result-95').style.color = 'initial';
+      document.getElementById('result-95').innerHTML = '';
+    }
+    if (document.getElementById('option-94').checked) {
+      document.getElementById('block-94').style.border = '3px solid red'
+      document.getElementById('result-94').style.color = 'red'
+      document.getElementById('result-94').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-91').style.border = 'initial';
+      document.getElementById('result-91').style.color = 'initial';
+      document.getElementById('result-91').innerHTML = '';
+      document.getElementById('block-92').style.border = 'initial';
+      document.getElementById('result-92').style.color = 'initial';
+      document.getElementById('result-92').innerHTML = '';
+      document.getElementById('block-93').style.border = 'initial';
+      document.getElementById('result-93').style.color = 'initial';
+      document.getElementById('result-93').innerHTML = '';
+      document.getElementById('block-95').style.border = 'initial';
+      document.getElementById('result-95').style.color = 'initial';
+      document.getElementById('result-95').innerHTML = '';
+    }
+    if (document.getElementById('option-95').checked) {
+      document.getElementById('block-95').style.border = '3px solid red'
+      document.getElementById('result-95').style.color = 'red'
+      document.getElementById('result-95').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-91').style.border = 'initial';
+      document.getElementById('result-91').style.color = 'initial';
+      document.getElementById('result-91').innerHTML = '';
+      document.getElementById('block-92').style.border = 'initial';
+      document.getElementById('result-92').style.color = 'initial';
+      document.getElementById('result-92').innerHTML = '';
+      document.getElementById('block-93').style.border = 'initial';
+      document.getElementById('result-93').style.color = 'initial';
+      document.getElementById('result-93').innerHTML = '';
+      document.getElementById('block-94').style.border = 'initial';
+      document.getElementById('result-94').style.color = 'initial';
+      document.getElementById('result-94').innerHTML = '';
+    }
+  }
+</script>
 
 
 <hr>
