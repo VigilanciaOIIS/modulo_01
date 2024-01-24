@@ -135,6 +135,8 @@
   }
 </script>
 
+<hr>
+
 <div>
 <h3>¿Desde qué día son positivas las pruebas de anticuerpo (IgG e IgM) de dengue?</h3>
 <p>Elige la respuesta correcta</p>
@@ -262,7 +264,134 @@
   }
 </script>
 
+<hr>
 
+<div>
+<h3>¿Cuáles son los síntomas más frecuentes de chikungunya?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-31'>
+    <label for='option-31'>
+      <input type='radio' name='option' value='A' id='option-31'/>
+      A. Fiebre y dolor articular</label>
+    <span id='result-31'></span>
+  </div>
+   <div id='block-32'>
+    <label for='option-32'>
+      <input type='radio' name='option' value='B' id='option-32'/>
+      B. Diarrea</label>
+    <span id='result-32'></span>
+  </div>
+   <div id='block-33'>
+    <label for='option-33'>
+      <input type='radio' name='option' value='C' id='option-33'/>
+      C. Descompensación y mareos</label>
+    <span id='result-33'></span>
+  </div>
+  <div id='block-34'>
+    <label for='option-34'>
+      <input type='radio' name='option' value='D' id='option-34'/>
+      D. Sangrado</label>
+    <span id='result-34'></span>
+  </div>
+  <div id='block-35'>
+    <label for='option-35'>
+      <input type='radio' name='option' value='E' id='option-35'/>
+      E. Dolor abdominal</label>
+    <span id='result-35'></span>
+  </div>
+  <button type='button' onclick='displayAnswer3()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<a id='showanswer3'></a>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid limegreen'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = '¡Correcto! Los síntomas más frecuentes de chikungunya son fiebre y dolor articular o artralgias.'
+      document.getElementById('block-32').style.border = 'initial';
+      document.getElementById('result-32').style.color = 'initial';
+      document.getElementById('result-32').innerHTML = '';
+      document.getElementById('block-33').style.border = 'initial';
+      document.getElementById('result-33').style.color = 'initial';
+      document.getElementById('result-33').innerHTML = '';
+      document.getElementById('block-34').style.border = 'initial';
+      document.getElementById('result-34').style.color = 'initial';
+      document.getElementById('result-34').innerHTML = '';
+      document.getElementById('block-35').style.border = 'initial';
+      document.getElementById('result-35').style.color = 'initial';
+      document.getElementById('result-35').innerHTML = '';
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid red'
+      document.getElementById('result-32').style.color = 'red'
+      document.getElementById('result-32').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-31').style.border = 'initial';
+      document.getElementById('result-31').style.color = 'initial';
+      document.getElementById('result-31').innerHTML = '';
+      document.getElementById('block-33').style.border = 'initial';
+      document.getElementById('result-33').style.color = 'initial';
+      document.getElementById('result-33').innerHTML = '';
+      document.getElementById('block-34').style.border = 'initial';
+      document.getElementById('result-34').style.color = 'initial';
+      document.getElementById('result-34').innerHTML = '';
+      document.getElementById('block-35').style.border = 'initial';
+      document.getElementById('result-35').style.color = 'initial';
+      document.getElementById('result-35').innerHTML = '';
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid red'
+      document.getElementById('result-33').style.color = 'red'
+      document.getElementById('result-33').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-31').style.border = 'initial';
+      document.getElementById('result-31').style.color = 'initial';
+      document.getElementById('result-31').innerHTML = '';
+      document.getElementById('block-32').style.border = 'initial';
+      document.getElementById('result-32').style.color = 'initial';
+      document.getElementById('result-32').innerHTML = '';
+      document.getElementById('block-34').style.border = 'initial';
+      document.getElementById('result-34').style.color = 'initial';
+      document.getElementById('result-34').innerHTML = '';
+      document.getElementById('block-35').style.border = 'initial';
+      document.getElementById('result-35').style.color = 'initial';
+      document.getElementById('result-35').innerHTML = '';
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-31').style.border = 'initial';
+      document.getElementById('result-31').style.color = 'initial';
+      document.getElementById('result-31').innerHTML = '';
+      document.getElementById('block-32').style.border = 'initial';
+      document.getElementById('result-32').style.color = 'initial';
+      document.getElementById('result-32').innerHTML = '';
+      document.getElementById('block-33').style.border = 'initial';
+      document.getElementById('result-33').style.color = 'initial';
+      document.getElementById('result-33').innerHTML = '';
+      document.getElementById('block-35').style.border = 'initial';
+      document.getElementById('result-35').style.color = 'initial';
+      document.getElementById('result-35').innerHTML = '';
+    }
+    if (document.getElementById('option-35').checked) {
+      document.getElementById('block-35').style.border = '3px solid red'
+      document.getElementById('result-35').style.color = 'red'
+      document.getElementById('result-35').innerHTML = 'Intenta otra vez'
+      document.getElementById('block-31').style.border = 'initial';
+      document.getElementById('result-31').style.color = 'initial';
+      document.getElementById('result-31').innerHTML = '';
+      document.getElementById('block-32').style.border = 'initial';
+      document.getElementById('result-32').style.color = 'initial';
+      document.getElementById('result-32').innerHTML = '';
+      document.getElementById('block-33').style.border = 'initial';
+      document.getElementById('result-33').style.color = 'initial';
+      document.getElementById('result-33').innerHTML = '';
+      document.getElementById('block-34').style.border = 'initial';
+      document.getElementById('result-34').style.color = 'initial';
+      document.getElementById('result-34').innerHTML = '';
+    }
+  }
+</script>
 
 
 
