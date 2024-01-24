@@ -67,7 +67,7 @@
     if (document.getElementById('option-12').checked) {
       document.getElementById('block-12').style.border = '3px solid limegreen'
       document.getElementById('result-12').style.color = 'limegreen'
-      document.getElementById('result-12').innerHTML = '¡Correcto! &#127881; En el tratamiento de la hepatitis A, la hidratación es un aspecto clave. Es importante monitorizar la función hepática para detectar insuficiencia hepática aguda, porque es el principal criterio de hospitalización. Se debe evitar medicamentos innecesarios como antieméticos o paracetamol. No hay fármacos específicos para el tratamiento de la hepatitis A. &#128175;'
+      document.getElementById('result-12').innerHTML = '¡Correcto! &#128175; En el tratamiento de la hepatitis A, la hidratación es un aspecto clave. Es importante monitorizar la función hepática para detectar insuficiencia hepática aguda, porque es el principal criterio de hospitalización. Se debe evitar medicamentos innecesarios como antieméticos o paracetamol. No hay fármacos específicos para el tratamiento de la hepatitis A. &#127775;'
       document.getElementById('block-11').style.border = 'initial';
       document.getElementById('result-11').style.color = 'initial';
       document.getElementById('result-11').innerHTML = '';
@@ -84,7 +84,7 @@
     if (document.getElementById('option-13').checked) {
       document.getElementById('block-13').style.border = '3px solid red'
       document.getElementById('result-13').style.color = 'red'
-      document.getElementById('result-13').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-13').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-11').style.border = 'initial';
       document.getElementById('result-11').style.color = 'initial';
       document.getElementById('result-11').innerHTML = '';
@@ -101,7 +101,7 @@
     if (document.getElementById('option-14').checked) {
       document.getElementById('block-14').style.border = '3px solid red'
       document.getElementById('result-14').style.color = 'red'
-      document.getElementById('result-14').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-14').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-11').style.border = 'initial';
       document.getElementById('result-11').style.color = 'initial';
       document.getElementById('result-11').innerHTML = '';
@@ -118,7 +118,7 @@
     if (document.getElementById('option-15').checked) {
       document.getElementById('block-15').style.border = '3px solid red'
       document.getElementById('result-15').style.color = 'red'
-      document.getElementById('result-15').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-15').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-11').style.border = 'initial';
       document.getElementById('result-11').style.color = 'initial';
       document.getElementById('result-11').innerHTML = '';
@@ -179,7 +179,7 @@
     if (document.getElementById('option-21').checked) {
       document.getElementById('block-21').style.border = '3px solid red'
       document.getElementById('result-21').style.color = 'red'
-      document.getElementById('result-21').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-21').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-22').style.border = 'initial';
       document.getElementById('result-22').style.color = 'initial';
       document.getElementById('result-22').innerHTML = '';
@@ -196,7 +196,7 @@
     if (document.getElementById('option-22').checked) {
       document.getElementById('block-22').style.border = '3px solid red'
       document.getElementById('result-22').style.color = 'red'
-      document.getElementById('result-22').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-22').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-21').style.border = 'initial';
       document.getElementById('result-21').style.color = 'initial';
       document.getElementById('result-21').innerHTML = '';
@@ -213,7 +213,7 @@
     if (document.getElementById('option-23').checked) {
       document.getElementById('block-23').style.border = '3px solid red'
       document.getElementById('result-23').style.color = 'red'
-      document.getElementById('result-23').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-23').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-21').style.border = 'initial';
       document.getElementById('result-21').style.color = 'initial';
       document.getElementById('result-21').innerHTML = '';
@@ -230,7 +230,7 @@
     if (document.getElementById('option-24').checked) {
       document.getElementById('block-24').style.border = '3px solid limegreen'
       document.getElementById('result-24').style.color = 'limegreen'
-      document.getElementById('result-24').innerHTML = '¡Correcto! Las pruebas de anticuerpo para detección de dengue son positivas desde 4 días después de la infección.'
+      document.getElementById('result-24').innerHTML = '¡Correcto! &#128175; Las pruebas de anticuerpo para detección de dengue son positivas desde 4 días después de la infección. &#127775;'
       document.getElementById('block-21').style.border = 'initial';
       document.getElementById('result-21').style.color = 'initial';
       document.getElementById('result-21').innerHTML = '';
@@ -247,7 +247,7 @@
     if (document.getElementById('option-25').checked) {
       document.getElementById('block-25').style.border = '3px solid red'
       document.getElementById('result-25').style.color = 'red'
-      document.getElementById('result-25').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-25').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-21').style.border = 'initial';
       document.getElementById('result-21').style.color = 'initial';
       document.getElementById('result-21').innerHTML = '';
@@ -308,7 +308,7 @@
     if (document.getElementById('option-31').checked) {
       document.getElementById('block-31').style.border = '3px solid limegreen'
       document.getElementById('result-31').style.color = 'limegreen'
-      document.getElementById('result-31').innerHTML = '¡Correcto! Los síntomas más frecuentes de chikungunya son fiebre y dolor articular o artralgias.'
+      document.getElementById('result-31').innerHTML = '¡Correcto! &#128175; Los síntomas más frecuentes de chikungunya son fiebre y dolor articular o artralgias. &#127775;'
       document.getElementById('block-32').style.border = 'initial';
       document.getElementById('result-32').style.color = 'initial';
       document.getElementById('result-32').innerHTML = '';
@@ -325,7 +325,7 @@
     if (document.getElementById('option-32').checked) {
       document.getElementById('block-32').style.border = '3px solid red'
       document.getElementById('result-32').style.color = 'red'
-      document.getElementById('result-32').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-32').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-31').style.border = 'initial';
       document.getElementById('result-31').style.color = 'initial';
       document.getElementById('result-31').innerHTML = '';
@@ -342,7 +342,7 @@
     if (document.getElementById('option-33').checked) {
       document.getElementById('block-33').style.border = '3px solid red'
       document.getElementById('result-33').style.color = 'red'
-      document.getElementById('result-33').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-33').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-31').style.border = 'initial';
       document.getElementById('result-31').style.color = 'initial';
       document.getElementById('result-31').innerHTML = '';
@@ -359,7 +359,7 @@
     if (document.getElementById('option-34').checked) {
       document.getElementById('block-34').style.border = '3px solid red'
       document.getElementById('result-34').style.color = 'red'
-      document.getElementById('result-34').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-34').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-31').style.border = 'initial';
       document.getElementById('result-31').style.color = 'initial';
       document.getElementById('result-31').innerHTML = '';
@@ -376,7 +376,7 @@
     if (document.getElementById('option-35').checked) {
       document.getElementById('block-35').style.border = '3px solid red'
       document.getElementById('result-35').style.color = 'red'
-      document.getElementById('result-35').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-35').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-31').style.border = 'initial';
       document.getElementById('result-31').style.color = 'initial';
       document.getElementById('result-31').innerHTML = '';
@@ -437,7 +437,7 @@
     if (document.getElementById('option-41').checked) {
       document.getElementById('block-41').style.border = '3px solid red'
       document.getElementById('result-41').style.color = 'red'
-      document.getElementById('result-41').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-41').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-42').style.border = 'initial';
       document.getElementById('result-42').style.color = 'initial';
       document.getElementById('result-42').innerHTML = '';
@@ -454,7 +454,7 @@
     if (document.getElementById('option-42').checked) {
       document.getElementById('block-42').style.border = '3px solid red'
       document.getElementById('result-42').style.color = 'red'
-      document.getElementById('result-42').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-42').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-41').style.border = 'initial';
       document.getElementById('result-41').style.color = 'initial';
       document.getElementById('result-41').innerHTML = '';
@@ -471,7 +471,7 @@
     if (document.getElementById('option-43').checked) {
       document.getElementById('block-43').style.border = '3px solid red'
       document.getElementById('result-43').style.color = 'red'
-      document.getElementById('result-43').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-43').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-41').style.border = 'initial';
       document.getElementById('result-41').style.color = 'initial';
       document.getElementById('result-41').innerHTML = '';
@@ -488,7 +488,7 @@
     if (document.getElementById('option-44').checked) {
       document.getElementById('block-44').style.border = '3px solid limegreen'
       document.getElementById('result-44').style.color = 'limegreen'
-      document.getElementById('result-44').innerHTML = '¡Correcto! El cuadro típico de dengue es fiebre menor a siete días, generalmente acompañado de dolor retrocular. Si el paciente tiene fiebre por más de 7 días, se debe descartar otras causas.'
+      document.getElementById('result-44').innerHTML = '¡Correcto! &#128175; El cuadro típico de dengue es fiebre menor a siete días, generalmente acompañado de dolor retrocular. Si el paciente tiene fiebre por más de 7 días, se debe descartar otras causas. &#127775;'
       document.getElementById('block-41').style.border = 'initial';
       document.getElementById('result-41').style.color = 'initial';
       document.getElementById('result-41').innerHTML = '';
@@ -505,7 +505,7 @@
     if (document.getElementById('option-45').checked) {
       document.getElementById('block-45').style.border = '3px solid red'
       document.getElementById('result-45').style.color = 'red'
-      document.getElementById('result-45').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-45').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-41').style.border = 'initial';
       document.getElementById('result-41').style.color = 'initial';
       document.getElementById('result-41').innerHTML = '';
@@ -566,7 +566,7 @@
     if (document.getElementById('option-51').checked) {
       document.getElementById('block-51').style.border = '3px solid red'
       document.getElementById('result-51').style.color = 'red'
-      document.getElementById('result-51').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-51').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-52').style.border = 'initial';
       document.getElementById('result-52').style.color = 'initial';
       document.getElementById('result-52').innerHTML = '';
@@ -583,7 +583,7 @@
     if (document.getElementById('option-52').checked) {
       document.getElementById('block-52').style.border = '3px solid red'
       document.getElementById('result-52').style.color = 'red'
-      document.getElementById('result-52').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-52').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-51').style.border = 'initial';
       document.getElementById('result-51').style.color = 'initial';
       document.getElementById('result-51').innerHTML = '';
@@ -600,7 +600,7 @@
     if (document.getElementById('option-53').checked) {
       document.getElementById('block-53').style.border = '3px solid red'
       document.getElementById('result-53').style.color = 'red'
-      document.getElementById('result-53').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-53').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-51').style.border = 'initial';
       document.getElementById('result-51').style.color = 'initial';
       document.getElementById('result-51').innerHTML = '';
@@ -617,7 +617,7 @@
     if (document.getElementById('option-54').checked) {
       document.getElementById('block-54').style.border = '3px solid limegreen'
       document.getElementById('result-54').style.color = 'limegreen'
-      document.getElementById('result-54').innerHTML = '¡Correcto! Se puede tomar PCR para confirmar dengue, chikungunya, zika o fiebre amarilla hasta 5 días después de la infección. Después de 5 días, la viremia disminuye y ya no se puede detectar por PCR. Por eso, desde los 5 días se usa pruebas para detectar anticuerpos.'
+      document.getElementById('result-54').innerHTML = '¡Correcto! &#128175; Se puede tomar PCR para confirmar dengue, chikungunya, zika o fiebre amarilla hasta 5 días después de la infección. Después de 5 días, la viremia disminuye y ya no se puede detectar por PCR. Por eso, desde los 5 días se usa pruebas para detectar anticuerpos. &#127775;'
       document.getElementById('block-51').style.border = 'initial';
       document.getElementById('result-51').style.color = 'initial';
       document.getElementById('result-51').innerHTML = '';
@@ -634,7 +634,7 @@
     if (document.getElementById('option-55').checked) {
       document.getElementById('block-55').style.border = '3px solid red'
       document.getElementById('result-55').style.color = 'red'
-      document.getElementById('result-55').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-55').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-51').style.border = 'initial';
       document.getElementById('result-51').style.color = 'initial';
       document.getElementById('result-51').innerHTML = '';
@@ -695,7 +695,7 @@
     if (document.getElementById('option-61').checked) {
       document.getElementById('block-61').style.border = '3px solid red'
       document.getElementById('result-61').style.color = 'red'
-      document.getElementById('result-61').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-61').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-62').style.border = 'initial';
       document.getElementById('result-62').style.color = 'initial';
       document.getElementById('result-62').innerHTML = '';
@@ -712,7 +712,7 @@
     if (document.getElementById('option-62').checked) {
       document.getElementById('block-62').style.border = '3px solid red'
       document.getElementById('result-62').style.color = 'red'
-      document.getElementById('result-62').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-62').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-61').style.border = 'initial';
       document.getElementById('result-61').style.color = 'initial';
       document.getElementById('result-61').innerHTML = '';
@@ -729,7 +729,7 @@
     if (document.getElementById('option-63').checked) {
       document.getElementById('block-63').style.border = '3px solid red'
       document.getElementById('result-63').style.color = 'red'
-      document.getElementById('result-63').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-63').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-61').style.border = 'initial';
       document.getElementById('result-61').style.color = 'initial';
       document.getElementById('result-61').innerHTML = '';
@@ -746,7 +746,7 @@
     if (document.getElementById('option-64').checked) {
       document.getElementById('block-64').style.border = '3px solid limegreen'
       document.getElementById('result-64').style.color = 'limegreen'
-      document.getElementById('result-64').innerHTML = '¡Correcto! La normativa vigente establece que se puede tomar una prueba de ELISA solamente para dengue y chikungunya.'
+      document.getElementById('result-64').innerHTML = '¡Correcto! &#128175; La normativa vigente establece que se puede tomar una prueba de ELISA solamente para dengue y chikungunya. &#127775;'
       document.getElementById('block-61').style.border = 'initial';
       document.getElementById('result-61').style.color = 'initial';
       document.getElementById('result-61').innerHTML = '';
@@ -763,7 +763,7 @@
     if (document.getElementById('option-65').checked) {
       document.getElementById('block-65').style.border = '3px solid red'
       document.getElementById('result-65').style.color = 'red'
-      document.getElementById('result-65').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-65').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-61').style.border = 'initial';
       document.getElementById('result-61').style.color = 'initial';
       document.getElementById('result-61').innerHTML = '';
