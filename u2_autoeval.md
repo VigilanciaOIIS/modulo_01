@@ -50,7 +50,7 @@
     if (document.getElementById('option-11').checked) {
       document.getElementById('block-11').style.border = '3px solid red'
       document.getElementById('result-11').style.color = 'red'
-      document.getElementById('result-11').innerHTML = 'Intenta otra vez'
+      document.getElementById('result-11').innerHTML = 'Intenta otra vez &#128552;'
       document.getElementById('block-12').style.border = 'initial';
       document.getElementById('result-12').style.color = 'initial';
       document.getElementById('result-12').innerHTML = '';
@@ -67,7 +67,7 @@
     if (document.getElementById('option-12').checked) {
       document.getElementById('block-12').style.border = '3px solid limegreen'
       document.getElementById('result-12').style.color = 'limegreen'
-      document.getElementById('result-12').innerHTML = '¡Correcto! En el tratamiento de la hepatitis A, la hidratación es un aspecto clave. Es importante monitorizar la función hepática para detectar insuficiencia hepática aguda, porque es el principal criterio de hospitalización. Se debe evitar medicamentos innecesarios como antieméticos o paracetamol. No hay fármacos específicos para el tratamiento de la hepatitis A.'
+      document.getElementById('result-12').innerHTML = '¡Correcto! &#127881; En el tratamiento de la hepatitis A, la hidratación es un aspecto clave. Es importante monitorizar la función hepática para detectar insuficiencia hepática aguda, porque es el principal criterio de hospitalización. Se debe evitar medicamentos innecesarios como antieméticos o paracetamol. No hay fármacos específicos para el tratamiento de la hepatitis A. &#128175;'
       document.getElementById('block-11').style.border = 'initial';
       document.getElementById('result-11').style.color = 'initial';
       document.getElementById('result-11').innerHTML = '';
