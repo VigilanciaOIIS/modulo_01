@@ -9,6 +9,104 @@
 <p><a href="index.html">Índice</a> | <a href="u2.html">Unidad 2</a>
 
 <div>
+<h3>¿Cuáles de los siguientes pueden ser criaderos de Aedes aegypti?:</h3>
+<p>Marque todas las que correspondan.</p>
+  <div id='block-151'>
+    <label for='option-151'>
+      <input type='checkbox' name='option' value='A' id='option-151'/>
+      A. Recipientes y bebederos con agua sin tapa</label>
+    <span id='result-151'></span>
+  </div>
+   <div id='block-152'>
+    <label for='option-152'>
+      <input type='checkbox' name='option' value='B' id='option-152'/>
+      B. Floreros con arena húmeda</label>
+    <span id='result-152'></span>
+  </div>
+   <div id='block-153'>
+    <label for='option-153'>
+      <input type='checkbox' name='option' value='C' id='option-153'/>
+      C. Llantas con agua de lluvia</label>
+    <span id='result-153'></span>
+  </div>
+  <div id='block-154'>
+    <label for='option-154'>
+      <input type='checkbox' name='option' value='D' id='option-154'/>
+      D. Tanques de agua sin tapa</label>
+    <span id='result-154'></span>
+  </div>
+  <div id='block-155'>
+    <label for='option-155'>
+      <input type='checkbox' name='option' value='E' id='option-155'/>
+      E. Piscinas con agua sin cubierta</label>
+    <span id='result-155'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer15() {
+    if (document.getElementById('option-151').checked) {
+      document.getElementById('block-151').style.border = '3px solid limegreen'
+      document.getElementById('result-151').style.color = 'limegreen'
+      document.getElementById('result-151').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-151').style.border = 'initial';
+      document.getElementById('result-151').style.color = 'initial';
+      document.getElementById('result-151').innerHTML = '';
+    }
+    if (document.getElementById('option-152').checked) {
+      document.getElementById('block-152').style.border = '3px solid red'
+      document.getElementById('result-152').style.color = 'red'
+      document.getElementById('result-152').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-152').style.border = 'initial';
+      document.getElementById('result-152').style.color = 'initial';
+      document.getElementById('result-152').innerHTML = '';
+    }
+    if (document.getElementById('option-153').checked) {
+      document.getElementById('block-153').style.border = '3px solid limegreen'
+      document.getElementById('result-153').style.color = 'limegreen'
+      document.getElementById('result-153').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-153').style.border = 'initial';
+      document.getElementById('result-153').style.color = 'initial';
+      document.getElementById('result-153').innerHTML = '';
+    }
+    if (document.getElementById('option-154').checked) {
+      document.getElementById('block-154').style.border = '3px solid limegreen'
+      document.getElementById('result-154').style.color = 'limegreen'
+      document.getElementById('result-154').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-154').style.border = 'initial';
+      document.getElementById('result-154').style.color = 'initial';
+      document.getElementById('result-154').innerHTML = '';
+    }
+    if (document.getElementById('option-155').checked) {
+      document.getElementById('block-155').style.border = '3px solid limegreen'
+      document.getElementById('result-155').style.color = 'limegreen'
+      document.getElementById('result-155').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-155').style.border = 'initial';
+      document.getElementById('result-155').style.color = 'initial';
+      document.getElementById('result-155').innerHTML = '';
+    }
+    if (document.getElementById('option-151').checked) !! (document.getElementById('option-153').checked) !! (document.getElementById('option-154').checked) !! (document.getElementById('option-155').checked) {
+    <div id='block-A15'>
+      <label for='option-A15'>
+        La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>
+      <span id='result-A15'></span>
+    </div>
+      document.getElementById('block-A15').style.border = '3px solid limegreen'
+      document.getElementById('result-A15').style.color = 'limegreen'
+    }
+  }
+</script>
+
+<hr>
+
+<div>
 <h3>¿Cuál de las siguientes opciones es correcta en el tratamiento de la hepatitis A?</h3>
 <p>Elige la respuesta correcta</p>
   <div id='block-11'>
@@ -1357,7 +1455,7 @@
     if (document.getElementById('option-112').checked) {
       document.getElementById('block-112').style.border = '3px solid limegreen'
       document.getElementById('result-112').style.color = 'limegreen'
-      document.getElementById('result-112').innerHTML = '¡Correcto! &#128175; La definición de caso sospechoso es: Toda persona con fiebre de inicio brusco que presenta artralgia severa, poliartralgia bilateral o artritis no explicada clínicamente por otra condición médica, con un tiempo de evolución menor o igual a 7 días, que reside o ha visitado áreas con transmisión de la enfermedad o con infestación del vector <i>Aedes aegypti</i>, 14 días antes del inicio de los síntomas y que presente alguna de las siguientes manifestaciones: mialgias, cefalea, rash / exantema (erupción cutánea). &#127775;'
+      document.getElementById('result-112').innerHTML = '¡Correcto! &#127775;'
       document.getElementById('block-111').style.border = 'initial';
       document.getElementById('result-111').style.color = 'initial';
       document.getElementById('result-111').innerHTML = '';
@@ -1516,13 +1614,180 @@
 
 <hr>
 
+<div>
+<h3>¿Cómo se diagnostica leishmaniasis?</h3>
+<p> Marque las 2 alternativas correctas.</p>
+  <div id='block-131'>
+    <label for='option-131'>
+      <input type='checkbox' name='option' value='A' id='option-131'/>
+      A. El test de Montenegro es el gold standard</label>
+    <span id='result-131'></span>
+  </div>
+   <div id='block-132'>
+    <label for='option-132'>
+      <input type='checkbox' name='option' value='B' id='option-132'/>
+      B. Demostrando amastigotes en muestras clínicas al microscopio</label>
+    <span id='result-132'></span>
+  </div>
+   <div id='block-133'>
+    <label for='option-133'>
+      <input type='checkbox' name='option' value='C' id='option-133'/>
+      C. Test de aglutinación directa</label>
+    <span id='result-133'></span>
+  </div>
+  <div id='block-134'>
+    <label for='option-134'>
+      <input type='checkbox' name='option' value='D' id='option-134'/>
+      D. Mediante técnicas moleculares de amplificación de ADN nuclear o del cinetoplasto</label>
+    <span id='result-134'></span>
+  </div>
+  <div id='block-135'>
+    <label for='option-135'>
+      <input type='checkbox' name='option' value='E' id='option-135'/>
+      E. Prueba de antígenos</label>
+    <span id='result-135'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer13()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer13() {
+    if (document.getElementById('option-131').checked) {
+      document.getElementById('block-131').style.border = '3px solid red'
+      document.getElementById('result-131').style.color = 'red'
+      document.getElementById('result-131').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-131').style.border = 'initial';
+      document.getElementById('result-131').style.color = 'initial';
+      document.getElementById('result-131').innerHTML = '';
+    }
+    if (document.getElementById('option-132').checked) {
+      document.getElementById('block-132').style.border = '3px solid limegreen'
+      document.getElementById('result-132').style.color = 'limegreen'
+      document.getElementById('result-132').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-132').style.border = 'initial';
+      document.getElementById('result-132').style.color = 'initial';
+      document.getElementById('result-132').innerHTML = '';
+    }
+    if (document.getElementById('option-133').checked) {
+      document.getElementById('block-133').style.border = '3px solid red'
+      document.getElementById('result-133').style.color = 'red'
+      document.getElementById('result-133').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-133').style.border = 'initial';
+      document.getElementById('result-133').style.color = 'initial';
+      document.getElementById('result-133').innerHTML = '';
+    }
+    if (document.getElementById('option-134').checked) {
+      document.getElementById('block-134').style.border = '3px solid limegreen'
+      document.getElementById('result-134').style.color = 'limegreen'
+      document.getElementById('result-134').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-134').style.border = 'initial';
+      document.getElementById('result-134').style.color = 'initial';
+      document.getElementById('result-134').innerHTML = '';
+    }
+    if (document.getElementById('option-135').checked) {
+      document.getElementById('block-135').style.border = '3px solid red'
+      document.getElementById('result-135').style.color = 'red'
+      document.getElementById('result-135').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-135').style.border = 'initial';
+      document.getElementById('result-135').style.color = 'initial';
+      document.getElementById('result-135').innerHTML = '';
+    }
+  }
+</script>
 
+<hr>
 
-
-
-
-
-
+<div>
+<h3>Marque los enunciados verdaderos sobre la enfermedad por arañazo de gato:</h3>
+  <div id='block-141'>
+    <label for='option-141'>
+      <input type='checkbox' name='option' value='A' id='option-141'/>
+      A. El contacto frecuente con gatos es un antecedente importante</label>
+    <span id='result-141'></span>
+  </div>
+   <div id='block-142'>
+    <label for='option-142'>
+      <input type='checkbox' name='option' value='B' id='option-142'/>
+      B. Se recomienda usar azitromicina o claritromicina como primera elección</label>
+    <span id='result-142'></span>
+  </div>
+   <div id='block-143'>
+    <label for='option-143'>
+      <input type='checkbox' name='option' value='C' id='option-143'/>
+      C. El tratamiento antibiótico dura 5 semanas</label>
+    <span id='result-143'></span>
+  </div>
+  <div id='block-144'>
+    <label for='option-144'>
+      <input type='checkbox' name='option' value='D' id='option-144'/>
+      D. Puede cursar con linfadenopatías supurativas</label>
+    <span id='result-144'></span>
+  </div>
+  <div id='block-145'>
+    <label for='option-145'>
+      <input type='checkbox' name='option' value='E' id='option-145'/>
+      E. No se trata con antibióticos</label>
+    <span id='result-145'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer14()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer14() {
+    if (document.getElementById('option-141').checked) {
+      document.getElementById('block-141').style.border = '3px solid limegreen'
+      document.getElementById('result-141').style.color = 'limegreen'
+      document.getElementById('result-141').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-141').style.border = 'initial';
+      document.getElementById('result-141').style.color = 'initial';
+      document.getElementById('result-141').innerHTML = '';
+    }
+    if (document.getElementById('option-142').checked) {
+      document.getElementById('block-142').style.border = '3px solid limegreen'
+      document.getElementById('result-142').style.color = 'limegreen'
+      document.getElementById('result-142').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-142').style.border = 'initial';
+      document.getElementById('result-142').style.color = 'initial';
+      document.getElementById('result-142').innerHTML = '';
+    }
+    if (document.getElementById('option-143').checked) {
+      document.getElementById('block-143').style.border = '3px solid limegreen'
+      document.getElementById('result-143').style.color = 'limegreen'
+      document.getElementById('result-143').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-143').style.border = 'initial';
+      document.getElementById('result-143').style.color = 'initial';
+      document.getElementById('result-143').innerHTML = '';
+    }
+    if (document.getElementById('option-144').checked) {
+      document.getElementById('block-144').style.border = '3px solid limegreen'
+      document.getElementById('result-144').style.color = 'limegreen'
+      document.getElementById('result-144').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-144').style.border = 'initial';
+      document.getElementById('result-144').style.color = 'initial';
+      document.getElementById('result-144').innerHTML = '';
+    }
+    if (document.getElementById('option-145').checked) {
+      document.getElementById('block-145').style.border = '3px solid red'
+      document.getElementById('result-145').style.color = 'red'
+      document.getElementById('result-145').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-145').style.border = 'initial';
+      document.getElementById('result-145').style.color = 'initial';
+      document.getElementById('result-145').innerHTML = '';
+    }
+  }
+</script>
 
 <hr>
 
