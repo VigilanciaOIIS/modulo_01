@@ -437,27 +437,127 @@
     if (document.getElementById('option-41').checked) {
       document.getElementById('block-41').style.border = '3px solid limegreen'
       document.getElementById('result-41').style.color = 'limegreen'
-      document.getElementById('result-41').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('result-41').innerHTML = '¡Correcto! &#127775;'
+          if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red'
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = '¡Correcto! &#127775;'
+      }
+          if (document.getElementById('option-45').checked) {
+      document.getElementById('block-45').style.border = '3px solid limegreen'
+      document.getElementById('result-45').style.color = 'limegreen'
+      document.getElementById('result-45').innerHTML = '¡Correcto! &#127775;'
+      }
     }
     if (document.getElementById('option-42').checked) {
       document.getElementById('block-42').style.border = '3px solid red'
       document.getElementById('result-42').style.color = 'red'
       document.getElementById('result-42').innerHTML = 'Incorrecto &#128552;'
+          if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = '¡Correcto! &#127775;'
+      }
+          if (document.getElementById('option-45').checked) {
+      document.getElementById('block-45').style.border = '3px solid limegreen'
+      document.getElementById('result-45').style.color = 'limegreen'
+      document.getElementById('result-45').innerHTML = '¡Correcto! &#127775;'
+      }
     }
     if (document.getElementById('option-43').checked) {
       document.getElementById('block-43').style.border = '3px solid red'
       document.getElementById('result-43').style.color = 'red'
       document.getElementById('result-43').innerHTML = 'Incorrecto &#128552;'
+          if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red'
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = '¡Correcto! &#127775;'
+      }
+          if (document.getElementById('option-45').checked) {
+      document.getElementById('block-45').style.border = '3px solid limegreen'
+      document.getElementById('result-45').style.color = 'limegreen'
+      document.getElementById('result-45').innerHTML = '¡Correcto! &#127775;'
+      }
     }
     if (document.getElementById('option-44').checked) {
       document.getElementById('block-44').style.border = '3px solid limegreen'
       document.getElementById('result-44').style.color = 'limegreen'
       document.getElementById('result-44').innerHTML = '¡Correcto! &#127775;'
+          if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red'
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid limegreen'
+      document.getElementById('result-43').style.color = 'limegreen'
+      document.getElementById('result-43').innerHTML = '¡Correcto! &#127775;'
+      }
+          if (document.getElementById('option-45').checked) {
+      document.getElementById('block-45').style.border = '3px solid limegreen'
+      document.getElementById('result-45').style.color = 'limegreen'
+      document.getElementById('result-45').innerHTML = '¡Correcto! &#127775;'
+      }
     }
     if (document.getElementById('option-45').checked) {
       document.getElementById('block-45').style.border = '3px solid limegreen'
       document.getElementById('result-45').style.color = 'limegreen'
       document.getElementById('result-45').innerHTML = '¡Correcto! &#127775;'
+          if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid red'
+      document.getElementById('result-41').style.color = 'red'
+      document.getElementById('result-41').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red'
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrecto &#128552;'
+      }
+          if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid limegreen'
+      document.getElementById('result-43').style.color = 'limegreen'
+      document.getElementById('result-43').innerHTML = '¡Correcto! &#127775;'
+      }
+          if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = '¡Correcto! &#127775;'
+      }
     }
   }
 </script>
