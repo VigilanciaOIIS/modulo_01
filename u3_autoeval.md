@@ -6,7 +6,7 @@
 
 <h1>Autoevaluación: Unidad 3</h1>
 <p><i>Infecciones respiratorias: IRAs. Influenza. COVID-19. Neumonía adquirida en la comunidad. Tuberculosis. Asma. Infecciones gastrointestinales: EDAs. Cólera. Shigelosis. Salmonelosis. Parasitosis.</i></p>
-<p><a href="index.html">Índice</a> | <a href="u3.html">Unidad 3</a>
+<p><a href="index.html">Inicio</a> | <a href="u3.html">Unidad 3</a>
 
 <div>
 <h3>Marque el enunciado correcto sobre las diferencias entre tuberculosis, COVID-19 y resfrío.</h3>
