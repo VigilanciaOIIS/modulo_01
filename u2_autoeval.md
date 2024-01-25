@@ -43,9 +43,13 @@
   </div>
   <div id='result-container'></div>
   <br>
-  <button type='button' onclick='displayAnswer15(); displayText15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='display15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
+function display15() {
+    displayAnswer15();
+    displayText15();
+}  
   //    The function evaluates the answer and displays result
   function displayAnswer15() {
     if (document.getElementById('option-151').checked) {
@@ -97,13 +101,10 @@
   //    The function evaluates the answer and displays an explanatory text
 function displayText15() {
   var textDisplayed = false;
-  function resetDisplay() {
-    textDisplayed = false;
-  }
   if (!textDisplayed && document.getElementById('option-151').checked && document.getElementById('option-153').checked && document.getElementById('option-154').checked && document.getElementById('option-155').checked) {
     // Set the variable to true to prevent further displays
     textDisplayed = true;
-    function resetDisplay();
+    resetDisplay();
     // Create a new div element
     var newDiv = document.createElement('div');
     // Set the id and style properties for the new div
