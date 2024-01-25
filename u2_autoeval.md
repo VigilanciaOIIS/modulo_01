@@ -6,7 +6,7 @@
 
 <h1>Autoevaluación: Unidad 2</h1>
 <p><i>Temas: Enfoque diagnóstico del síndrome febril. Dengue. Chikungunya. Fiebre amarilla. Zika. Bartonelosis. Leishmaniasis. Malaria. Principios de control vectorial para la prevención de arbovirosis y otras enfermedades metaxénicas.</i></p>
-<p><a href="index.html">Índice</a> | <a href="u2.html">Unidad 2</a>
+<p><a href="index.html">Inicio</a> | <a href="u2.html">Unidad 2</a>
 
 <div>
 <h3>¿Cuáles de los siguientes pueden ser criaderos de <i>Aedes aegypti</i>?</h3>
