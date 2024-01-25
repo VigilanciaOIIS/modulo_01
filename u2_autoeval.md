@@ -99,8 +99,8 @@ function display15() {
     }
   }
   //    The function evaluates the answer and displays an explanatory text
+var textDisplayed = false; // Declare textDisplayed outside the function
 function displayText15() {
-  var textDisplayed = false;
   if (!textDisplayed && document.getElementById('option-151').checked && document.getElementById('option-153').checked && document.getElementById('option-154').checked && document.getElementById('option-155').checked) {
     // Set the variable to true to prevent further displays
     textDisplayed = true;
@@ -116,6 +116,9 @@ function displayText15() {
     // Append the new div to the result-container
     document.getElementById('result-container').appendChild(newDiv);
   }
+}
+function resetDisplay() {
+  textDisplayed = false;
 }
 </script>
 
