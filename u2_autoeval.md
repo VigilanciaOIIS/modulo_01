@@ -9,8 +9,8 @@
 <p><a href="index.html">Índice</a> | <a href="u2.html">Unidad 2</a>
 
 <div>
-<h3>¿Cuáles de los siguientes pueden ser criaderos de Aedes aegypti?:</h3>
-<p>Marque todas las que correspondan.</p>
+<h3>¿Cuáles de los siguientes pueden ser criaderos de <i>Aedes aegypti</i>?</h3>
+<p>Marque las 4 alternativas correctas.</p>
   <div id='block-151'>
     <label for='option-151'>
       <input type='checkbox' name='option' value='A' id='option-151'/>
@@ -42,7 +42,7 @@
     <span id='result-155'></span>
   </div>
   <br>
-  <button type='button' onclick='displayAnswer15(); displayText15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='displayAnswer15(); displayText15();' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
@@ -93,8 +93,9 @@
       document.getElementById('result-155').innerHTML = '';
     }
   }
+  //    The function evaluates the answer and displays an explanatory text
   function displayText15() {
-    if (document.getElementById('option-151').checked) !! (document.getElementById('option-153').checked) !! (document.getElementById('option-154').checked) !! (document.getElementById('option-155').checked) {
+    if (document.getElementById('option-151').checked); (document.getElementById('option-153').checked) ; (document.getElementById('option-154').checked); (document.getElementById('option-155').checked) {
     <div id='block-A15'>
       <label>
         La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>
