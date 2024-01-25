@@ -10,7 +10,7 @@
 
 <div>
 <h3>¿Cuáles de los siguientes pueden ser criaderos de <i>Aedes aegypti</i>?</h3>
-<p>Marque las 4 alternativas correctas.</p>
+<p>Marque las 4 alternativas correctas</p>
   <div id='block-151'>
     <label for='option-151'>
       <input type='checkbox' name='option' value='A' id='option-151'/>
@@ -43,7 +43,7 @@
   </div>
   <div id='result-container'></div>
   <br>
-  <button type='button' onclick='displayAnswer15(); displayText15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='displayAnswer15(); displayText15();resetDisplay()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
@@ -111,6 +111,9 @@ function displayText15() {
     // Append the new div to the result-container
     document.getElementById('result-container').appendChild(newDiv);
   }
+}
+function resetDisplay() {
+    textDisplayed = false;
 }
 </script>
 
