@@ -6,7 +6,7 @@
 
 <h1>Autoevaluación: Unidad 6</h1>
 <p><i>Temas: Primeros auxilios y estabilización de pacientes. Traumatismos y caídas. Quemaduras. Golpe de calor. Emergencias obstétricas. Accidentes cerebrovasculares. Accidentes por animales ponzoñosos.</i></p>
-<p><a href="index.html">Índice</a> | <a href="u6.html">Unidad 6</a>
+<p><a href="index.html">Inicio</a> | <a href="u6.html">Unidad 6</a>
 
 <div>
 <h3>¿Cuál es el número de los bomberos a nivel nacional?</h3>
