@@ -42,7 +42,7 @@
     <span id='result-155'></span>
   </div>
   <br>
-  <button type='button' onclick='displayAnswer15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='displayAnswer15(); displayText15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
@@ -92,9 +92,11 @@
       document.getElementById('result-155').style.color = 'initial';
       document.getElementById('result-155').innerHTML = '';
     }
+  }
+  function displayText15() {
     if (document.getElementById('option-151').checked) !! (document.getElementById('option-153').checked) !! (document.getElementById('option-154').checked) !! (document.getElementById('option-155').checked) {
     <div id='block-A15'>
-      <label for='option-A15'>
+      <label>
         La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>
       <span id='result-A15'></span>
     </div>
