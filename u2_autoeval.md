@@ -46,6 +46,7 @@
   <button type='button' onclick='display15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
+var textDisplayed = false; // Declare textDisplayed globally
 function display15() {
     displayAnswer15();
     displayText15();
