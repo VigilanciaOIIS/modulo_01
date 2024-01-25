@@ -429,7 +429,7 @@
     <span id='result-45'></span>
   </div>
   <br>
-  <button type='button' onclick='displayAnswer3()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='displayAnswer4()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
