@@ -96,8 +96,6 @@
   }
   //    The function evaluates the answer and displays an explanatory text
 function displayText15() {
-    if (document.getElementById('option-151').checked && document.getElementById('option-153').checked && document.getElementById('option-154').checked && document.getElementById('option-155').checked) {
-  // Only display the explanatory text if it hasn't been displayed before
   if (!textDisplayed && document.getElementById('option-151').checked && document.getElementById('option-153').checked && document.getElementById('option-154').checked && document.getElementById('option-155').checked) {
     // Set the variable to true to prevent further displays
     textDisplayed = true;
