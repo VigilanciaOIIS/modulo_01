@@ -571,6 +571,9 @@
 
 <hr>
 
-<p><a href="index.html">Índice</a> | <a href="u6.html">Unidad 6</a></p>
+<p><b>¡Felicitaciones por llegar al final de este módulo de autoaprendizaje! &#127882;</b></p>
+<p>Esperamos que todo lo que has aprendido te sea útil en tu práctica diaria, y te deseamos lo mejor. Gracias por llevar este módulo. ¡Hasta una próxima oportunidad!</p>
+
+<p><a href="index.html">&#127968; Inicio</a> | <a href="u6.html">&#9194; Unidad 6</a>
 
 <p>Oficina de Inteligencia e Información Sanitaria OIIS, EsSalud, Perú - 2024</p>
