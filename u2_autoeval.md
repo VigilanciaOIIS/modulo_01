@@ -1425,7 +1425,96 @@
   }
 </script>
 
+<hr>
 
+<div>
+<h3>¿Cómo se diagnostica malaria?</h3>
+<p> Marque las 2 alternativas correctas.</p>
+  <div id='block-121'>
+    <label for='option-121'>
+      <input type='checkbox' name='option' value='A' id='option-121'/>
+      A. El gold standard es inmunofluorescencia indirecta IFI</label>
+    <span id='result-121'></span>
+  </div>
+   <div id='block-122'>
+    <label for='option-122'>
+      <input type='checkbox' name='option' value='B' id='option-122'/>
+      B. El diagnóstico es solo clínico</label>
+    <span id='result-122'></span>
+  </div>
+   <div id='block-123'>
+    <label for='option-123'>
+      <input type='checkbox' name='option' value='C' id='option-123'/>
+      C. Pruebas inmunocromatográficas o moleculares confirman el diagnóstico</label>
+    <span id='result-123'></span>
+  </div>
+  <div id='block-124'>
+    <label for='option-124'>
+      <input type='checkbox' name='option' value='D' id='option-124'/>
+      D. El gold standard es inmunohistoquímica</label>
+    <span id='result-124'></span>
+  </div>
+  <div id='block-125'>
+    <label for='option-125'>
+      <input type='checkbox' name='option' value='E' id='option-125'/>
+      E. El método fundamental y rutinario es la gota gruesa</label>
+    <span id='result-125'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer12()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer12() {
+    if (document.getElementById('option-121').checked) {
+      document.getElementById('block-121').style.border = '3px solid red'
+      document.getElementById('result-121').style.color = 'red'
+      document.getElementById('result-121').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-121').style.border = 'initial';
+      document.getElementById('result-121').style.color = 'initial';
+      document.getElementById('result-121').innerHTML = '';
+    }
+    if (document.getElementById('option-122').checked) {
+      document.getElementById('block-122').style.border = '3px solid red'
+      document.getElementById('result-122').style.color = 'red'
+      document.getElementById('result-122').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-122').style.border = 'initial';
+      document.getElementById('result-122').style.color = 'initial';
+      document.getElementById('result-122').innerHTML = '';
+    }
+    if (document.getElementById('option-123').checked) {
+      document.getElementById('block-123').style.border = '3px solid limegreen'
+      document.getElementById('result-123').style.color = 'limegreen'
+      document.getElementById('result-123').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-123').style.border = 'initial';
+      document.getElementById('result-123').style.color = 'initial';
+      document.getElementById('result-123').innerHTML = '';
+    }
+    if (document.getElementById('option-124').checked) {
+      document.getElementById('block-124').style.border = '3px solid red'
+      document.getElementById('result-124').style.color = 'red'
+      document.getElementById('result-124').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-124').style.border = 'initial';
+      document.getElementById('result-124').style.color = 'initial';
+      document.getElementById('result-124').innerHTML = '';
+    }
+    if (document.getElementById('option-125').checked) {
+      document.getElementById('block-125').style.border = '3px solid limegreen'
+      document.getElementById('result-125').style.color = 'limegreen'
+      document.getElementById('result-125').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-125').style.border = 'initial';
+      document.getElementById('result-125').style.color = 'initial';
+      document.getElementById('result-125').innerHTML = '';
+    }
+  }
+</script>
+
+<hr>
 
 
 
