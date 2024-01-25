@@ -42,10 +42,14 @@
     <span id='result-155'></span>
   </div>
   <br>
-  <button type='button' onclick='displayAnswer15();displayText15();' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='display15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
+  function display15(){
+    function displayAnswer15();
+    function displayText15();
+    }
   function displayAnswer15() {
     if (document.getElementById('option-151').checked) {
       document.getElementById('block-151').style.border = '3px solid limegreen'
