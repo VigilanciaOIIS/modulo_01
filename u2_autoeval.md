@@ -99,12 +99,9 @@ function display15() {
     }
   }
   //    The function evaluates the answer and displays an explanatory text
-var textDisplayed = false; // Declare textDisplayed outside the function
 function displayText15() {
+  resetDisplay();
   if (!textDisplayed && document.getElementById('option-151').checked && document.getElementById('option-153').checked && document.getElementById('option-154').checked && document.getElementById('option-155').checked) {
-    // Set the variable to true to prevent further displays
-    textDisplayed = true;
-    resetDisplay();
     // Create a new div element
     var newDiv = document.createElement('div');
     // Set the id and style properties for the new div
