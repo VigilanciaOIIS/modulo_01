@@ -41,6 +41,7 @@
       E. Piscinas con agua sin cubierta</label>
     <span id='result-155'></span>
   </div>
+  <div id='result-container'></div>
   <br>
   <button type='button' onclick='displayAnswer15(); displayText15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
@@ -105,7 +106,7 @@ function displayText15() {
         // Set the inner HTML content for the new div
         newDiv.innerHTML = "<label>La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>";
         // Append the new div to the document body (you can adjust this based on where you want to append it)
-        document.body.appendChild(newDiv);
+        document.getElementById('result-container').appendChild(newDiv);
     }
 }
 </script>
