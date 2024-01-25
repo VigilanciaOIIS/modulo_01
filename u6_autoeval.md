@@ -395,6 +395,75 @@
 
 <hr>
 
+<div>
+<h3>¿Qué medidas debemos seguir para prevenir el golpe de calor en niños? Marque los 3 enunciados correctos.</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-41'>
+    <label for='option-41'>
+      <input type='checkbox' name='option' value='A' id='option-41'/>
+      A. No exponerse al sol entre las 11 am y las 4 pm</label>
+    <span id='result-41'></span>
+  </div>
+   <div id='block-42'>
+    <label for='option-42'>
+      <input type='checkbox' name='option' value='B' id='option-42'/>
+      B. Las frutas secas previenen el golpe de calor</label>
+    <span id='result-42'></span>
+  </div>
+   <div id='block-43'>
+    <label for='option-43'>
+      <input type='checkbox' name='option' value='C' id='option-43'/>
+      C. Los niños no deben usar protector solar desde los 6 meses de edad</label>
+    <span id='result-43'></span>
+  </div>
+  <div id='block-44'>
+    <label for='option-44'>
+      <input type='checkbox' name='option' value='D' id='option-44'/>
+      D. Ponerles ropa fresca, por ejemplo, de algodón</label>
+    <span id='result-44'></span>
+  </div>
+  <div id='block-45'>
+    <label for='option-45'>
+      <input type='checkbox' name='option' value='E' id='option-45'/>
+      E. Mantenerlos hidratados con agua y frutas con alto contenido de agua</label>
+    <span id='result-45'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer3()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer4() {
+    if (document.getElementById('option-41').checked) {
+      document.getElementById('block-41').style.border = '3px solid limegreen'
+      document.getElementById('result-41').style.color = 'limegreen'
+      document.getElementById('result-41').innerHTML = 'Intenta otra vez &#128552;'
+    }
+    if (document.getElementById('option-42').checked) {
+      document.getElementById('block-42').style.border = '3px solid red'
+      document.getElementById('result-42').style.color = 'red'
+      document.getElementById('result-42').innerHTML = 'Incorrecto &#128552;'
+    }
+    if (document.getElementById('option-43').checked) {
+      document.getElementById('block-43').style.border = '3px solid red'
+      document.getElementById('result-43').style.color = 'red'
+      document.getElementById('result-43').innerHTML = 'Incorrecto &#128552;'
+    }
+    if (document.getElementById('option-44').checked) {
+      document.getElementById('block-44').style.border = '3px solid limegreen'
+      document.getElementById('result-44').style.color = 'limegreen'
+      document.getElementById('result-44').innerHTML = '¡Correcto! &#127775;'
+    }
+    if (document.getElementById('option-45').checked) {
+      document.getElementById('block-45').style.border = '3px solid limegreen'
+      document.getElementById('result-45').style.color = 'limegreen'
+      document.getElementById('result-45').innerHTML = '¡Correcto! &#127775;'
+    }
+  }
+</script>
+
+<hr>
+
 <p><a href="index.html">Índice</a> | <a href="u6.html">Unidad 6</a></p>
 
 <p>Oficina de Inteligencia e Información Sanitaria OIIS, EsSalud, Perú - 2024</p>
