@@ -42,14 +42,10 @@
     <span id='result-155'></span>
   </div>
   <br>
-  <button type='button' onclick='display15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='displayAnswer15(); displayText15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
-  function display15(){
-    function displayAnswer15();
-    function displayText15();
-    }
   function displayAnswer15() {
     if (document.getElementById('option-151').checked) {
       document.getElementById('block-151').style.border = '3px solid limegreen'
@@ -98,16 +94,20 @@
     }
   }
   //    The function evaluates the answer and displays an explanatory text
-  function displayText15() {
-    if (document.getElementById('option-151').checked) && (document.getElementById('option-153').checked) && (document.getElementById('option-154').checked) && (document.getElementById('option-155').checked) {
-      <div id='block-A15'>
-        <label>
-          La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>
-      </div>
-      document.getElementById('block-A15').style.border = '3px solid limegreen'
-      document.getElementById('block-A15').style.color = 'limegreen'
+function displayText15() {
+    if (document.getElementById('option-151').checked && document.getElementById('option-153').checked && document.getElementById('option-154').checked && document.getElementById('option-155').checked) {
+        // Create a new div element
+        var newDiv = document.createElement('div');
+        // Set the id and style properties for the new div
+        newDiv.id = 'block-A15';
+        newDiv.style.border = '3px solid limegreen';
+        newDiv.style.color = 'limegreen';
+        // Set the inner HTML content for the new div
+        newDiv.innerHTML = "<label>La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>";
+        // Append the new div to the document body (you can adjust this based on where you want to append it)
+        document.body.appendChild(newDiv);
     }
-  }
+}
 </script>
 
 <hr>
