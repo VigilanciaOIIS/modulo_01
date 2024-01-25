@@ -99,7 +99,7 @@
   }
   //    The function evaluates the answer and displays an explanatory text
   function displayText15() {
-    if (document.getElementById('option-151').checked); (document.getElementById('option-153').checked); (document.getElementById('option-154').checked); (document.getElementById('option-155').checked) {
+    if (document.getElementById('option-151').checked) && (document.getElementById('option-153').checked) && (document.getElementById('option-154').checked) && (document.getElementById('option-155').checked) {
       <div id='block-A15'>
         <label>
           La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>
