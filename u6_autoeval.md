@@ -10,7 +10,6 @@
 
 <div>
 <h3>¿Cuál es el número de los bomberos a nivel nacional?</h3>
-<p>Elige la respuesta correcta</p>
   <div id='block-11'>
     <label for='option-11'>
       <input type='radio' name='option' value='6/24' id='option-11'/>
@@ -139,7 +138,6 @@
 
 <div>
 <h3>¿Cuál es la secuencia de RCP?</h3>
-<p>Elige la respuesta correcta</p>
   <div id='block-21'>
     <label for='option-21'>
       <input type='radio' name='option' value='A' id='option-21'/>
@@ -267,8 +265,7 @@
 <hr>
 
 <div>
-<h3>La mayoría de las mordeduras de serpientes en el Perú son por especies del género</h3>
-<p>Elige la respuesta correcta</p>
+<h3>La mayoría de las mordeduras de serpientes en el Perú son por especies del género:</h3>
   <div id='block-31'>
     <label for='option-31'>
       <input type='radio' name='option' value='A' id='option-31'/>
@@ -396,8 +393,8 @@
 <hr>
 
 <div>
-<h3>¿Qué medidas debemos seguir para prevenir el golpe de calor en niños? Marque los 3 enunciados correctos.</h3>
-<p>Elige la respuesta correcta</p>
+<h3>¿Qué medidas debemos seguir para prevenir el golpe de calor en niños?</h3>
+<p> Marque los 3 enunciados correctos.</p>
   <div id='block-41'>
     <label for='option-41'>
       <input type='checkbox' name='option' value='A' id='option-41'/>
@@ -478,6 +475,96 @@
       document.getElementById('block-45').style.border = 'initial';
       document.getElementById('result-45').style.color = 'initial';
       document.getElementById('result-45').innerHTML = '';
+    }
+  }
+</script>
+
+<hr>
+
+
+<div>
+<h3>¿Ante qué síntomas debemos sospechar de un accidente cerebrovascular?</h3>
+<p>Marque todos los enunciados correctos.</p>
+  <div id='block-51'>
+    <label for='option-51'>
+      <input type='checkbox' name='option' value='A' id='option-51'/>
+      A. Dificultad para hablar</label>
+    <span id='result-51'></span>
+  </div>
+   <div id='block-52'>
+    <label for='option-52'>
+      <input type='checkbox' name='option' value='B' id='option-52'/>
+      B. Parálisis de la cara, el brazo o la pierna</label>
+    <span id='result-52'></span>
+  </div>
+   <div id='block-53'>
+    <label for='option-53'>
+      <input type='checkbox' name='option' value='C' id='option-53'/>
+      C. Problemas de visión</label>
+    <span id='result-53'></span>
+  </div>
+  <div id='block-54'>
+    <label for='option-54'>
+      <input type='checkbox' name='option' value='D' id='option-54'/>
+      D. Cefalea</label>
+    <span id='result-54'></span>
+  </div>
+  <div id='block-55'>
+    <label for='option-55'>
+      <input type='checkbox' name='option' value='E' id='option-55'/>
+      E. Problemas para caminar</label>
+    <span id='result-55'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer5()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer5() {
+    if (document.getElementById('option-51').checked) {
+      document.getElementById('block-51').style.border = '3px solid limegreen'
+      document.getElementById('result-51').style.color = 'limegreen'
+      document.getElementById('result-51').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-51').style.border = 'initial';
+      document.getElementById('result-51').style.color = 'initial';
+      document.getElementById('result-51').innerHTML = '';
+    }
+    if (document.getElementById('option-52').checked) {
+      document.getElementById('block-52').style.border = '3px solid limegreen'
+      document.getElementById('result-52').style.color = 'limegreen'
+      document.getElementById('result-52').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-52').style.border = 'initial';
+      document.getElementById('result-52').style.color = 'initial';
+      document.getElementById('result-52').innerHTML = '';
+    }
+    if (document.getElementById('option-53').checked) {
+      document.getElementById('block-53').style.border = '3px solid limegreen'
+      document.getElementById('result-53').style.color = 'limegreen'
+      document.getElementById('result-53').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-53').style.border = 'initial';
+      document.getElementById('result-53').style.color = 'initial';
+      document.getElementById('result-53').innerHTML = '';
+    }
+    if (document.getElementById('option-54').checked) {
+      document.getElementById('block-54').style.border = '3px solid limegreen'
+      document.getElementById('result-54').style.color = 'limegreen'
+      document.getElementById('result-54').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-54').style.border = 'initial';
+      document.getElementById('result-54').style.color = 'initial';
+      document.getElementById('result-54').innerHTML = '';
+    }
+    if (document.getElementById('option-55').checked) {
+      document.getElementById('block-55').style.border = '3px solid limegreen'
+      document.getElementById('result-55').style.color = 'limegreen'
+      document.getElementById('result-55').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-55').style.border = 'initial';
+      document.getElementById('result-55').style.color = 'initial';
+      document.getElementById('result-55').innerHTML = '';
     }
   }
 </script>
