@@ -118,6 +118,7 @@ function displayText15() {
       // Append the new div to the result-container
       document.getElementById('result-container').appendChild(newDiv);
     }
+  }
 }
 </script>
 
