@@ -41,7 +41,7 @@
       E. Piscinas con agua sin cubierta</label>
     <span id='result-155'></span>
   </div>
-  <div id='result-container'></div>
+  <div id='result-container-15'></div>
   <br>
   <button type='button' onclick='display15()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
@@ -115,8 +115,8 @@ function displayText15() {
       newDiv.style.color = 'limegreen';
       // Set the inner HTML content for the new div
       newDiv.innerHTML = "<label>La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>";
-      // Append the new div to the result-container
-      document.getElementById('result-container').appendChild(newDiv);
+      // Append the new div to the result-container-15
+      document.getElementById('result-container-15').appendChild(newDiv);
     }
   }
 }
@@ -157,7 +157,7 @@ function displayText15() {
       E. El mosquito <i>Aedes aegypti</i> puede transmitir dengue, chikungunya y Zika en una sola picadura</label>
     <span id='result-165'></span>
   </div>
-  <div id='result-container'></div>
+  <div id='result-container-16'></div>
   <br>
   <button type='button' onclick='display16()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
@@ -231,8 +231,8 @@ function displayText16() {
       newDiv.style.color = 'limegreen';
       // Set the inner HTML content for the new div
       newDiv.innerHTML = "<label>Todas son correctas.</label>";
-      // Append the new div to the result-container
-      document.getElementById('result-container').appendChild(newDiv);
+      // Append the new div to the result-container-16
+      document.getElementById('result-container-16').appendChild(newDiv);
     }
   }
 }
