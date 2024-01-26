@@ -216,7 +216,7 @@ function display16() {
     }
   }
   //    The function evaluates the answer and displays an explanatory text
-function displayText15() {
+function displayText16() {
   if (document.getElementById('option-161').checked && 
       document.getElementById('option-163').checked && 
       document.getElementById('option-164').checked && 
