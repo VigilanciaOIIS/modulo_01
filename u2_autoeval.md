@@ -10,7 +10,7 @@
 
 <div>
 <h3>¿Cuáles de los siguientes pueden ser criaderos de <i>Aedes aegypti</i>?</h3>
-<p>Marque las 4 alternativas correctas</p>
+<p>Marca las 4 alternativas correctas</p>
   <div id='block-151'>
     <label for='option-151'>
       <input type='checkbox' name='option' value='A' id='option-151'/>
@@ -115,6 +115,122 @@ function displayText15() {
       newDiv.style.color = 'limegreen';
       // Set the inner HTML content for the new div
       newDiv.innerHTML = "<label>La hembra del mosquito <i>Aedes aegypti</i> coloca sus huevos en reservorios de agua. Por eso es importante mantenerlos cerrados con tapa, y usar arena húmeda en floreros en lugar de agua</label>";
+      // Append the new div to the result-container
+      document.getElementById('result-container').appendChild(newDiv);
+    }
+  }
+}
+</script>
+
+<hr>
+
+<div>
+<h3>¿Qué enunciados son verdaderos sobre el mosquito <i>Aedes aegypti</i>?</h3>
+<p>Marca todas las alternativas correctas:</p>
+  <div id='block-161'>
+    <label for='option-161'>
+      <input type='checkbox' name='option' value='A' id='option-161'/>
+      A. Use ropa de manga larga y pantalones</label>
+    <span id='result-161'></span>
+  </div>
+   <div id='block-162'>
+    <label for='option-162'>
+      <input type='checkbox' name='option' value='B' id='option-162'/>
+      B. Evite usar perfume con olor a flores para prevenir la picadura de <i>Aedes</i></label>
+    <span id='result-162'></span>
+  </div>
+   <div id='block-163'>
+    <label for='option-163'>
+      <input type='checkbox' name='option' value='C' id='option-163'/>
+      C. Use ropa de color claro para prevenir la picadura de <i>Aedes</i></label>
+    <span id='result-163'></span>
+  </div>
+  <div id='block-164'>
+    <label for='option-164'>
+      <input type='checkbox' name='option' value='D' id='option-164'/>
+      D. Proteja cunas de bebés y camas con mosquiteros en zonas con muchos mosquitos</label>
+    <span id='result-164'></span>
+  </div>
+  <div id='block-165'>
+    <label for='option-165'>
+      <input type='checkbox' name='option' value='E' id='option-165'/>
+      E. El mosquito <i>Aedes aegypti</i> puede transmitir dengue, chikungunya y Zika en una sola picadura</label>
+    <span id='result-165'></span>
+  </div>
+  <div id='result-container'></div>
+  <br>
+  <button type='button' onclick='display16()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display16() {
+    displayAnswer16();
+    displayText16();
+}  
+  //    The function evaluates the answer and displays result
+  function displayAnswer16() {
+    if (document.getElementById('option-161').checked) {
+      document.getElementById('block-161').style.border = '3px solid limegreen'
+      document.getElementById('result-161').style.color = 'limegreen'
+      document.getElementById('result-161').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-161').style.border = 'initial';
+      document.getElementById('result-161').style.color = 'initial';
+      document.getElementById('result-161').innerHTML = '';
+    }
+    if (document.getElementById('option-162').checked) {
+      document.getElementById('block-162').style.border = '3px solid limegreen'
+      document.getElementById('result-162').style.color = 'limegreen'
+      document.getElementById('result-162').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-162').style.border = 'initial';
+      document.getElementById('result-162').style.color = 'initial';
+      document.getElementById('result-162').innerHTML = '';
+    }
+    if (document.getElementById('option-163').checked) {
+      document.getElementById('block-163').style.border = '3px solid limegreen'
+      document.getElementById('result-163').style.color = 'limegreen'
+      document.getElementById('result-163').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-163').style.border = 'initial';
+      document.getElementById('result-163').style.color = 'initial';
+      document.getElementById('result-163').innerHTML = '';
+    }
+    if (document.getElementById('option-164').checked) {
+      document.getElementById('block-164').style.border = '3px solid limegreen'
+      document.getElementById('result-164').style.color = 'limegreen'
+      document.getElementById('result-164').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-164').style.border = 'initial';
+      document.getElementById('result-164').style.color = 'initial';
+      document.getElementById('result-164').innerHTML = '';
+    }
+    if (document.getElementById('option-165').checked) {
+      document.getElementById('block-165').style.border = '3px solid limegreen'
+      document.getElementById('result-165').style.color = 'limegreen'
+      document.getElementById('result-165').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-165').style.border = 'initial';
+      document.getElementById('result-165').style.color = 'initial';
+      document.getElementById('result-165').innerHTML = '';
+    }
+  }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText15() {
+  if (document.getElementById('option-161').checked && 
+      document.getElementById('option-163').checked && 
+      document.getElementById('option-164').checked && 
+      document.getElementById('option-165').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A16')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A16';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>Todas son correctas.</label>";
       // Append the new div to the result-container
       document.getElementById('result-container').appendChild(newDiv);
     }
