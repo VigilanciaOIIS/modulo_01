@@ -130,7 +130,7 @@ function displayText15() {
   <div id='block-161'>
     <label for='option-161'>
       <input type='checkbox' name='option' value='A' id='option-161'/>
-      A. Use ropa de manga larga y pantalones</label>
+      A. Use ropa de manga larga y pantalones para prevenir su picadura</label>
     <span id='result-161'></span>
   </div>
    <div id='block-162'>
