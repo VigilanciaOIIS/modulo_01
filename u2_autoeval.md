@@ -241,6 +241,271 @@ function displayText16() {
 <hr>
 
 <div>
+<h3>¿Cuáles son los principales problemas de salud que se presentan después de una inundación?</h3>
+<p>Marca todas las alternativas correctas:</p>
+  <div id='block-171'>
+    <label for='option-171'>
+      <input type='checkbox' name='option' value='A' id='option-171'/>
+      A. Enfermedades diarreicas</label>
+    <span id='result-171'></span>
+  </div>
+   <div id='block-172'>
+    <label for='option-172'>
+      <input type='checkbox' name='option' value='B' id='option-172'/>
+      B. Enfermedades transmitidas por vectores</label>
+    <span id='result-172'></span>
+  </div>
+   <div id='block-173'>
+    <label for='option-173'>
+      <input type='checkbox' name='option' value='C' id='option-173'/>
+      C. Infecciones cutáneas</label>
+    <span id='result-173'></span>
+  </div>
+  <div id='block-174'>
+    <label for='option-174'>
+      <input type='checkbox' name='option' value='D' id='option-174'/>
+      D. Infecciones respiratorias</label>
+    <span id='result-174'></span>
+  </div>
+  <div id='block-175'>
+    <label for='option-175'>
+      <input type='checkbox' name='option' value='E' id='option-175'/>
+      E. Enfermedades reumatológicas</label>
+    <span id='result-175'></span>
+  </div>
+  <div id='result-container-17'></div>
+  <br>
+  <button type='button' onclick='display17()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display17() {
+    displayAnswer17();
+    displayText17();
+}  
+  //    The function evaluates the answer and displays result
+  function displayAnswer17() {
+    if (document.getElementById('option-171').checked) {
+      document.getElementById('block-171').style.border = '3px solid limegreen'
+      document.getElementById('result-171').style.color = 'limegreen'
+      document.getElementById('result-171').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-171').style.border = 'initial';
+      document.getElementById('result-171').style.color = 'initial';
+      document.getElementById('result-171').innerHTML = '';
+    }
+    if (document.getElementById('option-172').checked) {
+      document.getElementById('block-172').style.border = '3px solid limegreen'
+      document.getElementById('result-172').style.color = 'limegreen'
+      document.getElementById('result-172').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-172').style.border = 'initial';
+      document.getElementById('result-172').style.color = 'initial';
+      document.getElementById('result-172').innerHTML = '';
+    }
+    if (document.getElementById('option-173').checked) {
+      document.getElementById('block-173').style.border = '3px solid limegreen'
+      document.getElementById('result-173').style.color = 'limegreen'
+      document.getElementById('result-173').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-173').style.border = 'initial';
+      document.getElementById('result-173').style.color = 'initial';
+      document.getElementById('result-173').innerHTML = '';
+    }
+    if (document.getElementById('option-174').checked) {
+      document.getElementById('block-174').style.border = '3px solid limegreen'
+      document.getElementById('result-174').style.color = 'limegreen'
+      document.getElementById('result-174').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-174').style.border = 'initial';
+      document.getElementById('result-174').style.color = 'initial';
+      document.getElementById('result-174').innerHTML = '';
+    }
+    if (document.getElementById('option-175').checked) {
+      document.getElementById('block-175').style.border = '3px solid red'
+      document.getElementById('result-175').style.color = 'red'
+      document.getElementById('result-175').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-175').style.border = 'initial';
+      document.getElementById('result-175').style.color = 'initial';
+      document.getElementById('result-175').innerHTML = '';
+    }
+  }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText17() {
+  if (document.getElementById('option-171').checked && 
+      document.getElementById('option-172').checked && 
+      document.getElementById('option-173').checked && 
+      document.getElementById('option-174').checked && 
+      document.getElementById('option-175').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A17')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A17';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>Los principales problemas de salud que se presentan después de una inundación son: enfermedades diarreicas, enfermedades transmitidas por vectores, infecciones cutáneas e infecciones respiratorias.</label>";
+      // Append the new div to the result-container-17
+      document.getElementById('result-container-17').appendChild(newDiv);
+    }
+  }
+}
+</script>
+
+<hr>
+
+<div>
+<h3>¿Cuál de los siguientes es criterio para dengue grave?</h3>
+<p>Marca todas las alternativas correctas:</p>
+  <div id='block-181'>
+    <label for='option-181'>
+      <input type='checkbox' name='option' value='A' id='option-181'/>
+      A. Shock</label>
+    <span id='result-181'></span>
+  </div>
+   <div id='block-182'>
+    <label for='option-182'>
+      <input type='checkbox' name='option' value='B' id='option-182'/>
+      B. Distrés respiratorio con acumulación de fluidos</label>
+    <span id='result-182'></span>
+  </div>
+   <div id='block-183'>
+    <label for='option-183'>
+      <input type='checkbox' name='option' value='C' id='option-183'/>
+      C. Sangrado severo</label>
+    <span id='result-183'></span>
+  </div>
+  <div id='block-184'>
+    <label for='option-184'>
+      <input type='checkbox' name='option' value='D' id='option-184'/>
+      D. Compromiso orgánico severo: TGO/TGP > 1000 UI/L</label>
+    <span id='result-184'></span>
+  </div>
+  <div id='block-185'>
+    <label for='option-185'>
+      <input type='checkbox' name='option' value='E' id='option-185'/>
+      E. Fiebre</label>
+    <span id='result-185'></span>
+  </div>
+    <div id='block-186'>
+    <label for='option-186'>
+      <input type='checkbox' name='option' value='E' id='option-186'/>
+      F. Alteración del estado de conciencia</label>
+    <span id='result-186'></span>
+  </div>
+    <div id='block-187'>
+    <label for='option-187'>
+      <input type='checkbox' name='option' value='E' id='option-187'/>
+      G. Disfunción sistémica</label>
+    <span id='result-187'></span>
+  </div>
+  <div id='result-container-18'></div>
+  <br>
+  <button type='button' onclick='display18()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display18() {
+    displayAnswer18();
+    displayText18();
+}  
+  //    The function evaluates the answer and displays result
+  function displayAnswer18() {
+    if (document.getElementById('option-181').checked) {
+      document.getElementById('block-181').style.border = '3px solid limegreen'
+      document.getElementById('result-181').style.color = 'limegreen'
+      document.getElementById('result-181').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-181').style.border = 'initial';
+      document.getElementById('result-181').style.color = 'initial';
+      document.getElementById('result-181').innerHTML = '';
+    }
+    if (document.getElementById('option-182').checked) {
+      document.getElementById('block-182').style.border = '3px solid limegreen'
+      document.getElementById('result-182').style.color = 'limegreen'
+      document.getElementById('result-182').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-182').style.border = 'initial';
+      document.getElementById('result-182').style.color = 'initial';
+      document.getElementById('result-182').innerHTML = '';
+    }
+    if (document.getElementById('option-183').checked) {
+      document.getElementById('block-183').style.border = '3px solid limegreen'
+      document.getElementById('result-183').style.color = 'limegreen'
+      document.getElementById('result-183').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-183').style.border = 'initial';
+      document.getElementById('result-183').style.color = 'initial';
+      document.getElementById('result-183').innerHTML = '';
+    }
+    if (document.getElementById('option-184').checked) {
+      document.getElementById('block-184').style.border = '3px solid limegreen'
+      document.getElementById('result-184').style.color = 'limegreen'
+      document.getElementById('result-184').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-184').style.border = 'initial';
+      document.getElementById('result-184').style.color = 'initial';
+      document.getElementById('result-184').innerHTML = '';
+    }
+    if (document.getElementById('option-185').checked) {
+      document.getElementById('block-185').style.border = '3px solid red'
+      document.getElementById('result-185').style.color = 'red'
+      document.getElementById('result-185').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-185').style.border = 'initial';
+      document.getElementById('result-185').style.color = 'initial';
+      document.getElementById('result-185').innerHTML = '';
+    }
+    if (document.getElementById('option-186').checked) {
+      document.getElementById('block-186').style.border = '3px solid limegreen'
+      document.getElementById('result-186').style.color = 'limegreen'
+      document.getElementById('result-186').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-186').style.border = 'initial';
+      document.getElementById('result-186').style.color = 'initial';
+      document.getElementById('result-186').innerHTML = '';
+    }
+    if (document.getElementById('option-187').checked) {
+      document.getElementById('block-187').style.border = '3px solid limegreen'
+      document.getElementById('result-187').style.color = 'limegreen'
+      document.getElementById('result-187').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-187').style.border = 'initial';
+      document.getElementById('result-187').style.color = 'initial';
+      document.getElementById('result-187').innerHTML = '';
+    }
+  }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText18() {
+  if (document.getElementById('option-181').checked && 
+      document.getElementById('option-182').checked && 
+      document.getElementById('option-183').checked && 
+      document.getElementById('option-184').checked && 
+      document.getElementById('option-186').checked && 
+      document.getElementById('option-187').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A18')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A18';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>Los criterios para dengue grave son: shock, distrés respiratorio con acumulación de fluidos, sangrado severo, compromiso orgánico severo, alteración del estado de conciencia y disfunción sistémica.</label>";
+      // Append the new div to the result-container-18
+      document.getElementById('result-container-18').appendChild(newDiv);
+    }
+  }
+}
+</script>
+
+<hr>
+
+<div>
 <h3>¿Cuál de las siguientes opciones es correcta en el tratamiento de la hepatitis A?</h3>
 <p>Elige la respuesta correcta</p>
   <div id='block-11'>
