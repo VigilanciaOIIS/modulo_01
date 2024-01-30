@@ -8,9 +8,7 @@
 <p><i>Temas: Enfoque diagnóstico del síndrome febril. Dengue. Chikungunya. Fiebre amarilla. Zika. Bartonelosis. Leishmaniasis. Malaria. Principios de control vectorial para la prevención de arbovirosis y otras enfermedades metaxénicas.</i></p>
 <p><a href="index.html">Inicio</a> | <a href="u2.html">Unidad 2</a>
 
-
-<div>
-  
+<div> 
 <h3>¿Cuáles son los principales problemas de salud que se presentan después de una inundación?</h3>
 <p>Marca todas las alternativas correctas:</p>
   <div id='block-171'>
@@ -794,6 +792,237 @@ function displayText18() {
       newDiv.innerHTML = "<label>Los criterios para dengue grave son: shock, distrés respiratorio con acumulación de fluidos, sangrado severo, compromiso orgánico severo, alteración del estado de conciencia y disfunción sistémica.</label>";
       // Append the new div to the result-container-18
       document.getElementById('result-container-18').appendChild(newDiv);
+    }
+  }
+}
+</script>
+
+<hr>
+
+<div> 
+<h3>¿Cuándo referir a un paciente con dengue para manejo intrahospitalario?</h3>
+<p>Marca todas las alternativas correctas:</p>
+  <div id='block-201'>
+    <label for='option-201'>
+      <input type='checkbox' name='option' value='A' id='option-201'/>
+      A. Todos los pacientes con dengue se manejan ambulatoriamente</label>
+    <span id='result-201'></span>
+  </div>
+   <div id='block-202'>
+    <label for='option-202'>
+      <input type='checkbox' name='option' value='B' id='option-202'/>
+      B. Cuando presenta signos de alarma</label>
+    <span id='result-202'></span>
+  </div>
+   <div id='block-203'>
+    <label for='option-203'>
+      <input type='checkbox' name='option' value='C' id='option-203'/>
+      C. Cuando tiene comorbilidades como obesidad, diabetes, insuficiencia renal, gestación, etc.</label>
+    <span id='result-203'></span>
+  </div>
+  <div id='block-204'>
+    <label for='option-204'>
+      <input type='checkbox' name='option' value='D' id='option-204'/>
+      D. Cuando el paciente vive solo, lejos de servicios médicos, o sin medios de transporte confiable</label>
+    <span id='result-204'></span>
+  </div>
+  <div id='block-205'>
+    <label for='option-205'>
+      <input type='checkbox' name='option' value='E' id='option-205'/>
+      E. Cuando se va la fiebre</label>
+    <span id='result-205'></span>
+  </div>
+  <div id='result-container-20'></div>
+  <br>
+  <button type='button' onclick='display20()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display20() {
+    displayAnswer20();
+    displayText20();
+}  
+  //    The function evaluates the answer and displays result
+  function displayAnswer20() {
+    if (document.getElementById('option-201').checked) {
+      document.getElementById('block-201').style.border = '3px solid red'
+      document.getElementById('result-201').style.color = 'red'
+      document.getElementById('result-201').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-201').style.border = 'initial';
+      document.getElementById('result-201').style.color = 'initial';
+      document.getElementById('result-201').innerHTML = '';
+    }
+    if (document.getElementById('option-202').checked) {
+      document.getElementById('block-202').style.border = '3px solid limegreen'
+      document.getElementById('result-202').style.color = 'limegreen'
+      document.getElementById('result-202').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-202').style.border = 'initial';
+      document.getElementById('result-202').style.color = 'initial';
+      document.getElementById('result-202').innerHTML = '';
+    }
+    if (document.getElementById('option-203').checked) {
+      document.getElementById('block-203').style.border = '3px solid limegreen'
+      document.getElementById('result-203').style.color = 'limegreen'
+      document.getElementById('result-203').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-203').style.border = 'initial';
+      document.getElementById('result-203').style.color = 'initial';
+      document.getElementById('result-203').innerHTML = '';
+    }
+    if (document.getElementById('option-204').checked) {
+      document.getElementById('block-204').style.border = '3px solid limegreen'
+      document.getElementById('result-204').style.color = 'limegreen'
+      document.getElementById('result-204').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-204').style.border = 'initial';
+      document.getElementById('result-204').style.color = 'initial';
+      document.getElementById('result-204').innerHTML = '';
+    }
+    if (document.getElementById('option-205').checked) {
+      document.getElementById('block-205').style.border = '3px solid red'
+      document.getElementById('result-205').style.color = 'red'
+      document.getElementById('result-205').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-205').style.border = 'initial';
+      document.getElementById('result-205').style.color = 'initial';
+      document.getElementById('result-205').innerHTML = '';
+    }
+  }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText20() {
+  if (document.getElementById('option-202').checked && 
+      document.getElementById('option-203').checked && 
+      document.getElementById('option-204').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A20')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A20';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>Se debe referir a un paciente con dengue para manejo intrahospitalario cuando presenta signos de alarma, cuando tiene comorbilidades como obesidad, diabetes, insuficiencia renal o gestación, entre otras, y cuando el paciente vive solo, lejos de servicios médicos, o sin medios de transporte.</label>";
+      // Append the new div to the result-container-20
+      document.getElementById('result-container-20').appendChild(newDiv);
+    }
+  }
+}
+</script>
+
+<hr>
+
+<div> 
+<h3>¿En qué consiste el manejo ambulatorio de dengue?</h3>
+<p>Marca todas las alternativas correctas:</p>
+  <div id='block-211'>
+    <label for='option-211'>
+      <input type='checkbox' name='option' value='A' id='option-211'/>
+      A. Reposo en cama e ingesta de 2 litros o más al día en adultos y proporcional en niños</label>
+    <span id='result-211'></span>
+  </div>
+   <div id='block-212'>
+    <label for='option-212'>
+      <input type='checkbox' name='option' value='B' id='option-212'/>
+      B. Compresas para la fiebre</label>
+    <span id='result-212'></span>
+  </div>
+   <div id='block-213'>
+    <label for='option-213'>
+      <input type='checkbox' name='option' value='C' id='option-213'/>
+      C. Buscar y eliminar criaderos de mosquito en casa y alrededores</label>
+    <span id='result-213'></span>
+  </div>
+  <div id='block-214'>
+    <label for='option-214'>
+      <input type='checkbox' name='option' value='D' id='option-214'/>
+      D. Se puede administrar AINES, corticoides y antibióticos</label>
+    <span id='result-214'></span>
+  </div>
+  <div id='block-215'>
+    <label for='option-215'>
+      <input type='checkbox' name='option' value='E' id='option-215'/>
+      E. Se puede administrar paracetamol, máximo 4 gramos al día en adultos, y en dosis de 10 a 15 mg/kg/dosis cada 4 a 6 horas en niños</label>
+    <span id='result-215'></span>
+  </div>
+  <div id='result-container-21'></div>
+  <br>
+  <button type='button' onclick='display21()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display21() {
+    displayAnswer21();
+    displayText21();
+}  
+  //    The function evaluates the answer and displays result
+  function displayAnswer21() {
+    if (document.getElementById('option-211').checked) {
+      document.getElementById('block-211').style.border = '3px solid limegreen'
+      document.getElementById('result-211').style.color = 'limegreen'
+      document.getElementById('result-211').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-211').style.border = 'initial';
+      document.getElementById('result-211').style.color = 'initial';
+      document.getElementById('result-211').innerHTML = '';
+    }
+    if (document.getElementById('option-212').checked) {
+      document.getElementById('block-212').style.border = '3px solid limegreen'
+      document.getElementById('result-212').style.color = 'limegreen'
+      document.getElementById('result-212').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-212').style.border = 'initial';
+      document.getElementById('result-212').style.color = 'initial';
+      document.getElementById('result-212').innerHTML = '';
+    }
+    if (document.getElementById('option-213').checked) {
+      document.getElementById('block-213').style.border = '3px solid limegreen'
+      document.getElementById('result-213').style.color = 'limegreen'
+      document.getElementById('result-213').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-213').style.border = 'initial';
+      document.getElementById('result-213').style.color = 'initial';
+      document.getElementById('result-213').innerHTML = '';
+    }
+    if (document.getElementById('option-214').checked) {
+      document.getElementById('block-214').style.border = '3px solid red'
+      document.getElementById('result-214').style.color = 'red'
+      document.getElementById('result-214').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-214').style.border = 'initial';
+      document.getElementById('result-214').style.color = 'initial';
+      document.getElementById('result-214').innerHTML = '';
+    }
+    if (document.getElementById('option-215').checked) {
+      document.getElementById('block-215').style.border = '3px solid limegreen'
+      document.getElementById('result-215').style.color = 'limegreen'
+      document.getElementById('result-215').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-215').style.border = 'initial';
+      document.getElementById('result-215').style.color = 'initial';
+      document.getElementById('result-215').innerHTML = '';
+    }
+  }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText21() {
+  if (document.getElementById('option-211').checked && 
+      document.getElementById('option-212').checked && 
+      document.getElementById('option-213').checked && 
+      document.getElementById('option-215').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A21')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A21';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>Se debe evitar usar AINES, corticoides o antibióticos en el manejo del dengue.</label>";
+      // Append the new div to the result-container-21
+      document.getElementById('result-container-21').appendChild(newDiv);
     }
   }
 }
