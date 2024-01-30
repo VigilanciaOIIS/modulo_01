@@ -2190,6 +2190,6 @@ function displayText18() {
 
 <hr>
 
-<p><a href="index.html">Índice</a> | <a href="u1.html">Unidad anterior</a> | <a href="u3.html">Siguiente unidad</a></p>
+<p><a href="index.html">&#127968; Inicio</a> | <a href="u2.html">&#9194; Unidad anterior</a> | <a href="u3.html">&#9193; Siguiente unidad</a></p>
 
 <p>Oficina de Inteligencia e Información Sanitaria OIIS, EsSalud, Perú - 2024</p>
