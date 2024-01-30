@@ -19,27 +19,27 @@
     <th>Temas</th>
   </tr>
   <tr>
-    <td><a href="u1.html">Unidad 1: Desastres</a></td>
+    <td><a href="u1.html">Unidad 1: Desastres &#128657;</a></td>
     <td>Conceptos básicos. Fenómeno El Niño y principales desastres relacionados. Salud mental en desastres.</td>
   </tr>
   <tr>
-    <td><a href="u2.html">Unidad 2: Enfermedades metaxénicas</a></td>
+    <td><a href="u2.html">Unidad 2: Enfermedades metaxénicas &#129439;</a></td>
     <td>Enfoque diagnóstico del síndrome febril. Dengue. Chikungunya. Fiebre amarilla. Zika. Bartonelosis. Leishmaniasis. Malaria. Principios de control vectorial para la prevención de arbovirosis y otras enfermedades metaxénicas. <a href="u2_autoeval.html">Autoevaluación U2</a></td>
   </tr>
   <tr>
-    <td><a href="u3.html">Unidad 3: Principales infecciones en el fenómeno El Niño</a></td>
+    <td><a href="u3.html">Unidad 3: Principales infecciones en el fenómeno El Niño &#129440;</a></td>
     <td>Infecciones respiratorias: IRAs. Influenza. COVID-19. Neumonía adquirida en la comunidad. Tuberculosis. Asma.<br>Infecciones gastrointestinales: EDAs. Cólera. Shigelosis. Salmonelosis. Parasitosis. <a href="u3_autoeval.html">Autoevaluación U3</a></td>
   </tr>
   <tr>
-    <td><a href="u4.html">Unidad 4: Enfermedades inmunoprevenibles</a></td>
+    <td><a href="u4.html">Unidad 4: Enfermedades inmunoprevenibles &#128137;</a></td>
     <td>Esquema de vacunación vigente. Sarampión. Enfermedades eruptivas infantiles. Tos ferina. Meningitis. <a href="u4_autoeval.html">Autoevaluación U4</a></td>
   </tr>
   <tr>
-    <td><a href="u5.html">Unidad 5: Enfermedades zoonóticas y otras</a></td>
+    <td><a href="u5.html">Unidad 5: Enfermedades zoonóticas y otras &#128000;</a></td>
     <td>Leptospirosis. Peste. Rabia. Síndrome de Guillain Barré. <a href="u5_autoeval.html">Autoevaluación U5</a></td>
   </tr>
   <tr>
-    <td><a href="u6.html">Unidad 6: Urgencias y emergencias en desastres</a></td>
+    <td><a href="u6.html">Unidad 6: Urgencias y emergencias en desastres &#128657;</a></td>
     <td>Primeros auxilios y estabilización de pacientes. Traumatismos y caídas. Quemaduras. Golpe de calor. Emergencias obstétricas. Accidentes cerebrovasculares. Accidentes por animales ponzoñosos. <a href="u6_autoeval.html">Autoevaluación U6</a></td>
   </tr>
 </table>
