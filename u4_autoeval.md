@@ -395,6 +395,6 @@
 
 <hr>
 
-<p><a href="index.html">Índice</a> | <a href="u1.html">Unidad anterior</a> | <a href="u5.html">Siguiente unidad</a></p>
+<p><a href="index.html">&#127968; Inicio</a> | <a href="u4.html">&#9194; Unidad anterior</a> | <a href="u5.html">&#9193; Siguiente unidad</a></p>
 
 <p>Oficina de Inteligencia e Información Sanitaria OIIS, EsSalud, Perú - 2024</p>
