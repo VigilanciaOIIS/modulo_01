@@ -6,7 +6,7 @@
 
 <h1>Autoevaluación: Unidad 2</h1>
 <p><i>Temas: Enfoque diagnóstico del síndrome febril. Dengue. Chikungunya. Fiebre amarilla. Zika. Bartonelosis. Leishmaniasis. Malaria. Principios de control vectorial para la prevención de arbovirosis y otras enfermedades metaxénicas.</i></p>
-<p><a href="index.html">Inicio</a> | <a href="u2.html">Unidad 2</a>
+<p><a href="index.html">&#127968; Inicio</a> | <a href="u2.html">&#9194; Unidad 2</a>
 
 <div> 
 <h3>¿Cuáles son los principales problemas de salud que se presentan después de una inundación?</h3>
