@@ -128,6 +128,171 @@ function displayText17() {
 <hr>
 
 <div>
+<h3>¿Cuáles son principales síntomas de arbovirosis?</h3>
+<p>Marca todas las alternativas correctas:</p>
+  <div id='block-191'>
+    <label for='option-191'>
+      <input type='checkbox' name='option' value='A' id='option-191'/>
+      A. Fiebre</label>
+    <span id='result-191'></span>
+  </div>
+   <div id='block-192'>
+    <label for='option-192'>
+      <input type='checkbox' name='option' value='B' id='option-192'/>
+      B. Rash</label>
+    <span id='result-192'></span>
+  </div>
+   <div id='block-193'>
+    <label for='option-193'>
+      <input type='checkbox' name='option' value='C' id='option-193'/>
+      C. Conjuntivitis</label>
+    <span id='result-193'></span>
+  </div>
+  <div id='block-194'>
+    <label for='option-194'>
+      <input type='checkbox' name='option' value='D' id='option-194'/>
+      D. Artralgia</label>
+    <span id='result-194'></span>
+  </div>
+  <div id='block-195'>
+    <label for='option-195'>
+      <input type='checkbox' name='option' value='E' id='option-195'/>
+      E. Mialgia</label>
+    <span id='result-195'></span>
+  </div>
+  <div id='block-196'>
+    <label for='option-196'>
+      <input type='checkbox' name='option' value='E' id='option-196'/>
+      F. Dolor de cabeza</label>
+    <span id='result-196'></span>
+  </div>
+  <div id='block-197'>
+    <label for='option-197'>
+      <input type='checkbox' name='option' value='E' id='option-197'/>
+      G. Hemorragia</label>
+    <span id='result-197'></span>
+  </div>
+  <div id='block-198'>
+    <label for='option-198'>
+      <input type='checkbox' name='option' value='E' id='option-198'/>
+      H. Shock</label>
+    <span id='result-198'></span>
+  </div>
+  <div id='result-container-19'></div>
+  <br>
+  <button type='button' onclick='display19()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display19() {
+    displayAnswer19();
+    displayText19();
+}  
+  //    The function evaluates the answer and displays result
+  function displayAnswer19() {
+    if (document.getElementById('option-191').checked) {
+      document.getElementById('block-191').style.border = '3px solid limegreen'
+      document.getElementById('result-191').style.color = 'limegreen'
+      document.getElementById('result-191').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-191').style.border = 'initial';
+      document.getElementById('result-191').style.color = 'initial';
+      document.getElementById('result-191').innerHTML = '';
+    }
+    if (document.getElementById('option-192').checked) {
+      document.getElementById('block-192').style.border = '3px solid limegreen'
+      document.getElementById('result-192').style.color = 'limegreen'
+      document.getElementById('result-192').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-192').style.border = 'initial';
+      document.getElementById('result-192').style.color = 'initial';
+      document.getElementById('result-192').innerHTML = '';
+    }
+    if (document.getElementById('option-193').checked) {
+      document.getElementById('block-193').style.border = '3px solid limegreen'
+      document.getElementById('result-193').style.color = 'limegreen'
+      document.getElementById('result-193').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-193').style.border = 'initial';
+      document.getElementById('result-193').style.color = 'initial';
+      document.getElementById('result-193').innerHTML = '';
+    }
+    if (document.getElementById('option-194').checked) {
+      document.getElementById('block-194').style.border = '3px solid limegreen'
+      document.getElementById('result-194').style.color = 'limegreen'
+      document.getElementById('result-194').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-194').style.border = 'initial';
+      document.getElementById('result-194').style.color = 'initial';
+      document.getElementById('result-194').innerHTML = '';
+    }
+    if (document.getElementById('option-195').checked) {
+      document.getElementById('block-195').style.border = '3px solid limegreen'
+      document.getElementById('result-195').style.color = 'limegreen'
+      document.getElementById('result-195').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-195').style.border = 'initial';
+      document.getElementById('result-195').style.color = 'initial';
+      document.getElementById('result-195').innerHTML = '';
+    }
+    if (document.getElementById('option-196').checked) {
+      document.getElementById('block-196').style.border = '3px solid limegreen'
+      document.getElementById('result-196').style.color = 'limegreen'
+      document.getElementById('result-196').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-196').style.border = 'initial';
+      document.getElementById('result-196').style.color = 'initial';
+      document.getElementById('result-196').innerHTML = '';
+    }
+      if (document.getElementById('option-197').checked) {
+      document.getElementById('block-197').style.border = '3px solid limegreen'
+      document.getElementById('result-197').style.color = 'limegreen'
+      document.getElementById('result-197').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-198').style.border = 'initial';
+      document.getElementById('result-198').style.color = 'initial';
+      document.getElementById('result-198').innerHTML = '';
+    }
+    if (document.getElementById('option-198').checked) {
+      document.getElementById('block-198').style.border = '3px solid limegreen'
+      document.getElementById('result-198').style.color = 'limegreen'
+      document.getElementById('result-198').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-198').style.border = 'initial';
+      document.getElementById('result-198').style.color = 'initial';
+      document.getElementById('result-198').innerHTML = '';
+    }
+  }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText19() {
+  if (document.getElementById('option-191').checked && 
+      document.getElementById('option-192').checked && 
+      document.getElementById('option-193').checked && 
+      document.getElementById('option-194').checked && 
+      document.getElementById('option-195').checked && 
+      document.getElementById('option-196').checked && 
+      document.getElementById('option-197').checked && 
+      document.getElementById('option-198').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A19')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A19';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>Los principales síntomas de arbovirosis son: fiebre, rash, conjuntivitis, artralgia, mialgia, dolor de cabeza, hemorragia y shock.</label>";
+      // Append the new div to the result-container-19
+      document.getElementById('result-container-19').appendChild(newDiv);
+    }
+  }
+}
+</script>
+
+<hr>
+
+<div>
 <h3>¿Cuál es la definición de paciente febril?</h3>
 <p>Elige la respuesta correcta</p>
   <div id='block-71'>
