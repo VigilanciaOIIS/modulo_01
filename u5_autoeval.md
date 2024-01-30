@@ -6,7 +6,7 @@
 
 <h1>Autoevaluación: Unidad 5</h1>
 <p><i>Temas: Leptospirosis. Peste. Rabia. Síndrome de Guillain Barré.</i></p>
-<p><a href="index.html">Inicio</a> | <a href="u5.html">Unidad 5</a>
+<p><a href="index.html">&#127968; Inicio</a> | <a href="u5.html">&#9194; Unidad 5</a>
 
 <div>
 <h3>¿Cuál es la prueba confirmatoria de leptospirosis?</h3>
