@@ -8,6 +8,254 @@
 <p><i>Temas: Enfoque diagnóstico del síndrome febril. Dengue. Chikungunya. Fiebre amarilla. Zika. Bartonelosis. Leishmaniasis. Malaria. Principios de control vectorial para la prevención de arbovirosis y otras enfermedades metaxénicas.</i></p>
 <p><a href="index.html">Inicio</a> | <a href="u2.html">Unidad 2</a>
 
+
+<div>
+  
+<h3>¿Cuáles son los principales problemas de salud que se presentan después de una inundación?</h3>
+<p>Marca todas las alternativas correctas:</p>
+  <div id='block-171'>
+    <label for='option-171'>
+      <input type='checkbox' name='option' value='A' id='option-171'/>
+      A. Enfermedades diarreicas</label>
+    <span id='result-171'></span>
+  </div>
+   <div id='block-172'>
+    <label for='option-172'>
+      <input type='checkbox' name='option' value='B' id='option-172'/>
+      B. Enfermedades transmitidas por vectores</label>
+    <span id='result-172'></span>
+  </div>
+   <div id='block-173'>
+    <label for='option-173'>
+      <input type='checkbox' name='option' value='C' id='option-173'/>
+      C. Infecciones cutáneas</label>
+    <span id='result-173'></span>
+  </div>
+  <div id='block-174'>
+    <label for='option-174'>
+      <input type='checkbox' name='option' value='D' id='option-174'/>
+      D. Infecciones respiratorias</label>
+    <span id='result-174'></span>
+  </div>
+  <div id='block-175'>
+    <label for='option-175'>
+      <input type='checkbox' name='option' value='E' id='option-175'/>
+      E. Enfermedades reumatológicas</label>
+    <span id='result-175'></span>
+  </div>
+  <div id='result-container-17'></div>
+  <br>
+  <button type='button' onclick='display17()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display17() {
+    displayAnswer17();
+    displayText17();
+}  
+  //    The function evaluates the answer and displays result
+  function displayAnswer17() {
+    if (document.getElementById('option-171').checked) {
+      document.getElementById('block-171').style.border = '3px solid limegreen'
+      document.getElementById('result-171').style.color = 'limegreen'
+      document.getElementById('result-171').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-171').style.border = 'initial';
+      document.getElementById('result-171').style.color = 'initial';
+      document.getElementById('result-171').innerHTML = '';
+    }
+    if (document.getElementById('option-172').checked) {
+      document.getElementById('block-172').style.border = '3px solid limegreen'
+      document.getElementById('result-172').style.color = 'limegreen'
+      document.getElementById('result-172').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-172').style.border = 'initial';
+      document.getElementById('result-172').style.color = 'initial';
+      document.getElementById('result-172').innerHTML = '';
+    }
+    if (document.getElementById('option-173').checked) {
+      document.getElementById('block-173').style.border = '3px solid limegreen'
+      document.getElementById('result-173').style.color = 'limegreen'
+      document.getElementById('result-173').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-173').style.border = 'initial';
+      document.getElementById('result-173').style.color = 'initial';
+      document.getElementById('result-173').innerHTML = '';
+    }
+    if (document.getElementById('option-174').checked) {
+      document.getElementById('block-174').style.border = '3px solid limegreen'
+      document.getElementById('result-174').style.color = 'limegreen'
+      document.getElementById('result-174').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-174').style.border = 'initial';
+      document.getElementById('result-174').style.color = 'initial';
+      document.getElementById('result-174').innerHTML = '';
+    }
+    if (document.getElementById('option-175').checked) {
+      document.getElementById('block-175').style.border = '3px solid red'
+      document.getElementById('result-175').style.color = 'red'
+      document.getElementById('result-175').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-175').style.border = 'initial';
+      document.getElementById('result-175').style.color = 'initial';
+      document.getElementById('result-175').innerHTML = '';
+    }
+  }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText17() {
+  if (document.getElementById('option-171').checked && 
+      document.getElementById('option-172').checked && 
+      document.getElementById('option-173').checked && 
+      document.getElementById('option-174').checked && 
+      document.getElementById('option-175').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A17')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A17';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>Los principales problemas de salud que se presentan después de una inundación son: enfermedades diarreicas, enfermedades transmitidas por vectores, infecciones cutáneas e infecciones respiratorias.</label>";
+      // Append the new div to the result-container-17
+      document.getElementById('result-container-17').appendChild(newDiv);
+    }
+  }
+}
+</script>
+
+<hr>
+
+<div>
+<h3>¿Cuál es la definición de paciente febril?</h3>
+<p>Elige la respuesta correcta</p>
+  <div id='block-71'>
+    <label for='option-71'>
+      <input type='radio' name='option' value='A' id='option-71'/>
+      A. Paciente con temperatura corporal de 38°C o más, mayor de 15 años, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
+    <span id='result-71'></span>
+  </div>
+   <div id='block-72'>
+    <label for='option-72'>
+      <input type='radio' name='option' value='B' id='option-72'/>
+      B. Paciente con temperatura corporal de 37°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
+    <span id='result-72'></span>
+  </div>
+   <div id='block-73'>
+    <label for='option-73'>
+      <input type='radio' name='option' value='C' id='option-73'/>
+      C. Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
+    <span id='result-73'></span>
+  </div>
+  <div id='block-74'>
+    <label for='option-74'>
+      <input type='radio' name='option' value='D' id='option-74'/>
+      D. Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con foco de infección confirmado, que acude a un establecimiento de salud por atención</label>
+    <span id='result-74'></span>
+  </div>
+  <div id='block-75'>
+    <label for='option-75'>
+      <input type='radio' name='option' value='E' id='option-75'/>
+      E. Paciente con temperatura corporal de 37°C o más, de cualquier grupo etario, con foco de infección confirmado, que acude a un establecimiento de salud por atención</label>
+    <span id='result-75'></span>
+  </div>
+  <br>
+  <button type='button' onclick='displayAnswer7()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+  //    The function evaluates the answer and displays result
+  function displayAnswer7() {
+    if (document.getElementById('option-71').checked) {
+      document.getElementById('block-71').style.border = '3px solid red'
+      document.getElementById('result-71').style.color = 'red'
+      document.getElementById('result-71').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-72').style.border = 'initial';
+      document.getElementById('result-72').style.color = 'initial';
+      document.getElementById('result-72').innerHTML = '';
+      document.getElementById('block-73').style.border = 'initial';
+      document.getElementById('result-73').style.color = 'initial';
+      document.getElementById('result-73').innerHTML = '';
+      document.getElementById('block-74').style.border = 'initial';
+      document.getElementById('result-74').style.color = 'initial';
+      document.getElementById('result-74').innerHTML = '';
+      document.getElementById('block-75').style.border = 'initial';
+      document.getElementById('result-75').style.color = 'initial';
+      document.getElementById('result-75').innerHTML = '';
+    }
+    if (document.getElementById('option-72').checked) {
+      document.getElementById('block-72').style.border = '3px solid red'
+      document.getElementById('result-72').style.color = 'red'
+      document.getElementById('result-72').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-71').style.border = 'initial';
+      document.getElementById('result-71').style.color = 'initial';
+      document.getElementById('result-71').innerHTML = '';
+      document.getElementById('block-73').style.border = 'initial';
+      document.getElementById('result-73').style.color = 'initial';
+      document.getElementById('result-73').innerHTML = '';
+      document.getElementById('block-74').style.border = 'initial';
+      document.getElementById('result-74').style.color = 'initial';
+      document.getElementById('result-74').innerHTML = '';
+      document.getElementById('block-75').style.border = 'initial';
+      document.getElementById('result-75').style.color = 'initial';
+      document.getElementById('result-75').innerHTML = '';
+    }
+    if (document.getElementById('option-73').checked) {
+      document.getElementById('block-73').style.border = '3px solid limegreen'
+      document.getElementById('result-73').style.color = 'limegreen'
+      document.getElementById('result-73').innerHTML = '¡Correcto! &#128175; La definición de paciente febril es: "Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención". &#127775;'
+      document.getElementById('block-71').style.border = 'initial';
+      document.getElementById('result-71').style.color = 'initial';
+      document.getElementById('result-71').innerHTML = '';
+      document.getElementById('block-72').style.border = 'initial';
+      document.getElementById('result-72').style.color = 'initial';
+      document.getElementById('result-72').innerHTML = '';
+      document.getElementById('block-74').style.border = 'initial';
+      document.getElementById('result-74').style.color = 'initial';
+      document.getElementById('result-74').innerHTML = '';
+      document.getElementById('block-75').style.border = 'initial';
+      document.getElementById('result-75').style.color = 'initial';
+      document.getElementById('result-75').innerHTML = '';
+    }
+    if (document.getElementById('option-74').checked) {
+      document.getElementById('block-74').style.border = '3px solid red'
+      document.getElementById('result-74').style.color = 'red'
+      document.getElementById('result-74').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-71').style.border = 'initial';
+      document.getElementById('result-71').style.color = 'initial';
+      document.getElementById('result-71').innerHTML = '';
+      document.getElementById('block-72').style.border = 'initial';
+      document.getElementById('result-72').style.color = 'initial';
+      document.getElementById('result-72').innerHTML = '';
+      document.getElementById('block-73').style.border = 'initial';
+      document.getElementById('result-73').style.color = 'initial';
+      document.getElementById('result-73').innerHTML = '';
+      document.getElementById('block-75').style.border = 'initial';
+      document.getElementById('result-75').style.color = 'initial';
+      document.getElementById('result-75').innerHTML = '';
+    }
+    if (document.getElementById('option-75').checked) {
+      document.getElementById('block-75').style.border = '3px solid red'
+      document.getElementById('result-75').style.color = 'red'
+      document.getElementById('result-75').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-71').style.border = 'initial';
+      document.getElementById('result-71').style.color = 'initial';
+      document.getElementById('result-71').innerHTML = '';
+      document.getElementById('block-72').style.border = 'initial';
+      document.getElementById('result-72').style.color = 'initial';
+      document.getElementById('result-72').innerHTML = '';
+      document.getElementById('block-73').style.border = 'initial';
+      document.getElementById('result-73').style.color = 'initial';
+      document.getElementById('result-73').innerHTML = '';
+      document.getElementById('block-74').style.border = 'initial';
+      document.getElementById('result-74').style.color = 'initial';
+      document.getElementById('result-74').innerHTML = '';
+    }
+  }
+</script>
+
+<hr>
+
 <div>
 <h3>¿Cuáles de los siguientes pueden ser criaderos de <i>Aedes aegypti</i>?</h3>
 <p>Marca las 4 alternativas correctas</p>
@@ -241,123 +489,6 @@ function displayText16() {
 <hr>
 
 <div>
-<h3>¿Cuáles son los principales problemas de salud que se presentan después de una inundación?</h3>
-<p>Marca todas las alternativas correctas:</p>
-  <div id='block-171'>
-    <label for='option-171'>
-      <input type='checkbox' name='option' value='A' id='option-171'/>
-      A. Enfermedades diarreicas</label>
-    <span id='result-171'></span>
-  </div>
-   <div id='block-172'>
-    <label for='option-172'>
-      <input type='checkbox' name='option' value='B' id='option-172'/>
-      B. Enfermedades transmitidas por vectores</label>
-    <span id='result-172'></span>
-  </div>
-   <div id='block-173'>
-    <label for='option-173'>
-      <input type='checkbox' name='option' value='C' id='option-173'/>
-      C. Infecciones cutáneas</label>
-    <span id='result-173'></span>
-  </div>
-  <div id='block-174'>
-    <label for='option-174'>
-      <input type='checkbox' name='option' value='D' id='option-174'/>
-      D. Infecciones respiratorias</label>
-    <span id='result-174'></span>
-  </div>
-  <div id='block-175'>
-    <label for='option-175'>
-      <input type='checkbox' name='option' value='E' id='option-175'/>
-      E. Enfermedades reumatológicas</label>
-    <span id='result-175'></span>
-  </div>
-  <div id='result-container-17'></div>
-  <br>
-  <button type='button' onclick='display17()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
-</div>
-<script>
-var textDisplayed = false; // Declare textDisplayed globally
-function display17() {
-    displayAnswer17();
-    displayText17();
-}  
-  //    The function evaluates the answer and displays result
-  function displayAnswer17() {
-    if (document.getElementById('option-171').checked) {
-      document.getElementById('block-171').style.border = '3px solid limegreen'
-      document.getElementById('result-171').style.color = 'limegreen'
-      document.getElementById('result-171').innerHTML = '¡Correcto! &#127775;'
-    } else {
-      document.getElementById('block-171').style.border = 'initial';
-      document.getElementById('result-171').style.color = 'initial';
-      document.getElementById('result-171').innerHTML = '';
-    }
-    if (document.getElementById('option-172').checked) {
-      document.getElementById('block-172').style.border = '3px solid limegreen'
-      document.getElementById('result-172').style.color = 'limegreen'
-      document.getElementById('result-172').innerHTML = '¡Correcto! &#127775;'
-    } else {
-      document.getElementById('block-172').style.border = 'initial';
-      document.getElementById('result-172').style.color = 'initial';
-      document.getElementById('result-172').innerHTML = '';
-    }
-    if (document.getElementById('option-173').checked) {
-      document.getElementById('block-173').style.border = '3px solid limegreen'
-      document.getElementById('result-173').style.color = 'limegreen'
-      document.getElementById('result-173').innerHTML = '¡Correcto! &#127775;'
-    } else {
-      document.getElementById('block-173').style.border = 'initial';
-      document.getElementById('result-173').style.color = 'initial';
-      document.getElementById('result-173').innerHTML = '';
-    }
-    if (document.getElementById('option-174').checked) {
-      document.getElementById('block-174').style.border = '3px solid limegreen'
-      document.getElementById('result-174').style.color = 'limegreen'
-      document.getElementById('result-174').innerHTML = '¡Correcto! &#127775;'
-    } else {
-      document.getElementById('block-174').style.border = 'initial';
-      document.getElementById('result-174').style.color = 'initial';
-      document.getElementById('result-174').innerHTML = '';
-    }
-    if (document.getElementById('option-175').checked) {
-      document.getElementById('block-175').style.border = '3px solid red'
-      document.getElementById('result-175').style.color = 'red'
-      document.getElementById('result-175').innerHTML = 'Incorrecto &#128552;'
-    } else {
-      document.getElementById('block-175').style.border = 'initial';
-      document.getElementById('result-175').style.color = 'initial';
-      document.getElementById('result-175').innerHTML = '';
-    }
-  }
-  //    The function evaluates the answer and displays an explanatory text
-function displayText17() {
-  if (document.getElementById('option-171').checked && 
-      document.getElementById('option-172').checked && 
-      document.getElementById('option-173').checked && 
-      document.getElementById('option-174').checked && 
-      document.getElementById('option-175').checked) {
-    // Check if the div already exists
-    if (!document.getElementById('block-A17')) {
-      // Create a new div element
-      var newDiv = document.createElement('div');
-      // Set the id and style properties for the new div
-      newDiv.id = 'block-A17';
-      newDiv.style.border = '3px solid limegreen';
-      newDiv.style.color = 'limegreen';
-      // Set the inner HTML content for the new div
-      newDiv.innerHTML = "<label>Los principales problemas de salud que se presentan después de una inundación son: enfermedades diarreicas, enfermedades transmitidas por vectores, infecciones cutáneas e infecciones respiratorias.</label>";
-      // Append the new div to the result-container-17
-      document.getElementById('result-container-17').appendChild(newDiv);
-    }
-  }
-}
-</script>
-
-<hr>
-
-<div>
 <h3>¿Cuál de los siguientes es criterio para dengue grave?</h3>
 <p>Marca todas las alternativas correctas:</p>
   <div id='block-181'>
@@ -501,135 +632,6 @@ function displayText18() {
     }
   }
 }
-</script>
-
-<hr>
-
-<div>
-<h3>¿Cuál de las siguientes opciones es correcta en el tratamiento de la hepatitis A?</h3>
-<p>Elige la respuesta correcta</p>
-  <div id='block-11'>
-    <label for='option-11'>
-      <input type='radio' name='option' value='6/24' id='option-11'/>
-      A. Se debe hospitalizar todos los casos</label>
-    <span id='result-11'></span>
-  </div>
-   <div id='block-12'>
-    <label for='option-12'>
-      <input type='radio' name='option' value='6' id='option-12'/>
-      B. Evitar medicamentos innecesarios como antieméticos o paracetamol</label>
-    <span id='result-12'></span>
-  </div>
-   <div id='block-13'>
-    <label for='option-13'>
-      <input type='radio' name='option' value='1/3' id='option-13'/>
-      C. Hay fármacos específicos para el tratamiento de la hepatitis A</label>
-    <span id='result-13'></span>
-  </div>
-  <div id='block-14'>
-    <label for='option-14'>
-      <input type='radio' name='option' value='1/6' id='option-14'/>
-      D. La insuficiencia hepática aguda no es el principal criterio de hospitalización</label>
-    <span id='result-14'></span>
-  </div>
-  <div id='block-15'>
-    <label for='option-15'>
-      <input type='radio' name='option' value='1/6' id='option-15'/>
-      E. La hidratación no es uno de los principales aspectos del tratamiento de la hepatitis A</label>
-    <span id='result-15'></span>
-  </div>
-  <br>
-  <button type='button' onclick='displayAnswer1()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
-</div>
-<script>
-  //    The function evaluates the answer and displays result
-  function displayAnswer1() {
-    if (document.getElementById('option-11').checked) {
-      document.getElementById('block-11').style.border = '3px solid red'
-      document.getElementById('result-11').style.color = 'red'
-      document.getElementById('result-11').innerHTML = 'Intenta otra vez &#128552;'
-      document.getElementById('block-12').style.border = 'initial';
-      document.getElementById('result-12').style.color = 'initial';
-      document.getElementById('result-12').innerHTML = '';
-      document.getElementById('block-13').style.border = 'initial';
-      document.getElementById('result-13').style.color = 'initial';
-      document.getElementById('result-13').innerHTML = '';
-      document.getElementById('block-14').style.border = 'initial';
-      document.getElementById('result-14').style.color = 'initial';
-      document.getElementById('result-14').innerHTML = '';
-      document.getElementById('block-15').style.border = 'initial';
-      document.getElementById('result-15').style.color = 'initial';
-      document.getElementById('result-15').innerHTML = '';
-    }
-    if (document.getElementById('option-12').checked) {
-      document.getElementById('block-12').style.border = '3px solid limegreen'
-      document.getElementById('result-12').style.color = 'limegreen'
-      document.getElementById('result-12').innerHTML = '¡Correcto! &#128175; En el tratamiento de la hepatitis A, la hidratación es un aspecto clave. Es importante monitorizar la función hepática para detectar insuficiencia hepática aguda, porque es el principal criterio de hospitalización. Se debe evitar medicamentos innecesarios como antieméticos o paracetamol. No hay fármacos específicos para el tratamiento de la hepatitis A. &#127775;'
-      document.getElementById('block-11').style.border = 'initial';
-      document.getElementById('result-11').style.color = 'initial';
-      document.getElementById('result-11').innerHTML = '';
-      document.getElementById('block-13').style.border = 'initial';
-      document.getElementById('result-13').style.color = 'initial';
-      document.getElementById('result-13').innerHTML = '';
-      document.getElementById('block-14').style.border = 'initial';
-      document.getElementById('result-14').style.color = 'initial';
-      document.getElementById('result-14').innerHTML = '';
-      document.getElementById('block-15').style.border = 'initial';
-      document.getElementById('result-15').style.color = 'initial';
-      document.getElementById('result-15').innerHTML = '';
-    }
-    if (document.getElementById('option-13').checked) {
-      document.getElementById('block-13').style.border = '3px solid red'
-      document.getElementById('result-13').style.color = 'red'
-      document.getElementById('result-13').innerHTML = 'Intenta otra vez &#128552;'
-      document.getElementById('block-11').style.border = 'initial';
-      document.getElementById('result-11').style.color = 'initial';
-      document.getElementById('result-11').innerHTML = '';
-      document.getElementById('block-12').style.border = 'initial';
-      document.getElementById('result-12').style.color = 'initial';
-      document.getElementById('result-12').innerHTML = '';
-      document.getElementById('block-14').style.border = 'initial';
-      document.getElementById('result-14').style.color = 'initial';
-      document.getElementById('result-14').innerHTML = '';
-      document.getElementById('block-15').style.border = 'initial';
-      document.getElementById('result-15').style.color = 'initial';
-      document.getElementById('result-15').innerHTML = '';
-    }
-    if (document.getElementById('option-14').checked) {
-      document.getElementById('block-14').style.border = '3px solid red'
-      document.getElementById('result-14').style.color = 'red'
-      document.getElementById('result-14').innerHTML = 'Intenta otra vez &#128552;'
-      document.getElementById('block-11').style.border = 'initial';
-      document.getElementById('result-11').style.color = 'initial';
-      document.getElementById('result-11').innerHTML = '';
-      document.getElementById('block-12').style.border = 'initial';
-      document.getElementById('result-12').style.color = 'initial';
-      document.getElementById('result-12').innerHTML = '';
-      document.getElementById('block-13').style.border = 'initial';
-      document.getElementById('result-13').style.color = 'initial';
-      document.getElementById('result-13').innerHTML = '';
-      document.getElementById('block-15').style.border = 'initial';
-      document.getElementById('result-15').style.color = 'initial';
-      document.getElementById('result-15').innerHTML = '';
-    }
-    if (document.getElementById('option-15').checked) {
-      document.getElementById('block-15').style.border = '3px solid red'
-      document.getElementById('result-15').style.color = 'red'
-      document.getElementById('result-15').innerHTML = 'Intenta otra vez &#128552;'
-      document.getElementById('block-11').style.border = 'initial';
-      document.getElementById('result-11').style.color = 'initial';
-      document.getElementById('result-11').innerHTML = '';
-      document.getElementById('block-12').style.border = 'initial';
-      document.getElementById('result-12').style.color = 'initial';
-      document.getElementById('result-12').innerHTML = '';
-      document.getElementById('block-13').style.border = 'initial';
-      document.getElementById('result-13').style.color = 'initial';
-      document.getElementById('result-13').innerHTML = '';
-      document.getElementById('block-14').style.border = 'initial';
-      document.getElementById('result-14').style.color = 'initial';
-      document.getElementById('result-14').innerHTML = '';
-    }
-  }
 </script>
 
 <hr>
@@ -1280,128 +1282,128 @@ function displayText18() {
 <hr>
 
 <div>
-<h3>¿Cuál es la definición de paciente febril?</h3>
+<h3>¿Cuál de las siguientes opciones es correcta en el tratamiento de la hepatitis A?</h3>
 <p>Elige la respuesta correcta</p>
-  <div id='block-71'>
-    <label for='option-71'>
-      <input type='radio' name='option' value='A' id='option-71'/>
-      A. Paciente con temperatura corporal de 38°C o más, mayor de 15 años, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
-    <span id='result-71'></span>
+  <div id='block-11'>
+    <label for='option-11'>
+      <input type='radio' name='option' value='6/24' id='option-11'/>
+      A. Se debe hospitalizar todos los casos</label>
+    <span id='result-11'></span>
   </div>
-   <div id='block-72'>
-    <label for='option-72'>
-      <input type='radio' name='option' value='B' id='option-72'/>
-      B. Paciente con temperatura corporal de 37°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
-    <span id='result-72'></span>
+   <div id='block-12'>
+    <label for='option-12'>
+      <input type='radio' name='option' value='6' id='option-12'/>
+      B. Evitar medicamentos innecesarios como antieméticos o paracetamol</label>
+    <span id='result-12'></span>
   </div>
-   <div id='block-73'>
-    <label for='option-73'>
-      <input type='radio' name='option' value='C' id='option-73'/>
-      C. Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención</label>
-    <span id='result-73'></span>
+   <div id='block-13'>
+    <label for='option-13'>
+      <input type='radio' name='option' value='1/3' id='option-13'/>
+      C. Hay fármacos específicos para el tratamiento de la hepatitis A</label>
+    <span id='result-13'></span>
   </div>
-  <div id='block-74'>
-    <label for='option-74'>
-      <input type='radio' name='option' value='D' id='option-74'/>
-      D. Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con foco de infección confirmado, que acude a un establecimiento de salud por atención</label>
-    <span id='result-74'></span>
+  <div id='block-14'>
+    <label for='option-14'>
+      <input type='radio' name='option' value='1/6' id='option-14'/>
+      D. La insuficiencia hepática aguda no es el principal criterio de hospitalización</label>
+    <span id='result-14'></span>
   </div>
-  <div id='block-75'>
-    <label for='option-75'>
-      <input type='radio' name='option' value='E' id='option-75'/>
-      E. Paciente con temperatura corporal de 37°C o más, de cualquier grupo etario, con foco de infección confirmado, que acude a un establecimiento de salud por atención</label>
-    <span id='result-75'></span>
+  <div id='block-15'>
+    <label for='option-15'>
+      <input type='radio' name='option' value='1/6' id='option-15'/>
+      E. La hidratación no es uno de los principales aspectos del tratamiento de la hepatitis A</label>
+    <span id='result-15'></span>
   </div>
   <br>
-  <button type='button' onclick='displayAnswer7()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='displayAnswer1()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
-  function displayAnswer7() {
-    if (document.getElementById('option-71').checked) {
-      document.getElementById('block-71').style.border = '3px solid red'
-      document.getElementById('result-71').style.color = 'red'
-      document.getElementById('result-71').innerHTML = 'Intenta otra vez &#128552;'
-      document.getElementById('block-72').style.border = 'initial';
-      document.getElementById('result-72').style.color = 'initial';
-      document.getElementById('result-72').innerHTML = '';
-      document.getElementById('block-73').style.border = 'initial';
-      document.getElementById('result-73').style.color = 'initial';
-      document.getElementById('result-73').innerHTML = '';
-      document.getElementById('block-74').style.border = 'initial';
-      document.getElementById('result-74').style.color = 'initial';
-      document.getElementById('result-74').innerHTML = '';
-      document.getElementById('block-75').style.border = 'initial';
-      document.getElementById('result-75').style.color = 'initial';
-      document.getElementById('result-75').innerHTML = '';
+  function displayAnswer1() {
+    if (document.getElementById('option-11').checked) {
+      document.getElementById('block-11').style.border = '3px solid red'
+      document.getElementById('result-11').style.color = 'red'
+      document.getElementById('result-11').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-12').style.border = 'initial';
+      document.getElementById('result-12').style.color = 'initial';
+      document.getElementById('result-12').innerHTML = '';
+      document.getElementById('block-13').style.border = 'initial';
+      document.getElementById('result-13').style.color = 'initial';
+      document.getElementById('result-13').innerHTML = '';
+      document.getElementById('block-14').style.border = 'initial';
+      document.getElementById('result-14').style.color = 'initial';
+      document.getElementById('result-14').innerHTML = '';
+      document.getElementById('block-15').style.border = 'initial';
+      document.getElementById('result-15').style.color = 'initial';
+      document.getElementById('result-15').innerHTML = '';
     }
-    if (document.getElementById('option-72').checked) {
-      document.getElementById('block-72').style.border = '3px solid red'
-      document.getElementById('result-72').style.color = 'red'
-      document.getElementById('result-72').innerHTML = 'Intenta otra vez &#128552;'
-      document.getElementById('block-71').style.border = 'initial';
-      document.getElementById('result-71').style.color = 'initial';
-      document.getElementById('result-71').innerHTML = '';
-      document.getElementById('block-73').style.border = 'initial';
-      document.getElementById('result-73').style.color = 'initial';
-      document.getElementById('result-73').innerHTML = '';
-      document.getElementById('block-74').style.border = 'initial';
-      document.getElementById('result-74').style.color = 'initial';
-      document.getElementById('result-74').innerHTML = '';
-      document.getElementById('block-75').style.border = 'initial';
-      document.getElementById('result-75').style.color = 'initial';
-      document.getElementById('result-75').innerHTML = '';
+    if (document.getElementById('option-12').checked) {
+      document.getElementById('block-12').style.border = '3px solid limegreen'
+      document.getElementById('result-12').style.color = 'limegreen'
+      document.getElementById('result-12').innerHTML = '¡Correcto! &#128175; En el tratamiento de la hepatitis A, la hidratación es un aspecto clave. Es importante monitorizar la función hepática para detectar insuficiencia hepática aguda, porque es el principal criterio de hospitalización. Se debe evitar medicamentos innecesarios como antieméticos o paracetamol. No hay fármacos específicos para el tratamiento de la hepatitis A. &#127775;'
+      document.getElementById('block-11').style.border = 'initial';
+      document.getElementById('result-11').style.color = 'initial';
+      document.getElementById('result-11').innerHTML = '';
+      document.getElementById('block-13').style.border = 'initial';
+      document.getElementById('result-13').style.color = 'initial';
+      document.getElementById('result-13').innerHTML = '';
+      document.getElementById('block-14').style.border = 'initial';
+      document.getElementById('result-14').style.color = 'initial';
+      document.getElementById('result-14').innerHTML = '';
+      document.getElementById('block-15').style.border = 'initial';
+      document.getElementById('result-15').style.color = 'initial';
+      document.getElementById('result-15').innerHTML = '';
     }
-    if (document.getElementById('option-73').checked) {
-      document.getElementById('block-73').style.border = '3px solid limegreen'
-      document.getElementById('result-73').style.color = 'limegreen'
-      document.getElementById('result-73').innerHTML = '¡Correcto! &#128175; La definición de paciente febril es: "Paciente con temperatura corporal de 38°C o más, de cualquier grupo etario, con o sin foco de infección, que acude a un establecimiento de salud por atención". &#127775;'
-      document.getElementById('block-71').style.border = 'initial';
-      document.getElementById('result-71').style.color = 'initial';
-      document.getElementById('result-71').innerHTML = '';
-      document.getElementById('block-72').style.border = 'initial';
-      document.getElementById('result-72').style.color = 'initial';
-      document.getElementById('result-72').innerHTML = '';
-      document.getElementById('block-74').style.border = 'initial';
-      document.getElementById('result-74').style.color = 'initial';
-      document.getElementById('result-74').innerHTML = '';
-      document.getElementById('block-75').style.border = 'initial';
-      document.getElementById('result-75').style.color = 'initial';
-      document.getElementById('result-75').innerHTML = '';
+    if (document.getElementById('option-13').checked) {
+      document.getElementById('block-13').style.border = '3px solid red'
+      document.getElementById('result-13').style.color = 'red'
+      document.getElementById('result-13').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-11').style.border = 'initial';
+      document.getElementById('result-11').style.color = 'initial';
+      document.getElementById('result-11').innerHTML = '';
+      document.getElementById('block-12').style.border = 'initial';
+      document.getElementById('result-12').style.color = 'initial';
+      document.getElementById('result-12').innerHTML = '';
+      document.getElementById('block-14').style.border = 'initial';
+      document.getElementById('result-14').style.color = 'initial';
+      document.getElementById('result-14').innerHTML = '';
+      document.getElementById('block-15').style.border = 'initial';
+      document.getElementById('result-15').style.color = 'initial';
+      document.getElementById('result-15').innerHTML = '';
     }
-    if (document.getElementById('option-74').checked) {
-      document.getElementById('block-74').style.border = '3px solid red'
-      document.getElementById('result-74').style.color = 'red'
-      document.getElementById('result-74').innerHTML = 'Intenta otra vez &#128552;'
-      document.getElementById('block-71').style.border = 'initial';
-      document.getElementById('result-71').style.color = 'initial';
-      document.getElementById('result-71').innerHTML = '';
-      document.getElementById('block-72').style.border = 'initial';
-      document.getElementById('result-72').style.color = 'initial';
-      document.getElementById('result-72').innerHTML = '';
-      document.getElementById('block-73').style.border = 'initial';
-      document.getElementById('result-73').style.color = 'initial';
-      document.getElementById('result-73').innerHTML = '';
-      document.getElementById('block-75').style.border = 'initial';
-      document.getElementById('result-75').style.color = 'initial';
-      document.getElementById('result-75').innerHTML = '';
+    if (document.getElementById('option-14').checked) {
+      document.getElementById('block-14').style.border = '3px solid red'
+      document.getElementById('result-14').style.color = 'red'
+      document.getElementById('result-14').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-11').style.border = 'initial';
+      document.getElementById('result-11').style.color = 'initial';
+      document.getElementById('result-11').innerHTML = '';
+      document.getElementById('block-12').style.border = 'initial';
+      document.getElementById('result-12').style.color = 'initial';
+      document.getElementById('result-12').innerHTML = '';
+      document.getElementById('block-13').style.border = 'initial';
+      document.getElementById('result-13').style.color = 'initial';
+      document.getElementById('result-13').innerHTML = '';
+      document.getElementById('block-15').style.border = 'initial';
+      document.getElementById('result-15').style.color = 'initial';
+      document.getElementById('result-15').innerHTML = '';
     }
-    if (document.getElementById('option-75').checked) {
-      document.getElementById('block-75').style.border = '3px solid red'
-      document.getElementById('result-75').style.color = 'red'
-      document.getElementById('result-75').innerHTML = 'Intenta otra vez &#128552;'
-      document.getElementById('block-71').style.border = 'initial';
-      document.getElementById('result-71').style.color = 'initial';
-      document.getElementById('result-71').innerHTML = '';
-      document.getElementById('block-72').style.border = 'initial';
-      document.getElementById('result-72').style.color = 'initial';
-      document.getElementById('result-72').innerHTML = '';
-      document.getElementById('block-73').style.border = 'initial';
-      document.getElementById('result-73').style.color = 'initial';
-      document.getElementById('result-73').innerHTML = '';
-      document.getElementById('block-74').style.border = 'initial';
-      document.getElementById('result-74').style.color = 'initial';
-      document.getElementById('result-74').innerHTML = '';
+    if (document.getElementById('option-15').checked) {
+      document.getElementById('block-15').style.border = '3px solid red'
+      document.getElementById('result-15').style.color = 'red'
+      document.getElementById('result-15').innerHTML = 'Intenta otra vez &#128552;'
+      document.getElementById('block-11').style.border = 'initial';
+      document.getElementById('result-11').style.color = 'initial';
+      document.getElementById('result-11').innerHTML = '';
+      document.getElementById('block-12').style.border = 'initial';
+      document.getElementById('result-12').style.color = 'initial';
+      document.getElementById('result-12').innerHTML = '';
+      document.getElementById('block-13').style.border = 'initial';
+      document.getElementById('result-13').style.color = 'initial';
+      document.getElementById('result-13').innerHTML = '';
+      document.getElementById('block-14').style.border = 'initial';
+      document.getElementById('result-14').style.color = 'initial';
+      document.getElementById('result-14').innerHTML = '';
     }
   }
 </script>
