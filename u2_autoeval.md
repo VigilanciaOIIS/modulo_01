@@ -142,7 +142,7 @@ function displayText15() {
    <div id='block-163'>
     <label for='option-163'>
       <input type='checkbox' name='option' value='C' id='option-163'/>
-      C. Use ropa de color claro para prevenir la picadura de <i>Aedes</i></label>
+      C. Use ropa de color claro para prevenir la picadura de <i>Aedes aegypti</i></label>
     <span id='result-163'></span>
   </div>
   <div id='block-164'>
