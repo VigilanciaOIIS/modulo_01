@@ -6,7 +6,7 @@
 
 <h1>Autoevaluación: Unidad 4</h1>
 <p><i>Temas: Esquema de vacunación vigente. Sarampión. Enfermedades eruptivas infantiles. Tos ferina. Meningitis.</i></p>
-<p><a href="index.html">Inicio</a> | <a href="u4.html">Unidad 4</a>
+<p><a href="index.html">&#127968; Inicio</a> | <a href="u4.html">&#9194; Unidad 4</a>
 
 <div>
 <h3>¿Cuál es el periodo de contagio de sarampión?</h3>
