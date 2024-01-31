@@ -19,7 +19,7 @@
     <th>Temas</th>
   </tr>
   <tr>
-    <td><a href="u1.html">Unidad 1: Desastres &#128657;</a></td>
+    <td><a href="u1.html">Unidad 1: Desastres &#128680;</a></td>
     <td>Conceptos básicos. Fenómeno El Niño y principales desastres relacionados. Salud mental en desastres.</td>
   </tr>
   <tr>
