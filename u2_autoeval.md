@@ -2223,11 +2223,16 @@ function displayText21() {
       <input type='checkbox' name='option' value='E' id='option-125'/>
       E. El método fundamental y rutinario es la gota gruesa</label>
     <span id='result-125'></span>
-  </div>
+  <div id='result-container-12'></div>
   <br>
-  <button type='button' onclick='displayAnswer12()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='display12()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display12() {
+    displayAnswer12();
+    displayText12();
+}  
   //    The function evaluates the answer and displays result
   function displayAnswer12() {
     if (document.getElementById('option-121').checked) {
@@ -2276,6 +2281,25 @@ function displayText21() {
       document.getElementById('result-125').innerHTML = '';
     }
   }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText12() {
+  if (document.getElementById('option-123').checked && 
+      document.getElementById('option-125').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A12')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A12';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>La malaria se diagnostica mediante la gota gruesa que es el método rutinario, o mediante pruebas inmunocromatográficas o moleculares.</label>";
+      // Append the new div to the result-container-17
+      document.getElementById('result-container-12').appendChild(newDiv);
+    }
+  }
+}
 </script>
 
 <hr>
