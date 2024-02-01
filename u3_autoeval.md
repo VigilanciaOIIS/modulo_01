@@ -266,6 +266,121 @@
 
 <hr>
 
+<h3>¿Cuáles son los síntomas de sospecha de tuberculosis?</h3>
+<p>Marca todas las alternativas correctas:</p>
+  <div id='block-31'>
+    <label for='option-31'>
+      <input type='checkbox' name='option' value='A' id='option-31'/>
+      A. Tos</label>
+    <span id='result-31'></span>
+  </div>
+   <div id='block-32'>
+    <label for='option-32'>
+      <input type='checkbox' name='option' value='B' id='option-32'/>
+      B. Sudoración nocturna</label>
+    <span id='result-32'></span>
+  </div>
+   <div id='block-33'>
+    <label for='option-33'>
+      <input type='checkbox' name='option' value='C' id='option-33'/>
+      C. Fiebre</label>
+    <span id='result-33'></span>
+  </div>
+  <div id='block-34'>
+    <label for='option-34'>
+      <input type='checkbox' name='option' value='D' id='option-34'/>
+      D. Fatiga</label>
+    <span id='result-34'></span>
+  </div>
+  <div id='block-35'>
+    <label for='option-35'>
+      <input type='checkbox' name='option' value='E' id='option-35'/>
+      E. Baja de peso</label>
+    <span id='result-35'></span>
+  </div>
+  <div id='result-container-3'></div>
+  <br>
+  <button type='button' onclick='display3()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display3() {
+    displayAnswer3();
+    displayText3();
+}  
+  //    The function evaluates the answer and displays result
+  function displayAnswer3() {
+    if (document.getElementById('option-31').checked) {
+      document.getElementById('block-31').style.border = '3px solid limegreen'
+      document.getElementById('result-31').style.color = 'limegreen'
+      document.getElementById('result-31').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-31').style.border = 'initial';
+      document.getElementById('result-31').style.color = 'initial';
+      document.getElementById('result-31').innerHTML = '';
+    }
+    if (document.getElementById('option-32').checked) {
+      document.getElementById('block-32').style.border = '3px solid limegreen'
+      document.getElementById('result-32').style.color = 'limegreen'
+      document.getElementById('result-32').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-32').style.border = 'initial';
+      document.getElementById('result-32').style.color = 'initial';
+      document.getElementById('result-32').innerHTML = '';
+    }
+    if (document.getElementById('option-33').checked) {
+      document.getElementById('block-33').style.border = '3px solid limegreen'
+      document.getElementById('result-33').style.color = 'limegreen'
+      document.getElementById('result-33').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-33').style.border = 'initial';
+      document.getElementById('result-33').style.color = 'initial';
+      document.getElementById('result-33').innerHTML = '';
+    }
+    if (document.getElementById('option-34').checked) {
+      document.getElementById('block-34').style.border = '3px solid red'
+      document.getElementById('result-34').style.color = 'red'
+      document.getElementById('result-34').innerHTML = 'Incorrecto &#128552;'
+    } else {
+      document.getElementById('block-34').style.border = 'initial';
+      document.getElementById('result-34').style.color = 'initial';
+      document.getElementById('result-34').innerHTML = '';
+    }
+    if (document.getElementById('option-35').checked) {
+      document.getElementById('block-35').style.border = '3px solid limegreen'
+      document.getElementById('result-35').style.color = 'limegreen'
+      document.getElementById('result-35').innerHTML = '¡Correcto! &#127775;'
+    } else {
+      document.getElementById('block-35').style.border = 'initial';
+      document.getElementById('result-35').style.color = 'initial';
+      document.getElementById('result-35').innerHTML = '';
+    }
+  }
+  //    The function evaluates the answer and displays an explanatory text
+function displayText3() {
+  if (document.getElementById('option-31').checked && 
+      document.getElementById('option-32').checked && 
+      document.getElementById('option-33').checked && 
+      document.getElementById('option-35').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A3')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A3';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>Los síntomas de sospecha de tuberculosis son: <b>tos, fiebre, sudoración nocturna y baja de peso</b>.</label>";
+      // Append the new div to the result-container-3
+      document.getElementById('result-container-3').appendChild(newDiv);
+    }
+  }
+}
+</script>
+
+<hr>
+
 <p><a href="index.html">&#127968; Inicio</a> | <a href="u3.html">&#9194; Unidad anterior</a> | <a href="u4.html">&#9193; Siguiente unidad</a></p>
 
 <p>Oficina de Inteligencia e Información Sanitaria OIIS, EsSalud, Perú - 2024</p>
