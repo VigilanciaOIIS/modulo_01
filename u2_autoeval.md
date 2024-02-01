@@ -2583,8 +2583,9 @@ function displayText13() {
       E. No se trata con antibióticos</label>
     <span id='result-145'></span>
   </div>
+  <div id='result-container-14'></div>
   <br>
-  <button type='button' onclick='displayAnswer14()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='display14()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
@@ -2635,6 +2636,26 @@ function displayText13() {
       document.getElementById('result-145').innerHTML = '';
     }
   }
+function displayText14() {
+  if (document.getElementById('option-141').checked && 
+      document.getElementById('option-142').checked && 
+      document.getElementById('option-143').checked && 
+      document.getElementById('option-144').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A14')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A14';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>La enfermedad por arañazo de gato requiere tratamiento antibiótico con azitromicina o claritromicina por 5 semanas.</label>";
+      // Append the new div to the result-container-14
+      document.getElementById('result-container-14').appendChild(newDiv);
+    }
+  }
+}
 </script>
 
 <hr>
