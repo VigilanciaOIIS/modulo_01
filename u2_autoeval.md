@@ -2223,6 +2223,7 @@ function displayText21() {
       <input type='checkbox' name='option' value='E' id='option-125'/>
       E. El método fundamental y rutinario es la gota gruesa</label>
     <span id='result-125'></span>
+  </div>
   <div id='result-container-12'></div>
   <br>
   <button type='button' onclick='display12()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
@@ -2337,8 +2338,18 @@ function displayText12() {
       E. Prueba de antígenos</label>
     <span id='result-135'></span>
   </div>
+  <div id='result-container-13'></div>
   <br>
-  <button type='button' onclick='displayAnswer13()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+  <button type='button' onclick='display13()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
+</div>
+<script>
+var textDisplayed = false; // Declare textDisplayed globally
+function display13() {
+    displayAnswer13();
+    displayText13();
+}  
+  <br>
+  <button type='button' onclick='display13()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
 </div>
 <script>
   //    The function evaluates the answer and displays result
@@ -2389,6 +2400,24 @@ function displayText12() {
       document.getElementById('result-135').innerHTML = '';
     }
   }
+function displayText13() {
+  if (document.getElementById('option-132').checked && 
+      document.getElementById('option-134').checked) {
+    // Check if the div already exists
+    if (!document.getElementById('block-A13')) {
+      // Create a new div element
+      var newDiv = document.createElement('div');
+      // Set the id and style properties for the new div
+      newDiv.id = 'block-A13';
+      newDiv.style.border = '3px solid limegreen';
+      newDiv.style.color = 'limegreen';
+      // Set the inner HTML content for the new div
+      newDiv.innerHTML = "<label>La leishmaniasis se diagnostica demostrando amastigotes en la microscopía, o mediante técnicas moleculares (amplificación de ADN nuclear o del cinetoplasto).</label>";
+      // Append the new div to the result-container-17
+      document.getElementById('result-container-13').appendChild(newDiv);
+    }
+  }
+}
 </script>
 
 <hr>
