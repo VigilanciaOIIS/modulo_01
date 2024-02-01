@@ -2348,15 +2348,6 @@ function display13() {
     displayAnswer13();
     displayText13();
 }  
-  <br>
-  <button type='button' onclick='display13()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
-</div>
-<script>
-var textDisplayed = false; // Declare textDisplayed globally
-function display13() {
-    displayAnswer13();
-    displayText13();
-}
   //    The function evaluates the answer and displays result
   function displayAnswer13() {
     if (document.getElementById('option-131').checked) {
