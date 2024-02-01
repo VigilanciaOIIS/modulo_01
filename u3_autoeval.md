@@ -301,7 +301,6 @@
   <div id='result-container-3'></div>
   <br>
   <button type='button' onclick='display3()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Enviar</button>
-</div>
 <script>
 var textDisplayed = false; // Declare textDisplayed globally
 function display3() {
