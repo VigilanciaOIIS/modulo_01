@@ -9,7 +9,7 @@
 <p>Difundir en el personal de salud conocimientos y estrategias para el manejo efectivo de problemas de salud relacionados al fenómeno El Niño Global en la población asegurada.</p>
 <h3>Introducción</h3>
 <p>El fenómeno El Niño Global consiste en la elevación de la temperatura de nuestro mar, y ocasionará olas de calor, friaje, sequías y lluvias intensas en diversas regiones del país. Estos desastres naturales afectarán la salud de nuestros asegurados: habrá mayor riesgo de ciertas infecciones y accidentes, y problemas de acceso a agua segura y alimentación, entre otros daños.</p>
-<p>Ante estos riesgos, la Oficina de Inteligencia e Información Sanitaria de EsSalud ha preparado este módulo titulado <b>“Manejo de los principales problemas de salud en el fenómeno El Niño en la población asegurada”</b>, el cual sistematiza módulos de capacitación realizados por CENATE Centro Nacional de Telemedicina.</p>
+<p>Ante estos riesgos, la Oficina de Inteligencia e Información Sanitaria de EsSalud ha preparado este módulo titulado <b>“Manejo de los principales problemas de salud en el fenómeno El Niño en la población asegurada”</b>, el cual sistematiza módulos de capacitación realizados por CENATE Centro Nacional de Telemedicina, haciendo énfasis en el diagnóstico y manejo del dengue por su importancia actual en nuestro país.</p>
 <p>El módulo consta de seis unidades. Cada unidad está compuesta por temas, y cada tema se desarrolla mediante un video o texto, y preguntas de opción múltiple para reforzar lo aprendido.</p>
 <h3>Contenidos</h3>
 
