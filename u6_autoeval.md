@@ -573,6 +573,7 @@
 
 <p><b>¡Felicitaciones por llegar al final de este módulo de autoaprendizaje! &#127882;</b></p>
 <p>Esperamos que todo lo que has aprendido te sea útil en tu práctica diaria, y te deseamos lo mejor. Gracias por llevar este módulo. ¡Hasta una próxima oportunidad!</p>
+<p><img src="./images/fireworks.gif" alt="Fireworks"></p>
 
 <p><a href="index.html">&#127968; Inicio</a> | <a href="u6.html">&#9194; Unidad anterior</a></p>
 
