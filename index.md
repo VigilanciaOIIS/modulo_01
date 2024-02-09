@@ -1,7 +1,6 @@
 <html>
 <head>
     <title>Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada - Módulo de autoaprendizaje</title>
-    <a href="#Contenidos" class="btn">Contenidos</a>
 </head>
 <body>
 <h1>Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada</h1>
