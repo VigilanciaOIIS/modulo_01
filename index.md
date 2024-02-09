@@ -5,9 +5,9 @@
 <body>
 <section class="page-header">
     <h1 class="project-name">Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada</h1>
-    <h2 class="project-tagline">Módulo de autoaprendizaje sobre las principales enfermedades ligadas al Fenómeno El Niño
-</h2>
-    <a href="#Contenidos" class="btn">View on GitHub</a>
+    <h2 class="project-tagline">Módulo de autoaprendizaje sobre las principales enfermedades ligadas al Fenómeno El Niño</h2>
+    <a href="#Contenidos" class="btn">Contenidos</a>
+</section>
 <h1>Manejo de los principales problemas de salud en el Fenómeno El Niño en la población asegurada</h1>
 <h2>Sumilla</h2>
 <h3>Objetivo</h3>
