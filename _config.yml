@@ -3,3 +3,5 @@ description: Módulo de autoaprendizaje sobre las principales enfermedades ligad
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+github:
+is_project_page: false
